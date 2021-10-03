@@ -1,0 +1,49 @@
+{
+  "name": "couchfun",
+  "version": "0.1.0",
+  "description": "Author couchdb mapreduce functions in typescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cefn/couchfun.git"
+  },
+  "keywords": [
+    "couchdb",
+    "mapreduce",
+    "typescript",
+    "transpile",
+    "rollup",
+    "ecmascript"
+  ],
+  "author": "Cefn Hoile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cefn/couchfun/issues"
+  },
+  "homepage": "https://github.com/cefn/couchfun#readme",
+  "dependencies": {
+    "@rollup/plugin-typescript": "^8.2.5",
+    "rollup": "^2.58.0",
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/jest-expect-message": "^1.0.3",
+    "@types/node": "^16.10.2",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard-typescript": "^1.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^24.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest-expect-message": "^1.0.2",
+    "prettier": "^2.4.1",
+    "prettier-eslint": "^13.0.0",
+    "typescript": "^4.4.3"
+  }
+}
