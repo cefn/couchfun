@@ -26,6 +26,7 @@
   "homepage": "https://github.com/cefn/couchfun#readme",
   "dependencies": {
     "@rollup/plugin-typescript": "^8.2.5",
+    "@rollup/stream": "^2.0.0",
     "rollup": "^2.58.0",
     "tslib": "^2.3.1"
   },

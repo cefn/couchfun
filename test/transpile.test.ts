@@ -1,6 +1,6 @@
 import fs from "fs";
 
-import { transpileSource } from "../src/transpile";
+import { transpileSource, transpileSourceToStream } from "../src/transpile";
 
 function deleteFile(filePath: string, ignoreFileMissing = true) {
   try {
@@ -53,4 +53,37 @@ test("transpileSource() generates JS source from TS source", async () => {
   } finally {
     deleteFile(transpiledPath);
   }
+});
+
+test("transpileSourceToStream() generates JS source from TS source", async () => {
+  const projectPath = "./test/examples/words/views";
+  const sourcePath = `${projectPath}/prefix/map.ts`;
+  const tsconfigPath = `${projectPath}/tsconfig.json`;
+  const transpiledSource = await transpileSourceToStream(
+    sourcePath,
+    tsconfigPath
+  );
+  expect(transpiledSource).toMatchInlineSnapshot(`
+      "function docIsWord(doc) {
+          return doc.type === \\"word\\";
+      }
+
+      function eachPrefix(word, fn) {
+          var spelling = word.id;
+          var length = spelling.length;
+          if (length > 0) {
+              for (var last = 1; last <= length; last++) {
+                  fn(spelling.substr(0, last));
+              }
+          }
+      }
+
+      function emitPrefixes(doc) {
+          if (docIsWord(doc)) {
+              eachPrefix(doc, emit);
+          }
+      }
+      emitPrefixes;
+      "
+    `);
 });
