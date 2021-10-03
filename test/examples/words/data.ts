@@ -14,4 +14,4 @@ export const words = [
   "ago",
   "aha",
   "aid"
-];
+] as const;

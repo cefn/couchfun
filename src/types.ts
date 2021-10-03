@@ -1,12 +1,8 @@
 /** CouchDB types */
 
 /** Type for documents inserted to db. */
-export interface Doc<
-  TypeName extends string = string,
-  Id extends string = string
-> {
-  type: TypeName;
-  id: Id;
+export interface Doc<Id extends string = string> {
+  _id: Id;
 }
 
 /** Called once for each document inserted or updated.
