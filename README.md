@@ -1,0 +1,2 @@
+# couchfun
+Couchdb Mapreduce functions
