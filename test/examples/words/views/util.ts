@@ -1,6 +1,6 @@
 import type { Word } from "../types";
 
-export function eachPrefix(word: Word, fn: (prefix: string) => void): void {
+export function eachPrefix(word: Word, fn: (prefix: string) => unknown): void {
   const spelling = word.id;
   const length = spelling.length;
   if (length > 0) {
