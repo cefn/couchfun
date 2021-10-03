@@ -1,3 +1,6 @@
+#CH suppress vscode project folder
+.vscode
+
 # Logs
 logs
 *.log

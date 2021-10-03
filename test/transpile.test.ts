@@ -2,22 +2,22 @@ import fs from "fs";
 
 import { transpileSource } from "../src/transpile";
 
-function deleteFile(filePath: string) {
+function deleteFile(filePath: string, ignoreFileMissing = true) {
   try {
     fs.rmSync(filePath);
     return true;
   } catch (error) {
-    //throw, except for missing file
-    if (error.code !== "ENOENT") {
-      throw error;
+    if ((error as { code?: string }).code === "ENOENT" && ignoreFileMissing) {
+      return false;
     }
-    return false;
+    throw error;
   }
 }
 
 test("transpileSource() generates JS source from TS source", async () => {
-  const sourcePath = "./test/lib/loader/examplesource/index/map/prefix.ts";
-  const tsconfigPath = "./test/lib/loader/examplesource/index/tsconfig.json";
+  const projectPath = "./test/examples/words/views";
+  const sourcePath = `${projectPath}/prefix/map.ts`;
+  const tsconfigPath = `${projectPath}/tsconfig.json`;
   const transpiledPath = sourcePath.replace(/\.ts$/, ".js");
   try {
     deleteFile(transpiledPath);
@@ -32,8 +32,8 @@ test("transpileSource() generates JS source from TS source", async () => {
           return doc.type === \\"word\\";
       }
 
-      // Make this a callback - avoid array allocation
-      function eachPrefix(spelling, fn) {
+      function eachPrefix(word, fn) {
+          var spelling = word.id;
           var length = spelling.length;
           if (length > 0) {
               for (var last = 1; last <= length; last++) {
@@ -44,7 +44,7 @@ test("transpileSource() generates JS source from TS source", async () => {
 
       function emitPrefixes(doc) {
           if (docIsWord(doc)) {
-              eachPrefix(doc.id, emit);
+              eachPrefix(doc, emit);
           }
       }
       emitPrefixes;

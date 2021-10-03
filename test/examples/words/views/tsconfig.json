@@ -1,0 +1,5 @@
+{
+  // Experiment if all these options can be removed...
+  "include": ["./**/*.ts"],
+  "compilerOptions": {}
+}
