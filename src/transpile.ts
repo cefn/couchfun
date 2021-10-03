@@ -20,15 +20,14 @@ export async function transpileSource(
         sourceMap: false,
         strict: true,
         alwaysStrict: false,
-        noImplicitUseStrict: true
-        // downlevelIteration: true,
-        // allowSyntheticDefaultImports: true,
+        noImplicitUseStrict: true,
+        downlevelIteration: false,
+        allowSyntheticDefaultImports: false
       })
     ],
     treeshake: false
   };
   const output: rollup.OutputOptions = {
-    // dir: sourceDirAbsolute,
     file: sourceFileAbsolute.replace(/\.ts$/, ".js"),
     format: "es"
   };
