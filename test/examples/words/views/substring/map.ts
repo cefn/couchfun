@@ -1,11 +1,11 @@
 import "../../../../../src/builtins/map";
 import type { Doc } from "../../../../../src/types";
 import { docIsWord } from "../../types";
-import { eachPrefix } from "../../../../lib/eachPrefix";
+import { eachSubstring } from "../util";
 
 function emitPrefixes(doc: Doc) {
   if (docIsWord(doc)) {
-    eachPrefix(doc._id, emit);
+    eachSubstring(doc, emit);
   }
 }
 

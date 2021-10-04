@@ -51,3 +51,16 @@ export type JsonArray = JsonEntry[];
 export interface JsonMap {
   [key: string]: JsonEntry;
 }
+
+/** Recursive readonly types */
+
+export type ImmutableObject<T> = Readonly<{
+  [K in keyof T]: Immutable<T[K]>;
+}>;
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export type Immutable<T> = T extends any[] | { [key: string]: any }
+  ? ImmutableObject<T>
+  : T extends string | number | boolean | null
+  ? Readonly<T>
+  : never;
