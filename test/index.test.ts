@@ -29,7 +29,7 @@ test("transpileSource() generates JS source from TS map function", async () => {
 });
 
 test("transpileSource() generates reference to built-in reduce function", async () => {
-  const sourcePath = "./test/examples/nobel/views/cloud/reduce.ts";
+  const sourcePath = "./test/examples/words/views/prefix/reduce.ts";
   const transpiledSource = await transpileViewFunction(sourcePath);
   expect(transpiledSource).toMatchInlineSnapshot(`
     "_count;

@@ -5,6 +5,17 @@ export interface Doc<Id extends string = string> {
   _id: Id;
 }
 
+type DesignDocId = `_design/${string}`;
+
+export interface DesignDoc extends Doc<DesignDocId> {
+  views: {
+    [key: string]: {
+      map: string;
+      reduce?: string;
+    };
+  };
+}
+
 /** Called once for each document inserted or updated.
  * An EmitFunction called `emit` will be in scope within the
  * map function, which should be called to insert rows in the index.
