@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "run-p --race docker:couch test:couch",
-    "docker:couch": "docker-compose --log-level ERROR --file test/couchdb/stack.yml up >/dev/null",
+    "docker:couch": "docker-compose --log-level ERROR --file test/couchdb/stack.yml up",
     "test:couch": "wait-on --log tcp:5984 && jest"
   },
   "repository": {
