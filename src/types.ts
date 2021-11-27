@@ -46,7 +46,7 @@ export type EmitFunction<
  */
 export type ReduceFunction<
   K extends JsonEntry,
-  V extends JsonEntry,
+  V extends (JsonEntry | undefined) | R[],
   R extends JsonEntry,
   Id extends string = string
 > = (pairs: Array<[K, Id]>, values: V[], rereduce: boolean) => R;
@@ -57,11 +57,11 @@ export type JsonPrimitive = number | string | boolean | null;
 
 export type JsonEntry = JsonPrimitive | JsonArray | JsonMap;
 
-export type JsonArray = JsonEntry[];
+export type JsonArray = readonly JsonEntry[];
 
-export interface JsonMap {
+export type JsonMap = Readonly<{
   [key: string]: JsonEntry;
-}
+}>;
 
 /** Recursive readonly types */
 
