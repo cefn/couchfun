@@ -1,7 +1,7 @@
 import type { Immutable } from "../../../src/types";
 import type { Prize } from "./types";
 
-export const prizes: Immutable<Prize[]> = [
+export const PRIZES: Immutable<Prize[]> = [
   {
     year: "2020",
     category: "chemistry",
@@ -10,14 +10,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "991",
         firstname: "Emmanuelle",
         surname: "Charpentier",
-        motivation: '"for the development of a method for genome editing"',
+        motivation: "for the development of a method for genome editing",
         share: "2"
       },
       {
         id: "992",
         firstname: "Jennifer A.",
         surname: "Doudna",
-        motivation: '"for the development of a method for genome editing"',
+        motivation: "for the development of a method for genome editing",
         share: "2"
       }
     ]
@@ -31,7 +31,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Paul",
         surname: "Milgrom",
         motivation:
-          '"for improvements to auction theory and inventions of new auction formats"',
+          "for improvements to auction theory and inventions of new auction formats",
         share: "2"
       },
       {
@@ -39,7 +39,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert",
         surname: "Wilson",
         motivation:
-          '"for improvements to auction theory and inventions of new auction formats"',
+          "for improvements to auction theory and inventions of new auction formats",
         share: "2"
       }
     ]
@@ -53,7 +53,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Louise",
         surname: "Gl\u00fcck",
         motivation:
-          '"for her unmistakable poetic voice that with austere beauty makes individual existence universal"',
+          "for her unmistakable poetic voice that with austere beauty makes individual existence universal",
         share: "1"
       }
     ]
@@ -65,7 +65,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "994",
         motivation:
-          '"for its efforts to combat hunger, for its contribution to bettering conditions for peace in conflict-affected areas and for acting as a driving force in efforts to prevent the use of hunger as a weapon of war and conflict"',
+          "for its efforts to combat hunger, for its contribution to bettering conditions for peace in conflict-affected areas and for acting as a driving force in efforts to prevent the use of hunger as a weapon of war and conflict",
         share: "1",
         firstname: "World Food Programme"
       }
@@ -80,7 +80,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Roger",
         surname: "Penrose",
         motivation:
-          '"for the discovery that black hole formation is a robust prediction of the general theory of relativity"',
+          "for the discovery that black hole formation is a robust prediction of the general theory of relativity",
         share: "2"
       },
       {
@@ -88,7 +88,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Reinhard",
         surname: "Genzel",
         motivation:
-          '"for the discovery of a supermassive compact object at the centre of our galaxy"',
+          "for the discovery of a supermassive compact object at the centre of our galaxy",
         share: "4"
       },
       {
@@ -96,7 +96,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Andrea",
         surname: "Ghez",
         motivation:
-          '"for the discovery of a supermassive compact object at the centre of our galaxy"',
+          "for the discovery of a supermassive compact object at the centre of our galaxy",
         share: "4"
       }
     ]
@@ -109,21 +109,21 @@ export const prizes: Immutable<Prize[]> = [
         id: "985",
         firstname: "Harvey",
         surname: "Alter",
-        motivation: '"for the discovery of Hepatitis C virus"',
+        motivation: "for the discovery of Hepatitis C virus",
         share: "3"
       },
       {
         id: "986",
         firstname: "Michael",
         surname: "Houghton",
-        motivation: '"for the discovery of Hepatitis C virus"',
+        motivation: "for the discovery of Hepatitis C virus",
         share: "3"
       },
       {
         id: "987",
         firstname: "Charles",
         surname: "Rice",
-        motivation: '"for the discovery of Hepatitis C virus"',
+        motivation: "for the discovery of Hepatitis C virus",
         share: "3"
       }
     ]
@@ -136,21 +136,21 @@ export const prizes: Immutable<Prize[]> = [
         id: "976",
         firstname: "John",
         surname: "Goodenough",
-        motivation: '"for the development of lithium-ion batteries"',
+        motivation: "for the development of lithium-ion batteries",
         share: "3"
       },
       {
         id: "977",
         firstname: "M. Stanley",
         surname: "Whittingham",
-        motivation: '"for the development of lithium-ion batteries"',
+        motivation: "for the development of lithium-ion batteries",
         share: "3"
       },
       {
         id: "978",
         firstname: "Akira",
         surname: "Yoshino",
-        motivation: '"for the development of lithium-ion batteries"',
+        motivation: "for the development of lithium-ion batteries",
         share: "3"
       }
     ]
@@ -164,7 +164,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Abhijit",
         surname: "Banerjee",
         motivation:
-          '"for their experimental approach to alleviating global poverty"',
+          "for their experimental approach to alleviating global poverty",
         share: "3"
       },
       {
@@ -172,7 +172,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Esther",
         surname: "Duflo",
         motivation:
-          '"for their experimental approach to alleviating global poverty"',
+          "for their experimental approach to alleviating global poverty",
         share: "3"
       },
       {
@@ -180,7 +180,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Michael",
         surname: "Kremer",
         motivation:
-          '"for their experimental approach to alleviating global poverty"',
+          "for their experimental approach to alleviating global poverty",
         share: "3"
       }
     ]
@@ -194,7 +194,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Peter",
         surname: "Handke",
         motivation:
-          '"for an influential work that with linguistic ingenuity has explored the periphery and the specificity of human experience"',
+          "for an influential work that with linguistic ingenuity has explored the periphery and the specificity of human experience",
         share: "1"
       }
     ]
@@ -208,7 +208,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Abiy",
         surname: "Ahmed Ali",
         motivation:
-          '"for his efforts to achieve peace and international cooperation, and in particular for his decisive initiative to resolve the border conflict with neighbouring Eritrea"',
+          "for his efforts to achieve peace and international cooperation, and in particular for his decisive initiative to resolve the border conflict with neighbouring Eritrea",
         share: "1"
       }
     ]
@@ -217,13 +217,13 @@ export const prizes: Immutable<Prize[]> = [
     year: "2019",
     category: "physics",
     overallMotivation:
-      '"for contributions to our understanding of the evolution of the universe and Earth\u2019s place in the cosmos"',
+      "for contributions to our understanding of the evolution of the universe and Earth\u2019s place in the cosmos",
     laureates: [
       {
         id: "973",
         firstname: "James",
         surname: "Peebles",
-        motivation: '"for theoretical discoveries in physical cosmology"',
+        motivation: "for theoretical discoveries in physical cosmology",
         share: "2"
       },
       {
@@ -231,7 +231,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Michel",
         surname: "Mayor",
         motivation:
-          '"for the discovery of an exoplanet orbiting a solar-type star"',
+          "for the discovery of an exoplanet orbiting a solar-type star",
         share: "4"
       },
       {
@@ -239,7 +239,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Didier",
         surname: "Queloz",
         motivation:
-          '"for the discovery of an exoplanet orbiting a solar-type star"',
+          "for the discovery of an exoplanet orbiting a solar-type star",
         share: "4"
       }
     ]
@@ -253,7 +253,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William",
         surname: "Kaelin",
         motivation:
-          '"for their discoveries of how cells sense and adapt to oxygen availability"',
+          "for their discoveries of how cells sense and adapt to oxygen availability",
         share: "3"
       },
       {
@@ -261,7 +261,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Peter",
         surname: "Ratcliffe",
         motivation:
-          '"for their discoveries of how cells sense and adapt to oxygen availability"',
+          "for their discoveries of how cells sense and adapt to oxygen availability",
         share: "3"
       },
       {
@@ -269,7 +269,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Gregg",
         surname: "Semenza",
         motivation:
-          '"for their discoveries of how cells sense and adapt to oxygen availability"',
+          "for their discoveries of how cells sense and adapt to oxygen availability",
         share: "3"
       }
     ]
@@ -282,21 +282,21 @@ export const prizes: Immutable<Prize[]> = [
         id: "963",
         firstname: "Frances H.",
         surname: "Arnold",
-        motivation: '"for the directed evolution of enzymes"',
+        motivation: "for the directed evolution of enzymes",
         share: "2"
       },
       {
         id: "964",
         firstname: "George P.",
         surname: "Smith",
-        motivation: '"for the phage display of peptides and antibodies"',
+        motivation: "for the phage display of peptides and antibodies",
         share: "4"
       },
       {
         id: "965",
         firstname: "Sir Gregory P.",
         surname: "Winter",
-        motivation: '"for the phage display of peptides and antibodies"',
+        motivation: "for the phage display of peptides and antibodies",
         share: "4"
       }
     ]
@@ -310,7 +310,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William D.",
         surname: "Nordhaus",
         motivation:
-          '"for integrating climate change into long-run macroeconomic analysis"',
+          "for integrating climate change into long-run macroeconomic analysis",
         share: "2"
       },
       {
@@ -318,7 +318,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Paul M.",
         surname: "Romer",
         motivation:
-          '"for integrating technological innovations into long-run macroeconomic analysis"',
+          "for integrating technological innovations into long-run macroeconomic analysis",
         share: "2"
       }
     ]
@@ -332,7 +332,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Olga",
         surname: "Tokarczuk",
         motivation:
-          '"for a narrative imagination that with encyclopedic passion represents the crossing of boundaries as a form of life"',
+          "for a narrative imagination that with encyclopedic passion represents the crossing of boundaries as a form of life",
         share: "1"
       }
     ]
@@ -346,7 +346,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Denis",
         surname: "Mukwege",
         motivation:
-          '"for their efforts to end the use of sexual violence as a weapon of war and armed conflict"',
+          "for their efforts to end the use of sexual violence as a weapon of war and armed conflict",
         share: "2"
       },
       {
@@ -354,7 +354,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Nadia",
         surname: "Murad",
         motivation:
-          '"for their efforts to end the use of sexual violence as a weapon of war and armed conflict"',
+          "for their efforts to end the use of sexual violence as a weapon of war and armed conflict",
         share: "2"
       }
     ]
@@ -363,14 +363,14 @@ export const prizes: Immutable<Prize[]> = [
     year: "2018",
     category: "physics",
     overallMotivation:
-      '"for groundbreaking inventions in the field of laser physics"',
+      "for groundbreaking inventions in the field of laser physics",
     laureates: [
       {
         id: "960",
         firstname: "Arthur",
         surname: "Ashkin",
         motivation:
-          '"for the optical tweezers and their application to biological systems"',
+          "for the optical tweezers and their application to biological systems",
         share: "2"
       },
       {
@@ -378,7 +378,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "G\u00e9rard",
         surname: "Mourou",
         motivation:
-          '"for their method of generating high-intensity, ultra-short optical pulses"',
+          "for their method of generating high-intensity, ultra-short optical pulses",
         share: "4"
       },
       {
@@ -386,7 +386,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Donna",
         surname: "Strickland",
         motivation:
-          '"for their method of generating high-intensity, ultra-short optical pulses"',
+          "for their method of generating high-intensity, ultra-short optical pulses",
         share: "4"
       }
     ]
@@ -400,7 +400,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "James P.",
         surname: "Allison",
         motivation:
-          '"for their discovery of cancer therapy by inhibition of negative immune regulation"',
+          "for their discovery of cancer therapy by inhibition of negative immune regulation",
         share: "2"
       },
       {
@@ -408,7 +408,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Tasuku",
         surname: "Honjo",
         motivation:
-          '"for their discovery of cancer therapy by inhibition of negative immune regulation"',
+          "for their discovery of cancer therapy by inhibition of negative immune regulation",
         share: "2"
       }
     ]
@@ -422,7 +422,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jacques",
         surname: "Dubochet",
         motivation:
-          '"for developing cryo-electron microscopy for the high-resolution structure determination of biomolecules in solution"',
+          "for developing cryo-electron microscopy for the high-resolution structure determination of biomolecules in solution",
         share: "3"
       },
       {
@@ -430,7 +430,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Joachim",
         surname: "Frank",
         motivation:
-          '"for developing cryo-electron microscopy for the high-resolution structure determination of biomolecules in solution"',
+          "for developing cryo-electron microscopy for the high-resolution structure determination of biomolecules in solution",
         share: "3"
       },
       {
@@ -438,7 +438,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Richard",
         surname: "Henderson",
         motivation:
-          '"for developing cryo-electron microscopy for the high-resolution structure determination of biomolecules in solution"',
+          "for developing cryo-electron microscopy for the high-resolution structure determination of biomolecules in solution",
         share: "3"
       }
     ]
@@ -451,7 +451,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "949",
         firstname: "Richard H.",
         surname: "Thaler",
-        motivation: '"for his contributions to behavioural economics"',
+        motivation: "for his contributions to behavioural economics",
         share: "1"
       }
     ]
@@ -465,7 +465,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Kazuo",
         surname: "Ishiguro",
         motivation:
-          '"who, in novels of great emotional force, has uncovered the abyss beneath our illusory sense of connection with the world"',
+          "who, in novels of great emotional force, has uncovered the abyss beneath our illusory sense of connection with the world",
         share: "1"
       }
     ]
@@ -477,7 +477,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "948",
         motivation:
-          '"for its work to draw attention to the catastrophic humanitarian consequences of any use of nuclear weapons and for its ground-breaking efforts to achieve a treaty-based prohibition of such weapons"',
+          "for its work to draw attention to the catastrophic humanitarian consequences of any use of nuclear weapons and for its ground-breaking efforts to achieve a treaty-based prohibition of such weapons",
         share: "1",
         firstname: "International Campaign to Abolish Nuclear Weapons (ICAN)"
       }
@@ -492,7 +492,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Rainer",
         surname: "Weiss",
         motivation:
-          '"for decisive contributions to the LIGO detector and the observation of gravitational waves"',
+          "for decisive contributions to the LIGO detector and the observation of gravitational waves",
         share: "2"
       },
       {
@@ -500,7 +500,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Barry C.",
         surname: "Barish",
         motivation:
-          '"for decisive contributions to the LIGO detector and the observation of gravitational waves"',
+          "for decisive contributions to the LIGO detector and the observation of gravitational waves",
         share: "4"
       },
       {
@@ -508,7 +508,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Kip S.",
         surname: "Thorne",
         motivation:
-          '"for decisive contributions to the LIGO detector and the observation of gravitational waves"',
+          "for decisive contributions to the LIGO detector and the observation of gravitational waves",
         share: "4"
       }
     ]
@@ -522,7 +522,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jeffrey C.",
         surname: "Hall",
         motivation:
-          '"for their discoveries of molecular mechanisms controlling the circadian rhythm"',
+          "for their discoveries of molecular mechanisms controlling the circadian rhythm",
         share: "3"
       },
       {
@@ -530,7 +530,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Michael",
         surname: "Rosbash",
         motivation:
-          '"for their discoveries of molecular mechanisms controlling the circadian rhythm"',
+          "for their discoveries of molecular mechanisms controlling the circadian rhythm",
         share: "3"
       },
       {
@@ -538,7 +538,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Michael W.",
         surname: "Young",
         motivation:
-          '"for their discoveries of molecular mechanisms controlling the circadian rhythm"',
+          "for their discoveries of molecular mechanisms controlling the circadian rhythm",
         share: "3"
       }
     ]
@@ -551,21 +551,21 @@ export const prizes: Immutable<Prize[]> = [
         id: "931",
         firstname: "Jean-Pierre",
         surname: "Sauvage",
-        motivation: '"for the design and synthesis of molecular machines"',
+        motivation: "for the design and synthesis of molecular machines",
         share: "3"
       },
       {
         id: "932",
         firstname: "Sir J. Fraser",
         surname: "Stoddart",
-        motivation: '"for the design and synthesis of molecular machines"',
+        motivation: "for the design and synthesis of molecular machines",
         share: "3"
       },
       {
         id: "933",
         firstname: "Bernard L.",
         surname: "Feringa",
-        motivation: '"for the design and synthesis of molecular machines"',
+        motivation: "for the design and synthesis of molecular machines",
         share: "3"
       }
     ]
@@ -578,14 +578,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "935",
         firstname: "Oliver",
         surname: "Hart",
-        motivation: '"for their contributions to contract theory"',
+        motivation: "for their contributions to contract theory",
         share: "2"
       },
       {
         id: "936",
         firstname: "Bengt",
         surname: "Holmstr\u00f6m",
-        motivation: '"for their contributions to contract theory"',
+        motivation: "for their contributions to contract theory",
         share: "2"
       }
     ]
@@ -599,7 +599,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Bob",
         surname: "Dylan",
         motivation:
-          '"for having created new poetic expressions within the great American song tradition"',
+          "for having created new poetic expressions within the great American song tradition",
         share: "1"
       }
     ]
@@ -613,7 +613,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Juan Manuel",
         surname: "Santos",
         motivation:
-          '"for his resolute efforts to bring the country\'s more than 50-year-long civil war to an end"',
+          "for his resolute efforts to bring the country's more than 50-year-long civil war to an end",
         share: "1"
       }
     ]
@@ -627,7 +627,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "David J.",
         surname: "Thouless",
         motivation:
-          '"for theoretical discoveries of topological phase transitions and topological phases of matter"',
+          "for theoretical discoveries of topological phase transitions and topological phases of matter",
         share: "2"
       },
       {
@@ -635,7 +635,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "F. Duncan M.",
         surname: "Haldane",
         motivation:
-          '"for theoretical discoveries of topological phase transitions and topological phases of matter"',
+          "for theoretical discoveries of topological phase transitions and topological phases of matter",
         share: "4"
       },
       {
@@ -643,7 +643,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "J. Michael",
         surname: "Kosterlitz",
         motivation:
-          '"for theoretical discoveries of topological phase transitions and topological phases of matter"',
+          "for theoretical discoveries of topological phase transitions and topological phases of matter",
         share: "4"
       }
     ]
@@ -656,7 +656,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "927",
         firstname: "Yoshinori",
         surname: "Ohsumi",
-        motivation: '"for his discoveries of mechanisms for autophagy"',
+        motivation: "for his discoveries of mechanisms for autophagy",
         share: "1"
       }
     ]
@@ -669,21 +669,21 @@ export const prizes: Immutable<Prize[]> = [
         id: "921",
         firstname: "Tomas",
         surname: "Lindahl",
-        motivation: '"for mechanistic studies of DNA repair"',
+        motivation: "for mechanistic studies of DNA repair",
         share: "3"
       },
       {
         id: "922",
         firstname: "Paul",
         surname: "Modrich",
-        motivation: '"for mechanistic studies of DNA repair"',
+        motivation: "for mechanistic studies of DNA repair",
         share: "3"
       },
       {
         id: "923",
         firstname: "Aziz",
         surname: "Sancar",
-        motivation: '"for mechanistic studies of DNA repair"',
+        motivation: "for mechanistic studies of DNA repair",
         share: "3"
       }
     ]
@@ -696,7 +696,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "926",
         firstname: "Angus",
         surname: "Deaton",
-        motivation: '"for his analysis of consumption, poverty, and welfare"',
+        motivation: "for his analysis of consumption, poverty, and welfare",
         share: "1"
       }
     ]
@@ -710,7 +710,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Svetlana",
         surname: "Alexievich",
         motivation:
-          '"for her polyphonic writings, a monument to suffering and courage in our time"',
+          "for her polyphonic writings, a monument to suffering and courage in our time",
         share: "1"
       }
     ]
@@ -722,7 +722,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "925",
         motivation:
-          '"for its decisive contribution to the building of a pluralistic democracy in Tunisia in the wake of the Jasmine Revolution of 2011"',
+          "for its decisive contribution to the building of a pluralistic democracy in Tunisia in the wake of the Jasmine Revolution of 2011",
         share: "1",
         firstname: "National Dialogue Quartet "
       }
@@ -737,7 +737,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Takaaki",
         surname: "Kajita",
         motivation:
-          '"for the discovery of neutrino oscillations, which shows that neutrinos have mass"',
+          "for the discovery of neutrino oscillations, which shows that neutrinos have mass",
         share: "2"
       },
       {
@@ -745,7 +745,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Arthur B.",
         surname: "McDonald",
         motivation:
-          '"for the discovery of neutrino oscillations, which shows that neutrinos have mass"',
+          "for the discovery of neutrino oscillations, which shows that neutrinos have mass",
         share: "2"
       }
     ]
@@ -759,7 +759,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William C.",
         surname: "Campbell",
         motivation:
-          '"for their discoveries concerning a novel therapy against infections caused by roundworm parasites"',
+          "for their discoveries concerning a novel therapy against infections caused by roundworm parasites",
         share: "4"
       },
       {
@@ -767,7 +767,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Satoshi",
         surname: "\u014cmura",
         motivation:
-          '"for their discoveries concerning a novel therapy against infections caused by roundworm parasites"',
+          "for their discoveries concerning a novel therapy against infections caused by roundworm parasites",
         share: "4"
       },
       {
@@ -775,7 +775,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Youyou",
         surname: "Tu",
         motivation:
-          '"for her discoveries concerning a novel therapy against Malaria"',
+          "for her discoveries concerning a novel therapy against Malaria",
         share: "2"
       }
     ]
@@ -789,7 +789,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Eric",
         surname: "Betzig",
         motivation:
-          '"for the development of super-resolved fluorescence microscopy"',
+          "for the development of super-resolved fluorescence microscopy",
         share: "3"
       },
       {
@@ -797,7 +797,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Stefan W.",
         surname: "Hell",
         motivation:
-          '"for the development of super-resolved fluorescence microscopy"',
+          "for the development of super-resolved fluorescence microscopy",
         share: "3"
       },
       {
@@ -805,7 +805,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William E.",
         surname: "Moerner",
         motivation:
-          '"for the development of super-resolved fluorescence microscopy"',
+          "for the development of super-resolved fluorescence microscopy",
         share: "3"
       }
     ]
@@ -818,7 +818,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "915",
         firstname: "Jean",
         surname: "Tirole",
-        motivation: '"for his analysis of market power and regulation"',
+        motivation: "for his analysis of market power and regulation",
         share: "1"
       }
     ]
@@ -832,7 +832,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Patrick",
         surname: "Modiano",
         motivation:
-          '"for the art of memory with which he has evoked the most ungraspable human destinies and\r\nuncovered the life-world of the occupation"',
+          "for the art of memory with which he has evoked the most ungraspable human destinies and\r\nuncovered the life-world of the occupation",
         share: "1"
       }
     ]
@@ -846,7 +846,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Kailash",
         surname: "Satyarthi",
         motivation:
-          '"for their struggle against the suppression of children and young people and for the right of all children to education"',
+          "for their struggle against the suppression of children and young people and for the right of all children to education",
         share: "2"
       },
       {
@@ -854,7 +854,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Malala",
         surname: "Yousafzai",
         motivation:
-          '"for their struggle against the suppression of children and young people and for the right of all children to education"',
+          "for their struggle against the suppression of children and young people and for the right of all children to education",
         share: "2"
       }
     ]
@@ -868,7 +868,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Isamu",
         surname: "Akasaki",
         motivation:
-          '"for the invention of efficient blue light-emitting diodes which has enabled bright and energy-saving white light sources"',
+          "for the invention of efficient blue light-emitting diodes which has enabled bright and energy-saving white light sources",
         share: "3"
       },
       {
@@ -876,7 +876,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Hiroshi",
         surname: "Amano",
         motivation:
-          '"for the invention of efficient blue light-emitting diodes which has enabled bright and energy-saving white light sources"',
+          "for the invention of efficient blue light-emitting diodes which has enabled bright and energy-saving white light sources",
         share: "3"
       },
       {
@@ -884,7 +884,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Shuji",
         surname: "Nakamura",
         motivation:
-          '"for the invention of efficient blue light-emitting diodes which has enabled bright and energy-saving white light sources"',
+          "for the invention of efficient blue light-emitting diodes which has enabled bright and energy-saving white light sources",
         share: "3"
       }
     ]
@@ -898,7 +898,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John",
         surname: "O'Keefe",
         motivation:
-          '"for their discoveries of cells that constitute a positioning system in the brain"',
+          "for their discoveries of cells that constitute a positioning system in the brain",
         share: "2"
       },
       {
@@ -906,7 +906,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "May-Britt",
         surname: "Moser",
         motivation:
-          '"for their discoveries of cells that constitute a positioning system in the brain"',
+          "for their discoveries of cells that constitute a positioning system in the brain",
         share: "4"
       },
       {
@@ -914,7 +914,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Edvard I.",
         surname: "Moser",
         motivation:
-          '"for their discoveries of cells that constitute a positioning system in the brain"',
+          "for their discoveries of cells that constitute a positioning system in the brain",
         share: "4"
       }
     ]
@@ -928,7 +928,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Martin",
         surname: "Karplus",
         motivation:
-          '"for the development of multiscale models for complex chemical systems"',
+          "for the development of multiscale models for complex chemical systems",
         share: "3"
       },
       {
@@ -936,7 +936,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Michael",
         surname: "Levitt",
         motivation:
-          '"for the development of multiscale models for complex chemical systems"',
+          "for the development of multiscale models for complex chemical systems",
         share: "3"
       },
       {
@@ -944,7 +944,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Arieh",
         surname: "Warshel",
         motivation:
-          '"for the development of multiscale models for complex chemical systems"',
+          "for the development of multiscale models for complex chemical systems",
         share: "3"
       }
     ]
@@ -957,21 +957,21 @@ export const prizes: Immutable<Prize[]> = [
         id: "894",
         firstname: "Eugene F.",
         surname: "Fama",
-        motivation: '"for their empirical analysis of asset prices"',
+        motivation: "for their empirical analysis of asset prices",
         share: "3"
       },
       {
         id: "895",
         firstname: "Lars Peter",
         surname: "Hansen",
-        motivation: '"for their empirical analysis of asset prices"',
+        motivation: "for their empirical analysis of asset prices",
         share: "3"
       },
       {
         id: "896",
         firstname: "Robert J.",
         surname: "Shiller",
-        motivation: '"for their empirical analysis of asset prices"',
+        motivation: "for their empirical analysis of asset prices",
         share: "3"
       }
     ]
@@ -984,7 +984,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "892",
         firstname: "Alice",
         surname: "Munro",
-        motivation: '"master of the contemporary short story"',
+        motivation: "master of the contemporary short story",
         share: "1"
       }
     ]
@@ -995,7 +995,7 @@ export const prizes: Immutable<Prize[]> = [
     laureates: [
       {
         id: "893",
-        motivation: '"for its extensive efforts to eliminate chemical weapons"',
+        motivation: "for its extensive efforts to eliminate chemical weapons",
         share: "1",
         firstname: "Organisation for the Prohibition of Chemical Weapons"
       }
@@ -1010,7 +1010,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Fran\u00e7ois",
         surname: "Englert",
         motivation:
-          '"for the theoretical discovery of a mechanism that contributes to our understanding of the origin of mass of subatomic particles, and which recently was confirmed through the discovery of the predicted fundamental particle, by the ATLAS and CMS experiments at CERN\'s Large Hadron Collider"',
+          "for the theoretical discovery of a mechanism that contributes to our understanding of the origin of mass of subatomic particles, and which recently was confirmed through the discovery of the predicted fundamental particle, by the ATLAS and CMS experiments at CERN's Large Hadron Collider",
         share: "2"
       },
       {
@@ -1018,7 +1018,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Peter",
         surname: "Higgs",
         motivation:
-          '"for the theoretical discovery of a mechanism that contributes to our understanding of the origin of mass of subatomic particles, and which recently was confirmed through the discovery of the predicted fundamental particle, by the ATLAS and CMS experiments at CERN\'s Large Hadron Collider"',
+          "for the theoretical discovery of a mechanism that contributes to our understanding of the origin of mass of subatomic particles, and which recently was confirmed through the discovery of the predicted fundamental particle, by the ATLAS and CMS experiments at CERN's Large Hadron Collider",
         share: "2"
       }
     ]
@@ -1032,7 +1032,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "James E.",
         surname: "Rothman",
         motivation:
-          '"for their discoveries of machinery regulating vesicle traffic, a major transport system in our cells"',
+          "for their discoveries of machinery regulating vesicle traffic, a major transport system in our cells",
         share: "3"
       },
       {
@@ -1040,7 +1040,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Randy W.",
         surname: "Schekman",
         motivation:
-          '"for their discoveries of machinery regulating vesicle traffic, a major transport system in our cells"',
+          "for their discoveries of machinery regulating vesicle traffic, a major transport system in our cells",
         share: "3"
       },
       {
@@ -1048,7 +1048,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Thomas C.",
         surname: "S\u00fcdhof",
         motivation:
-          '"for their discoveries of machinery regulating vesicle traffic, a major transport system in our cells"',
+          "for their discoveries of machinery regulating vesicle traffic, a major transport system in our cells",
         share: "3"
       }
     ]
@@ -1061,14 +1061,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "878",
         firstname: "Robert J.",
         surname: "Lefkowitz",
-        motivation: '"for studies of G-protein-coupled receptors"',
+        motivation: "for studies of G-protein-coupled receptors",
         share: "2"
       },
       {
         id: "879",
         firstname: "Brian",
         surname: "Kobilka",
-        motivation: '"for studies of G-protein-coupled receptors"',
+        motivation: "for studies of G-protein-coupled receptors",
         share: "2"
       }
     ]
@@ -1082,7 +1082,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Alvin E.",
         surname: "Roth",
         motivation:
-          '"for the theory of stable allocations and the practice of market design"',
+          "for the theory of stable allocations and the practice of market design",
         share: "2"
       },
       {
@@ -1090,7 +1090,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Lloyd S.",
         surname: "Shapley",
         motivation:
-          '"for the theory of stable allocations and the practice of market design"',
+          "for the theory of stable allocations and the practice of market design",
         share: "2"
       }
     ]
@@ -1104,7 +1104,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Mo",
         surname: "Yan",
         motivation:
-          '"who with hallucinatory realism merges folk tales, history and the contemporary"',
+          "who with hallucinatory realism merges folk tales, history and the contemporary",
         share: "1"
       }
     ]
@@ -1116,7 +1116,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "881",
         motivation:
-          '"for over six decades contributed to the advancement of peace and reconciliation, democracy and human rights in Europe"',
+          "for over six decades contributed to the advancement of peace and reconciliation, democracy and human rights in Europe",
         share: "1",
         firstname: "European Union (EU)"
       }
@@ -1131,7 +1131,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Serge",
         surname: "Haroche",
         motivation:
-          '"for ground-breaking experimental methods that enable measuring and manipulation of individual quantum systems"',
+          "for ground-breaking experimental methods that enable measuring and manipulation of individual quantum systems",
         share: "2"
       },
       {
@@ -1139,7 +1139,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "David J.",
         surname: "Wineland",
         motivation:
-          '"for ground-breaking experimental methods that enable measuring and manipulation of individual quantum systems"',
+          "for ground-breaking experimental methods that enable measuring and manipulation of individual quantum systems",
         share: "2"
       }
     ]
@@ -1153,7 +1153,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sir John B.",
         surname: "Gurdon",
         motivation:
-          '"for the discovery that mature cells can be reprogrammed to become pluripotent"',
+          "for the discovery that mature cells can be reprogrammed to become pluripotent",
         share: "2"
       },
       {
@@ -1161,7 +1161,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Shinya",
         surname: "Yamanaka",
         motivation:
-          '"for the discovery that mature cells can be reprogrammed to become pluripotent"',
+          "for the discovery that mature cells can be reprogrammed to become pluripotent",
         share: "2"
       }
     ]
@@ -1174,7 +1174,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "867",
         firstname: "Dan",
         surname: "Shechtman",
-        motivation: '"for the discovery of quasicrystals"',
+        motivation: "for the discovery of quasicrystals",
         share: "1"
       }
     ]
@@ -1188,7 +1188,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Thomas J.",
         surname: "Sargent",
         motivation:
-          '"for their empirical research on cause and effect in the macroeconomy"',
+          "for their empirical research on cause and effect in the macroeconomy",
         share: "2"
       },
       {
@@ -1196,7 +1196,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Christopher A.",
         surname: "Sims",
         motivation:
-          '"for their empirical research on cause and effect in the macroeconomy"',
+          "for their empirical research on cause and effect in the macroeconomy",
         share: "2"
       }
     ]
@@ -1210,7 +1210,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Tomas",
         surname: "Transtr\u00f6mer",
         motivation:
-          '"because, through his condensed, translucent images, he gives us fresh access to reality"',
+          "because, through his condensed, translucent images, he gives us fresh access to reality",
         share: "1"
       }
     ]
@@ -1224,7 +1224,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ellen",
         surname: "Johnson Sirleaf",
         motivation:
-          '"for their non-violent struggle for the safety of women and for women\'s rights to full participation in peace-building work"',
+          "for their non-violent struggle for the safety of women and for women's rights to full participation in peace-building work",
         share: "3"
       },
       {
@@ -1232,7 +1232,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Leymah",
         surname: "Gbowee",
         motivation:
-          '"for their non-violent struggle for the safety of women and for women\'s rights to full participation in peace-building work"',
+          "for their non-violent struggle for the safety of women and for women's rights to full participation in peace-building work",
         share: "3"
       },
       {
@@ -1240,7 +1240,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Tawakkol",
         surname: "Karman",
         motivation:
-          '"for their non-violent struggle for the safety of women and for women\'s rights to full participation in peace-building work"',
+          "for their non-violent struggle for the safety of women and for women's rights to full participation in peace-building work",
         share: "3"
       }
     ]
@@ -1254,7 +1254,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Saul",
         surname: "Perlmutter",
         motivation:
-          '"for the discovery of the accelerating expansion of the Universe through observations of distant supernovae"',
+          "for the discovery of the accelerating expansion of the Universe through observations of distant supernovae",
         share: "2"
       },
       {
@@ -1262,7 +1262,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Brian P.",
         surname: "Schmidt",
         motivation:
-          '"for the discovery of the accelerating expansion of the Universe through observations of distant supernovae"',
+          "for the discovery of the accelerating expansion of the Universe through observations of distant supernovae",
         share: "4"
       },
       {
@@ -1270,7 +1270,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Adam G.",
         surname: "Riess",
         motivation:
-          '"for the discovery of the accelerating expansion of the Universe through observations of distant supernovae"',
+          "for the discovery of the accelerating expansion of the Universe through observations of distant supernovae",
         share: "4"
       }
     ]
@@ -1284,7 +1284,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Bruce A.",
         surname: "Beutler",
         motivation:
-          '"for their discoveries concerning the activation of innate immunity"',
+          "for their discoveries concerning the activation of innate immunity",
         share: "4"
       },
       {
@@ -1292,7 +1292,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jules A.",
         surname: "Hoffmann",
         motivation:
-          '"for their discoveries concerning the activation of innate immunity"',
+          "for their discoveries concerning the activation of innate immunity",
         share: "4"
       },
       {
@@ -1300,7 +1300,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ralph M.",
         surname: "Steinman",
         motivation:
-          '"for his discovery of the dendritic cell and its role in adaptive immunity"',
+          "for his discovery of the dendritic cell and its role in adaptive immunity",
         share: "2"
       }
     ]
@@ -1314,7 +1314,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Richard F.",
         surname: "Heck",
         motivation:
-          '"for palladium-catalyzed cross couplings in organic synthesis"',
+          "for palladium-catalyzed cross couplings in organic synthesis",
         share: "3"
       },
       {
@@ -1322,7 +1322,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ei-ichi",
         surname: "Negishi",
         motivation:
-          '"for palladium-catalyzed cross couplings in organic synthesis"',
+          "for palladium-catalyzed cross couplings in organic synthesis",
         share: "3"
       },
       {
@@ -1330,7 +1330,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Akira",
         surname: "Suzuki",
         motivation:
-          '"for palladium-catalyzed cross couplings in organic synthesis"',
+          "for palladium-catalyzed cross couplings in organic synthesis",
         share: "3"
       }
     ]
@@ -1343,21 +1343,21 @@ export const prizes: Immutable<Prize[]> = [
         id: "856",
         firstname: "Peter A.",
         surname: "Diamond",
-        motivation: '"for their analysis of markets with search frictions"',
+        motivation: "for their analysis of markets with search frictions",
         share: "3"
       },
       {
         id: "857",
         firstname: "Dale T.",
         surname: "Mortensen",
-        motivation: '"for their analysis of markets with search frictions"',
+        motivation: "for their analysis of markets with search frictions",
         share: "3"
       },
       {
         id: "858",
         firstname: "Christopher A.",
         surname: "Pissarides",
-        motivation: '"for their analysis of markets with search frictions"',
+        motivation: "for their analysis of markets with search frictions",
         share: "3"
       }
     ]
@@ -1371,7 +1371,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Mario",
         surname: "Vargas Llosa",
         motivation:
-          '"for his cartography of structures of power and his trenchant images of the individual\'s resistance, revolt, and defeat"',
+          "for his cartography of structures of power and his trenchant images of the individual's resistance, revolt, and defeat",
         share: "1"
       }
     ]
@@ -1385,7 +1385,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Xiaobo",
         surname: "Liu",
         motivation:
-          '"for his long and non-violent struggle for fundamental human rights in China"',
+          "for his long and non-violent struggle for fundamental human rights in China",
         share: "1"
       }
     ]
@@ -1399,7 +1399,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Andre",
         surname: "Geim",
         motivation:
-          '"for groundbreaking experiments regarding the two-dimensional material graphene"',
+          "for groundbreaking experiments regarding the two-dimensional material graphene",
         share: "2"
       },
       {
@@ -1407,7 +1407,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Konstantin",
         surname: "Novoselov",
         motivation:
-          '"for groundbreaking experiments regarding the two-dimensional material graphene"',
+          "for groundbreaking experiments regarding the two-dimensional material graphene",
         share: "2"
       }
     ]
@@ -1420,7 +1420,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "848",
         firstname: "Robert G.",
         surname: "Edwards",
-        motivation: '"for the development of in vitro fertilization"',
+        motivation: "for the development of in vitro fertilization",
         share: "1"
       }
     ]
@@ -1433,24 +1433,21 @@ export const prizes: Immutable<Prize[]> = [
         id: "841",
         firstname: "Venkatraman",
         surname: "Ramakrishnan",
-        motivation:
-          '"for studies of the structure and function of the ribosome"',
+        motivation: "for studies of the structure and function of the ribosome",
         share: "3"
       },
       {
         id: "842",
         firstname: "Thomas A.",
         surname: "Steitz",
-        motivation:
-          '"for studies of the structure and function of the ribosome"',
+        motivation: "for studies of the structure and function of the ribosome",
         share: "3"
       },
       {
         id: "843",
         firstname: "Ada E.",
         surname: "Yonath",
-        motivation:
-          '"for studies of the structure and function of the ribosome"',
+        motivation: "for studies of the structure and function of the ribosome",
         share: "3"
       }
     ]
@@ -1464,7 +1461,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Elinor",
         surname: "Ostrom",
         motivation:
-          '"for her analysis of economic governance, especially the commons"',
+          "for her analysis of economic governance, especially the commons",
         share: "2"
       },
       {
@@ -1472,7 +1469,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Oliver E.",
         surname: "Williamson",
         motivation:
-          '"for his analysis of economic governance, especially the boundaries of the firm"',
+          "for his analysis of economic governance, especially the boundaries of the firm",
         share: "2"
       }
     ]
@@ -1486,7 +1483,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Herta",
         surname: "M\u00fcller",
         motivation:
-          '"who, with the concentration of poetry and the frankness of prose, depicts the landscape of the dispossessed"',
+          "who, with the concentration of poetry and the frankness of prose, depicts the landscape of the dispossessed",
         share: "1"
       }
     ]
@@ -1500,7 +1497,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Barack",
         surname: "Obama",
         motivation:
-          '"for his extraordinary efforts to strengthen international diplomacy and cooperation between peoples"',
+          "for his extraordinary efforts to strengthen international diplomacy and cooperation between peoples",
         share: "1"
       }
     ]
@@ -1514,7 +1511,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Charles K.",
         surname: "Kao",
         motivation:
-          '"for groundbreaking achievements concerning the transmission of light in fibers for optical communication"',
+          "for groundbreaking achievements concerning the transmission of light in fibers for optical communication",
         share: "2"
       },
       {
@@ -1522,7 +1519,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Willard S.",
         surname: "Boyle",
         motivation:
-          '"for the invention of an imaging semiconductor circuit - the CCD sensor"',
+          "for the invention of an imaging semiconductor circuit - the CCD sensor",
         share: "4"
       },
       {
@@ -1530,7 +1527,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "George E.",
         surname: "Smith",
         motivation:
-          '"for the invention of an imaging semiconductor circuit - the CCD sensor"',
+          "for the invention of an imaging semiconductor circuit - the CCD sensor",
         share: "4"
       }
     ]
@@ -1544,7 +1541,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Elizabeth H.",
         surname: "Blackburn",
         motivation:
-          '"for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase"',
+          "for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase",
         share: "3"
       },
       {
@@ -1552,7 +1549,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Carol W.",
         surname: "Greider",
         motivation:
-          '"for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase"',
+          "for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase",
         share: "3"
       },
       {
@@ -1560,7 +1557,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jack W.",
         surname: "Szostak",
         motivation:
-          '"for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase"',
+          "for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase",
         share: "3"
       }
     ]
@@ -1574,7 +1571,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Osamu",
         surname: "Shimomura",
         motivation:
-          '"for the discovery and development of the green fluorescent protein, GFP"',
+          "for the discovery and development of the green fluorescent protein, GFP",
         share: "3"
       },
       {
@@ -1582,7 +1579,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Martin",
         surname: "Chalfie",
         motivation:
-          '"for the discovery and development of the green fluorescent protein, GFP"',
+          "for the discovery and development of the green fluorescent protein, GFP",
         share: "3"
       },
       {
@@ -1590,7 +1587,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Roger Y.",
         surname: "Tsien",
         motivation:
-          '"for the discovery and development of the green fluorescent protein, GFP"',
+          "for the discovery and development of the green fluorescent protein, GFP",
         share: "3"
       }
     ]
@@ -1604,7 +1601,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Paul",
         surname: "Krugman",
         motivation:
-          '"for his analysis of trade patterns and location of economic activity"',
+          "for his analysis of trade patterns and location of economic activity",
         share: "1"
       }
     ]
@@ -1618,7 +1615,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jean-Marie Gustave",
         surname: "Le Cl\u00e9zio",
         motivation:
-          '"author of new departures, poetic adventure and sensual ecstasy, explorer of a humanity beyond and below the reigning civilization"',
+          "author of new departures, poetic adventure and sensual ecstasy, explorer of a humanity beyond and below the reigning civilization",
         share: "1"
       }
     ]
@@ -1632,7 +1629,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Martti",
         surname: "Ahtisaari",
         motivation:
-          '"for his important efforts, on several continents and over more than three decades, to resolve international conflicts"',
+          "for his important efforts, on several continents and over more than three decades, to resolve international conflicts",
         share: "1"
       }
     ]
@@ -1646,7 +1643,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Yoichiro",
         surname: "Nambu",
         motivation:
-          '"for the discovery of the mechanism of spontaneous broken symmetry in subatomic physics"',
+          "for the discovery of the mechanism of spontaneous broken symmetry in subatomic physics",
         share: "2"
       },
       {
@@ -1654,7 +1651,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Makoto",
         surname: "Kobayashi",
         motivation:
-          '"for the discovery of the origin of the broken symmetry which predicts the existence of at least three families of quarks in nature"',
+          "for the discovery of the origin of the broken symmetry which predicts the existence of at least three families of quarks in nature",
         share: "4"
       },
       {
@@ -1662,7 +1659,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Toshihide",
         surname: "Maskawa",
         motivation:
-          '"for the discovery of the origin of the broken symmetry which predicts the existence of at least three families of quarks in nature"',
+          "for the discovery of the origin of the broken symmetry which predicts the existence of at least three families of quarks in nature",
         share: "4"
       }
     ]
@@ -1676,21 +1673,21 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Harald",
         surname: "zur Hausen",
         motivation:
-          '"for his discovery of human papilloma viruses causing cervical cancer"',
+          "for his discovery of human papilloma viruses causing cervical cancer",
         share: "2"
       },
       {
         id: "824",
         firstname: "Fran\u00e7oise",
         surname: "Barr\u00e9-Sinoussi",
-        motivation: '"for their discovery of human immunodeficiency virus"',
+        motivation: "for their discovery of human immunodeficiency virus",
         share: "4"
       },
       {
         id: "825",
         firstname: "Luc",
         surname: "Montagnier",
-        motivation: '"for their discovery of human immunodeficiency virus"',
+        motivation: "for their discovery of human immunodeficiency virus",
         share: "4"
       }
     ]
@@ -1703,7 +1700,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "816",
         firstname: "Gerhard",
         surname: "Ertl",
-        motivation: '"for his studies of chemical processes on solid surfaces"',
+        motivation: "for his studies of chemical processes on solid surfaces",
         share: "1"
       }
     ]
@@ -1717,7 +1714,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Leonid",
         surname: "Hurwicz",
         motivation:
-          '"for having laid the foundations of mechanism design theory"',
+          "for having laid the foundations of mechanism design theory",
         share: "3"
       },
       {
@@ -1725,7 +1722,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Eric S.",
         surname: "Maskin",
         motivation:
-          '"for having laid the foundations of mechanism design theory"',
+          "for having laid the foundations of mechanism design theory",
         share: "3"
       },
       {
@@ -1733,7 +1730,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Roger B.",
         surname: "Myerson",
         motivation:
-          '"for having laid the foundations of mechanism design theory"',
+          "for having laid the foundations of mechanism design theory",
         share: "3"
       }
     ]
@@ -1747,7 +1744,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Doris",
         surname: "Lessing",
         motivation:
-          '"that epicist of the female experience, who with scepticism, fire and visionary power has subjected a divided civilisation to scrutiny"',
+          "that epicist of the female experience, who with scepticism, fire and visionary power has subjected a divided civilisation to scrutiny",
         share: "1"
       }
     ]
@@ -1759,7 +1756,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "818",
         motivation:
-          '"for their efforts to build up and disseminate greater knowledge about man-made climate change, and to lay the foundations for the measures that are needed to counteract such change"',
+          "for their efforts to build up and disseminate greater knowledge about man-made climate change, and to lay the foundations for the measures that are needed to counteract such change",
         share: "2",
         firstname: "Intergovernmental Panel on Climate Change"
       },
@@ -1768,7 +1765,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Al",
         surname: "Gore",
         motivation:
-          '"for their efforts to build up and disseminate greater knowledge about man-made climate change, and to lay the foundations for the measures that are needed to counteract such change"',
+          "for their efforts to build up and disseminate greater knowledge about man-made climate change, and to lay the foundations for the measures that are needed to counteract such change",
         share: "2"
       }
     ]
@@ -1781,14 +1778,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "814",
         firstname: "Albert",
         surname: "Fert",
-        motivation: '"for the discovery of Giant Magnetoresistance"',
+        motivation: "for the discovery of Giant Magnetoresistance",
         share: "2"
       },
       {
         id: "815",
         firstname: "Peter",
         surname: "Gr\u00fcnberg",
-        motivation: '"for the discovery of Giant Magnetoresistance"',
+        motivation: "for the discovery of Giant Magnetoresistance",
         share: "2"
       }
     ]
@@ -1802,7 +1799,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Mario R.",
         surname: "Capecchi",
         motivation:
-          '"for their discoveries of principles for introducing specific gene modifications in mice by the use of embryonic stem cells"',
+          "for their discoveries of principles for introducing specific gene modifications in mice by the use of embryonic stem cells",
         share: "3"
       },
       {
@@ -1810,7 +1807,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sir Martin J.",
         surname: "Evans",
         motivation:
-          '"for their discoveries of principles for introducing specific gene modifications in mice by the use of embryonic stem cells"',
+          "for their discoveries of principles for introducing specific gene modifications in mice by the use of embryonic stem cells",
         share: "3"
       },
       {
@@ -1818,7 +1815,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Oliver",
         surname: "Smithies",
         motivation:
-          '"for their discoveries of principles for introducing specific gene modifications in mice by the use of embryonic stem cells"',
+          "for their discoveries of principles for introducing specific gene modifications in mice by the use of embryonic stem cells",
         share: "3"
       }
     ]
@@ -1832,7 +1829,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Roger D.",
         surname: "Kornberg",
         motivation:
-          '"for his studies of the molecular basis of eukaryotic transcription"',
+          "for his studies of the molecular basis of eukaryotic transcription",
         share: "1"
       }
     ]
@@ -1846,7 +1843,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Edmund S.",
         surname: "Phelps",
         motivation:
-          '"for his analysis of intertemporal tradeoffs in macroeconomic policy"',
+          "for his analysis of intertemporal tradeoffs in macroeconomic policy",
         share: "1"
       }
     ]
@@ -1860,7 +1857,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Orhan",
         surname: "Pamuk",
         motivation:
-          '"who in the quest for the melancholic soul of his native city has discovered new symbols for the clash and interlacing of cultures"',
+          "who in the quest for the melancholic soul of his native city has discovered new symbols for the clash and interlacing of cultures",
         share: "1"
       }
     ]
@@ -1874,13 +1871,13 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Muhammad",
         surname: "Yunus",
         motivation:
-          '"for their efforts to create economic and social development from below"',
+          "for their efforts to create economic and social development from below",
         share: "2"
       },
       {
         id: "810",
         motivation:
-          '"for their efforts to create economic and social development from below"',
+          "for their efforts to create economic and social development from below",
         share: "2",
         firstname: "Grameen Bank"
       }
@@ -1895,7 +1892,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John C.",
         surname: "Mather",
         motivation:
-          '"for their discovery of the blackbody form and anisotropy of the cosmic microwave background radiation"',
+          "for their discovery of the blackbody form and anisotropy of the cosmic microwave background radiation",
         share: "2"
       },
       {
@@ -1903,7 +1900,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "George F.",
         surname: "Smoot",
         motivation:
-          '"for their discovery of the blackbody form and anisotropy of the cosmic microwave background radiation"',
+          "for their discovery of the blackbody form and anisotropy of the cosmic microwave background radiation",
         share: "2"
       }
     ]
@@ -1917,7 +1914,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Andrew Z.",
         surname: "Fire",
         motivation:
-          '"for their discovery of RNA interference - gene silencing by double-stranded RNA"',
+          "for their discovery of RNA interference - gene silencing by double-stranded RNA",
         share: "2"
       },
       {
@@ -1925,7 +1922,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Craig C.",
         surname: "Mello",
         motivation:
-          '"for their discovery of RNA interference - gene silencing by double-stranded RNA"',
+          "for their discovery of RNA interference - gene silencing by double-stranded RNA",
         share: "2"
       }
     ]
@@ -1939,7 +1936,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Yves",
         surname: "Chauvin",
         motivation:
-          '"for the development of the metathesis method in organic synthesis"',
+          "for the development of the metathesis method in organic synthesis",
         share: "3"
       },
       {
@@ -1947,7 +1944,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert H.",
         surname: "Grubbs",
         motivation:
-          '"for the development of the metathesis method in organic synthesis"',
+          "for the development of the metathesis method in organic synthesis",
         share: "3"
       },
       {
@@ -1955,7 +1952,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Richard R.",
         surname: "Schrock",
         motivation:
-          '"for the development of the metathesis method in organic synthesis"',
+          "for the development of the metathesis method in organic synthesis",
         share: "3"
       }
     ]
@@ -1969,7 +1966,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert J.",
         surname: "Aumann",
         motivation:
-          '"for having enhanced our understanding of conflict and cooperation through game-theory analysis"',
+          "for having enhanced our understanding of conflict and cooperation through game-theory analysis",
         share: "2"
       },
       {
@@ -1977,7 +1974,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Thomas C.",
         surname: "Schelling",
         motivation:
-          '"for having enhanced our understanding of conflict and cooperation through game-theory analysis"',
+          "for having enhanced our understanding of conflict and cooperation through game-theory analysis",
         share: "2"
       }
     ]
@@ -1991,7 +1988,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Harold",
         surname: "Pinter",
         motivation:
-          '"who in his plays uncovers the precipice under everyday prattle and forces entry into oppression\'s closed rooms"',
+          "who in his plays uncovers the precipice under everyday prattle and forces entry into oppression's closed rooms",
         share: "1"
       }
     ]
@@ -2003,7 +2000,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "797",
         motivation:
-          '"for their efforts to prevent nuclear energy from being used for military purposes and to ensure that nuclear energy for peaceful purposes is used in the safest possible way"',
+          "for their efforts to prevent nuclear energy from being used for military purposes and to ensure that nuclear energy for peaceful purposes is used in the safest possible way",
         share: "2",
         firstname: "International Atomic Energy Agency"
       },
@@ -2012,7 +2009,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Mohamed",
         surname: "ElBaradei",
         motivation:
-          '"for their efforts to prevent nuclear energy from being used for military purposes and to ensure that nuclear energy for peaceful purposes is used in the safest possible way"',
+          "for their efforts to prevent nuclear energy from being used for military purposes and to ensure that nuclear energy for peaceful purposes is used in the safest possible way",
         share: "2"
       }
     ]
@@ -2026,7 +2023,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Roy J.",
         surname: "Glauber",
         motivation:
-          '"for his contribution to the quantum theory of optical coherence"',
+          "for his contribution to the quantum theory of optical coherence",
         share: "2"
       },
       {
@@ -2034,7 +2031,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John L.",
         surname: "Hall",
         motivation:
-          '"for their contributions to the development of laser-based precision spectroscopy, including the optical frequency comb technique"',
+          "for their contributions to the development of laser-based precision spectroscopy, including the optical frequency comb technique",
         share: "4"
       },
       {
@@ -2042,7 +2039,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Theodor W.",
         surname: "H\u00e4nsch",
         motivation:
-          '"for their contributions to the development of laser-based precision spectroscopy, including the optical frequency comb technique"',
+          "for their contributions to the development of laser-based precision spectroscopy, including the optical frequency comb technique",
         share: "4"
       }
     ]
@@ -2056,7 +2053,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Barry J.",
         surname: "Marshall",
         motivation:
-          '"for their discovery of the bacterium <i>Helicobacter pylori</i> and its role in gastritis and peptic ulcer disease"',
+          "for their discovery of the bacterium <i>Helicobacter pylori</i> and its role in gastritis and peptic ulcer disease",
         share: "2"
       },
       {
@@ -2064,7 +2061,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "J. Robin",
         surname: "Warren",
         motivation:
-          '"for their discovery of the bacterium <i>Helicobacter pylori</i> and its role in gastritis and peptic ulcer disease"',
+          "for their discovery of the bacterium <i>Helicobacter pylori</i> and its role in gastritis and peptic ulcer disease",
         share: "2"
       }
     ]
@@ -2078,7 +2075,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Aaron",
         surname: "Ciechanover",
         motivation:
-          '"for the discovery of ubiquitin-mediated protein degradation"',
+          "for the discovery of ubiquitin-mediated protein degradation",
         share: "3"
       },
       {
@@ -2086,7 +2083,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Avram",
         surname: "Hershko",
         motivation:
-          '"for the discovery of ubiquitin-mediated protein degradation"',
+          "for the discovery of ubiquitin-mediated protein degradation",
         share: "3"
       },
       {
@@ -2094,7 +2091,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Irwin",
         surname: "Rose",
         motivation:
-          '"for the discovery of ubiquitin-mediated protein degradation"',
+          "for the discovery of ubiquitin-mediated protein degradation",
         share: "3"
       }
     ]
@@ -2108,7 +2105,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Finn E.",
         surname: "Kydland",
         motivation:
-          '"for their contributions to dynamic macroeconomics: the time consistency of economic policy and the driving forces behind business cycles"',
+          "for their contributions to dynamic macroeconomics: the time consistency of economic policy and the driving forces behind business cycles",
         share: "2"
       },
       {
@@ -2116,7 +2113,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Edward C.",
         surname: "Prescott",
         motivation:
-          '"for their contributions to dynamic macroeconomics: the time consistency of economic policy and the driving forces behind business cycles"',
+          "for their contributions to dynamic macroeconomics: the time consistency of economic policy and the driving forces behind business cycles",
         share: "2"
       }
     ]
@@ -2130,7 +2127,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Elfriede",
         surname: "Jelinek",
         motivation:
-          '"for her musical flow of voices and counter-voices in novels and plays that with extraordinary linguistic zeal reveal the absurdity of society\'s clich&eacute;s and their subjugating power"',
+          "for her musical flow of voices and counter-voices in novels and plays that with extraordinary linguistic zeal reveal the absurdity of society's clich&eacute;s and their subjugating power",
         share: "1"
       }
     ]
@@ -2144,7 +2141,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Wangari",
         surname: "Maathai",
         motivation:
-          '"for her contribution to sustainable development, democracy and peace"',
+          "for her contribution to sustainable development, democracy and peace",
         share: "1"
       }
     ]
@@ -2158,7 +2155,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "David J.",
         surname: "Gross",
         motivation:
-          '"for the discovery of asymptotic freedom in the theory of the strong interaction"',
+          "for the discovery of asymptotic freedom in the theory of the strong interaction",
         share: "3"
       },
       {
@@ -2166,7 +2163,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "H. David",
         surname: "Politzer",
         motivation:
-          '"for the discovery of asymptotic freedom in the theory of the strong interaction"',
+          "for the discovery of asymptotic freedom in the theory of the strong interaction",
         share: "3"
       },
       {
@@ -2174,7 +2171,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Frank",
         surname: "Wilczek",
         motivation:
-          '"for the discovery of asymptotic freedom in the theory of the strong interaction"',
+          "for the discovery of asymptotic freedom in the theory of the strong interaction",
         share: "3"
       }
     ]
@@ -2188,7 +2185,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Richard",
         surname: "Axel",
         motivation:
-          '"for their discoveries of odorant receptors and the organization of the olfactory system"',
+          "for their discoveries of odorant receptors and the organization of the olfactory system",
         share: "2"
       },
       {
@@ -2196,7 +2193,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Linda B.",
         surname: "Buck",
         motivation:
-          '"for their discoveries of odorant receptors and the organization of the olfactory system"',
+          "for their discoveries of odorant receptors and the organization of the olfactory system",
         share: "2"
       }
     ]
@@ -2204,21 +2201,20 @@ export const prizes: Immutable<Prize[]> = [
   {
     year: "2003",
     category: "chemistry",
-    overallMotivation:
-      '"for discoveries concerning channels in cell membranes"',
+    overallMotivation: "for discoveries concerning channels in cell membranes",
     laureates: [
       {
         id: "769",
         firstname: "Peter",
         surname: "Agre",
-        motivation: '"for the discovery of water channels"',
+        motivation: "for the discovery of water channels",
         share: "2"
       },
       {
         id: "770",
         firstname: "Roderick",
         surname: "MacKinnon",
-        motivation: '"for structural and mechanistic studies of ion channels"',
+        motivation: "for structural and mechanistic studies of ion channels",
         share: "2"
       }
     ]
@@ -2232,7 +2228,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert F.",
         surname: "Engle III",
         motivation:
-          '"for methods of analyzing economic time series with time-varying volatility (ARCH)"',
+          "for methods of analyzing economic time series with time-varying volatility (ARCH)",
         share: "2"
       },
       {
@@ -2240,7 +2236,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Clive W.J.",
         surname: "Granger",
         motivation:
-          '"for methods of analyzing economic time series with common trends (cointegration)"',
+          "for methods of analyzing economic time series with common trends (cointegration)",
         share: "2"
       }
     ]
@@ -2254,7 +2250,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "J. M.",
         surname: "Coetzee",
         motivation:
-          '"who in innumerable guises portrays the surprising involvement of the outsider"',
+          "who in innumerable guises portrays the surprising involvement of the outsider",
         share: "1"
       }
     ]
@@ -2268,7 +2264,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Shirin",
         surname: "Ebadi",
         motivation:
-          '"for her efforts for democracy and human rights. She has focused especially on the struggle for the rights of women and children"',
+          "for her efforts for democracy and human rights. She has focused especially on the struggle for the rights of women and children",
         share: "1"
       }
     ]
@@ -2282,7 +2278,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Alexei",
         surname: "Abrikosov",
         motivation:
-          '"for pioneering contributions to the theory of superconductors and superfluids"',
+          "for pioneering contributions to the theory of superconductors and superfluids",
         share: "3"
       },
       {
@@ -2290,7 +2286,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Vitaly L.",
         surname: "Ginzburg",
         motivation:
-          '"for pioneering contributions to the theory of superconductors and superfluids"',
+          "for pioneering contributions to the theory of superconductors and superfluids",
         share: "3"
       },
       {
@@ -2298,7 +2294,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Anthony J.",
         surname: "Leggett",
         motivation:
-          '"for pioneering contributions to the theory of superconductors and superfluids"',
+          "for pioneering contributions to the theory of superconductors and superfluids",
         share: "3"
       }
     ]
@@ -2312,7 +2308,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Paul C.",
         surname: "Lauterbur",
         motivation:
-          '"for their discoveries concerning magnetic resonance imaging"',
+          "for their discoveries concerning magnetic resonance imaging",
         share: "2"
       },
       {
@@ -2320,7 +2316,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sir Peter",
         surname: "Mansfield",
         motivation:
-          '"for their discoveries concerning magnetic resonance imaging"',
+          "for their discoveries concerning magnetic resonance imaging",
         share: "2"
       }
     ]
@@ -2329,14 +2325,14 @@ export const prizes: Immutable<Prize[]> = [
     year: "2002",
     category: "chemistry",
     overallMotivation:
-      '"for the development of methods for identification and structure analyses of biological macromolecules"',
+      "for the development of methods for identification and structure analyses of biological macromolecules",
     laureates: [
       {
         id: "756",
         firstname: "John B.",
         surname: "Fenn",
         motivation:
-          '"for their development of soft desorption ionisation methods for mass spectrometric analyses of biological macromolecules"',
+          "for their development of soft desorption ionisation methods for mass spectrometric analyses of biological macromolecules",
         share: "4"
       },
       {
@@ -2344,7 +2340,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Koichi",
         surname: "Tanaka",
         motivation:
-          '"for their development of soft desorption ionisation methods for mass spectrometric analyses of biological macromolecules"',
+          "for their development of soft desorption ionisation methods for mass spectrometric analyses of biological macromolecules",
         share: "4"
       },
       {
@@ -2352,7 +2348,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Kurt",
         surname: "W\u00fcthrich",
         motivation:
-          '"for his development of nuclear magnetic resonance spectroscopy for determining the three-dimensional structure of biological macromolecules in solution"',
+          "for his development of nuclear magnetic resonance spectroscopy for determining the three-dimensional structure of biological macromolecules in solution",
         share: "2"
       }
     ]
@@ -2366,7 +2362,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Daniel",
         surname: "Kahneman",
         motivation:
-          '"for having integrated insights from psychological research into economic science, especially concerning human judgment and decision-making under uncertainty"',
+          "for having integrated insights from psychological research into economic science, especially concerning human judgment and decision-making under uncertainty",
         share: "2"
       },
       {
@@ -2374,7 +2370,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Vernon L.",
         surname: "Smith",
         motivation:
-          '"for having established laboratory experiments as a tool in empirical economic analysis, especially in the study of alternative market mechanisms"',
+          "for having established laboratory experiments as a tool in empirical economic analysis, especially in the study of alternative market mechanisms",
         share: "2"
       }
     ]
@@ -2388,7 +2384,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Imre",
         surname: "Kert\u00e9sz",
         motivation:
-          '"for writing that upholds the fragile experience of the individual against the barbaric arbitrariness of history"',
+          "for writing that upholds the fragile experience of the individual against the barbaric arbitrariness of history",
         share: "1"
       }
     ]
@@ -2402,7 +2398,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jimmy",
         surname: "Carter",
         motivation:
-          '"for his decades of untiring effort to find peaceful solutions to international conflicts, to advance democracy and human rights, and to promote economic and social development"',
+          "for his decades of untiring effort to find peaceful solutions to international conflicts, to advance democracy and human rights, and to promote economic and social development",
         share: "1"
       }
     ]
@@ -2416,7 +2412,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Raymond",
         surname: "Davis Jr.",
         motivation:
-          '"for pioneering contributions to astrophysics, in particular for the detection of cosmic neutrinos"',
+          "for pioneering contributions to astrophysics, in particular for the detection of cosmic neutrinos",
         share: "4"
       },
       {
@@ -2424,7 +2420,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Masatoshi",
         surname: "Koshiba",
         motivation:
-          '"for pioneering contributions to astrophysics, in particular for the detection of cosmic neutrinos"',
+          "for pioneering contributions to astrophysics, in particular for the detection of cosmic neutrinos",
         share: "4"
       },
       {
@@ -2432,7 +2428,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Riccardo",
         surname: "Giacconi",
         motivation:
-          '"for pioneering contributions to astrophysics, which have led to the discovery of cosmic X-ray sources"',
+          "for pioneering contributions to astrophysics, which have led to the discovery of cosmic X-ray sources",
         share: "2"
       }
     ]
@@ -2446,7 +2442,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sydney",
         surname: "Brenner",
         motivation:
-          '"for their discoveries concerning genetic regulation of organ development and programmed cell death\'"',
+          "for their discoveries concerning genetic regulation of organ development and programmed cell death'",
         share: "3"
       },
       {
@@ -2454,7 +2450,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "H. Robert",
         surname: "Horvitz",
         motivation:
-          '"for their discoveries concerning genetic regulation of organ development and programmed cell death\'"',
+          "for their discoveries concerning genetic regulation of organ development and programmed cell death'",
         share: "3"
       },
       {
@@ -2462,7 +2458,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John E.",
         surname: "Sulston",
         motivation:
-          '"for their discoveries concerning genetic regulation of organ development and programmed cell death\'"',
+          "for their discoveries concerning genetic regulation of organ development and programmed cell death'",
         share: "3"
       }
     ]
@@ -2476,7 +2472,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William",
         surname: "Knowles",
         motivation:
-          '"for their work on chirally catalysed hydrogenation reactions"',
+          "for their work on chirally catalysed hydrogenation reactions",
         share: "4"
       },
       {
@@ -2484,14 +2480,14 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ryoji",
         surname: "Noyori",
         motivation:
-          '"for their work on chirally catalysed hydrogenation reactions"',
+          "for their work on chirally catalysed hydrogenation reactions",
         share: "4"
       },
       {
         id: "743",
         firstname: "Barry",
         surname: "Sharpless",
-        motivation: '"for his work on chirally catalysed oxidation reactions"',
+        motivation: "for his work on chirally catalysed oxidation reactions",
         share: "2"
       }
     ]
@@ -2504,24 +2500,21 @@ export const prizes: Immutable<Prize[]> = [
         id: "744",
         firstname: "George A.",
         surname: "Akerlof",
-        motivation:
-          '"for their analyses of markets with asymmetric information"',
+        motivation: "for their analyses of markets with asymmetric information",
         share: "3"
       },
       {
         id: "745",
         firstname: "A. Michael",
         surname: "Spence",
-        motivation:
-          '"for their analyses of markets with asymmetric information"',
+        motivation: "for their analyses of markets with asymmetric information",
         share: "3"
       },
       {
         id: "746",
         firstname: "Joseph E.",
         surname: "Stiglitz",
-        motivation:
-          '"for their analyses of markets with asymmetric information"',
+        motivation: "for their analyses of markets with asymmetric information",
         share: "3"
       }
     ]
@@ -2535,7 +2528,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "V. S.",
         surname: "Naipaul",
         motivation:
-          '"for having united perceptive narrative and incorruptible scrutiny in works that compel us to see the presence of suppressed histories"',
+          "for having united perceptive narrative and incorruptible scrutiny in works that compel us to see the presence of suppressed histories",
         share: "1"
       }
     ]
@@ -2547,7 +2540,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "748",
         motivation:
-          '"for their work for a better organized and more peaceful world"',
+          "for their work for a better organized and more peaceful world",
         share: "2",
         firstname: "United Nations"
       },
@@ -2556,7 +2549,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Kofi",
         surname: "Annan",
         motivation:
-          '"for their work for a better organized and more peaceful world"',
+          "for their work for a better organized and more peaceful world",
         share: "2"
       }
     ]
@@ -2570,7 +2563,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Eric",
         surname: "Cornell",
         motivation:
-          '"for the achievement of Bose-Einstein condensation in dilute gases of alkali atoms, and for early fundamental studies of the properties of the condensates"',
+          "for the achievement of Bose-Einstein condensation in dilute gases of alkali atoms, and for early fundamental studies of the properties of the condensates",
         share: "3"
       },
       {
@@ -2578,7 +2571,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Wolfgang",
         surname: "Ketterle",
         motivation:
-          '"for the achievement of Bose-Einstein condensation in dilute gases of alkali atoms, and for early fundamental studies of the properties of the condensates"',
+          "for the achievement of Bose-Einstein condensation in dilute gases of alkali atoms, and for early fundamental studies of the properties of the condensates",
         share: "3"
       },
       {
@@ -2586,7 +2579,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Carl",
         surname: "Wieman",
         motivation:
-          '"for the achievement of Bose-Einstein condensation in dilute gases of alkali atoms, and for early fundamental studies of the properties of the condensates"',
+          "for the achievement of Bose-Einstein condensation in dilute gases of alkali atoms, and for early fundamental studies of the properties of the condensates",
         share: "3"
       }
     ]
@@ -2599,24 +2592,21 @@ export const prizes: Immutable<Prize[]> = [
         id: "737",
         firstname: "Sir Paul",
         surname: "Nurse",
-        motivation:
-          '"for their discoveries of key regulators of the cell cycle"',
+        motivation: "for their discoveries of key regulators of the cell cycle",
         share: "3"
       },
       {
         id: "735",
         firstname: "Leland",
         surname: "Hartwell",
-        motivation:
-          '"for their discoveries of key regulators of the cell cycle"',
+        motivation: "for their discoveries of key regulators of the cell cycle",
         share: "3"
       },
       {
         id: "736",
         firstname: "Tim",
         surname: "Hunt",
-        motivation:
-          '"for their discoveries of key regulators of the cell cycle"',
+        motivation: "for their discoveries of key regulators of the cell cycle",
         share: "3"
       }
     ]
@@ -2629,24 +2619,21 @@ export const prizes: Immutable<Prize[]> = [
         id: "729",
         firstname: "Alan",
         surname: "Heeger",
-        motivation:
-          '"for the discovery and development of conductive polymers"',
+        motivation: "for the discovery and development of conductive polymers",
         share: "3"
       },
       {
         id: "730",
         firstname: "Alan",
         surname: "MacDiarmid",
-        motivation:
-          '"for the discovery and development of conductive polymers"',
+        motivation: "for the discovery and development of conductive polymers",
         share: "3"
       },
       {
         id: "731",
         firstname: "Hideki",
         surname: "Shirakawa",
-        motivation:
-          '"for the discovery and development of conductive polymers"',
+        motivation: "for the discovery and development of conductive polymers",
         share: "3"
       }
     ]
@@ -2660,7 +2647,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "James J.",
         surname: "Heckman",
         motivation:
-          '"for his development of theory and methods for analyzing selective samples"',
+          "for his development of theory and methods for analyzing selective samples",
         share: "2"
       },
       {
@@ -2668,7 +2655,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Daniel L.",
         surname: "McFadden",
         motivation:
-          '"for his development of theory and methods for analyzing discrete choice"',
+          "for his development of theory and methods for analyzing discrete choice",
         share: "2"
       }
     ]
@@ -2682,7 +2669,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Xingjian",
         surname: "Gao",
         motivation:
-          '"for an &aelig;uvre of universal validity, bitter insights and linguistic ingenuity, which has opened new paths for the Chinese novel and drama"',
+          "for an &aelig;uvre of universal validity, bitter insights and linguistic ingenuity, which has opened new paths for the Chinese novel and drama",
         share: "1"
       }
     ]
@@ -2696,7 +2683,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Kim",
         surname: "Dae-jung",
         motivation:
-          '"for his work for democracy and human rights in South Korea and in East Asia in general, and for peace and reconciliation with North Korea in particular"',
+          "for his work for democracy and human rights in South Korea and in East Asia in general, and for peace and reconciliation with North Korea in particular",
         share: "1"
       }
     ]
@@ -2705,14 +2692,14 @@ export const prizes: Immutable<Prize[]> = [
     year: "2000",
     category: "physics",
     overallMotivation:
-      '"for basic work on information and communication technology"',
+      "for basic work on information and communication technology",
     laureates: [
       {
         id: "726",
         firstname: "Zhores",
         surname: "Alferov",
         motivation:
-          '"for developing semiconductor heterostructures used in high-speed- and opto-electronics"',
+          "for developing semiconductor heterostructures used in high-speed- and opto-electronics",
         share: "4"
       },
       {
@@ -2720,14 +2707,14 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Herbert",
         surname: "Kroemer",
         motivation:
-          '"for developing semiconductor heterostructures used in high-speed- and opto-electronics"',
+          "for developing semiconductor heterostructures used in high-speed- and opto-electronics",
         share: "4"
       },
       {
         id: "728",
         firstname: "Jack",
         surname: "Kilby",
-        motivation: '"for his part in the invention of the integrated circuit"',
+        motivation: "for his part in the invention of the integrated circuit",
         share: "2"
       }
     ]
@@ -2741,7 +2728,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Arvid",
         surname: "Carlsson",
         motivation:
-          '"for their discoveries concerning signal transduction in the nervous system"',
+          "for their discoveries concerning signal transduction in the nervous system",
         share: "3"
       },
       {
@@ -2749,7 +2736,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Paul",
         surname: "Greengard",
         motivation:
-          '"for their discoveries concerning signal transduction in the nervous system"',
+          "for their discoveries concerning signal transduction in the nervous system",
         share: "3"
       },
       {
@@ -2757,7 +2744,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Eric",
         surname: "Kandel",
         motivation:
-          '"for their discoveries concerning signal transduction in the nervous system"',
+          "for their discoveries concerning signal transduction in the nervous system",
         share: "3"
       }
     ]
@@ -2771,7 +2758,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ahmed",
         surname: "Zewail",
         motivation:
-          '"for his studies of the transition states of chemical reactions using femtosecond spectroscopy"',
+          "for his studies of the transition states of chemical reactions using femtosecond spectroscopy",
         share: "1"
       }
     ]
@@ -2785,7 +2772,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert",
         surname: "Mundell",
         motivation:
-          '"for his analysis of monetary and fiscal policy under different exchange rate regimes and his analysis of optimum currency areas"',
+          "for his analysis of monetary and fiscal policy under different exchange rate regimes and his analysis of optimum currency areas",
         share: "1"
       }
     ]
@@ -2799,7 +2786,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "G\u00fcnter",
         surname: "Grass",
         motivation:
-          '"whose frolicsome black fables portray the forgotten face of history"',
+          "whose frolicsome black fables portray the forgotten face of history",
         share: "1"
       }
     ]
@@ -2811,7 +2798,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "568",
         motivation:
-          '"in recognition of the organisation\'s pioneering humanitarian work on several continents"',
+          "in recognition of the organisation's pioneering humanitarian work on several continents",
         share: "1",
         firstname: "M\u00e9decins Sans Fronti\u00e8res"
       }
@@ -2826,7 +2813,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Gerardus",
         surname: "'t Hooft",
         motivation:
-          '"for elucidating the quantum structure of electroweak interactions in physics"',
+          "for elucidating the quantum structure of electroweak interactions in physics",
         share: "2"
       },
       {
@@ -2834,7 +2821,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Martinus J.G.",
         surname: "Veltman",
         motivation:
-          '"for elucidating the quantum structure of electroweak interactions in physics"',
+          "for elucidating the quantum structure of electroweak interactions in physics",
         share: "2"
       }
     ]
@@ -2848,7 +2835,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "G\u00fcnter",
         surname: "Blobel",
         motivation:
-          '"for the discovery that proteins have intrinsic signals that govern their transport and localization in the cell"',
+          "for the discovery that proteins have intrinsic signals that govern their transport and localization in the cell",
         share: "1"
       }
     ]
@@ -2861,7 +2848,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "290",
         firstname: "Walter",
         surname: "Kohn",
-        motivation: '"for his development of the density-functional theory"',
+        motivation: "for his development of the density-functional theory",
         share: "2"
       },
       {
@@ -2869,7 +2856,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John",
         surname: "Pople",
         motivation:
-          '"for his development of computational methods in quantum chemistry"',
+          "for his development of computational methods in quantum chemistry",
         share: "2"
       }
     ]
@@ -2882,7 +2869,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "719",
         firstname: "Amartya",
         surname: "Sen",
-        motivation: '"for his contributions to welfare economics"',
+        motivation: "for his contributions to welfare economics",
         share: "1"
       }
     ]
@@ -2896,7 +2883,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jos\u00e9",
         surname: "Saramago",
         motivation:
-          '"who with parables sustained by imagination, compassion and irony continually enables us once again to apprehend an elusory reality"',
+          "who with parables sustained by imagination, compassion and irony continually enables us once again to apprehend an elusory reality",
         share: "1"
       }
     ]
@@ -2910,7 +2897,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John",
         surname: "Hume",
         motivation:
-          '"for their efforts to find a peaceful solution to the conflict in Northern Ireland"',
+          "for their efforts to find a peaceful solution to the conflict in Northern Ireland",
         share: "2"
       },
       {
@@ -2918,7 +2905,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "David",
         surname: "Trimble",
         motivation:
-          '"for their efforts to find a peaceful solution to the conflict in Northern Ireland"',
+          "for their efforts to find a peaceful solution to the conflict in Northern Ireland",
         share: "2"
       }
     ]
@@ -2932,7 +2919,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert B.",
         surname: "Laughlin",
         motivation:
-          '"for their discovery of a new form of quantum fluid with fractionally charged excitations"',
+          "for their discovery of a new form of quantum fluid with fractionally charged excitations",
         share: "3"
       },
       {
@@ -2940,7 +2927,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Horst L.",
         surname: "St\u00f6rmer",
         motivation:
-          '"for their discovery of a new form of quantum fluid with fractionally charged excitations"',
+          "for their discovery of a new form of quantum fluid with fractionally charged excitations",
         share: "3"
       },
       {
@@ -2948,7 +2935,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Daniel C.",
         surname: "Tsui",
         motivation:
-          '"for their discovery of a new form of quantum fluid with fractionally charged excitations"',
+          "for their discovery of a new form of quantum fluid with fractionally charged excitations",
         share: "3"
       }
     ]
@@ -2962,7 +2949,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert F.",
         surname: "Furchgott",
         motivation:
-          '"for their discoveries concerning nitric oxide as a signalling molecule in the cardiovascular system"',
+          "for their discoveries concerning nitric oxide as a signalling molecule in the cardiovascular system",
         share: "3"
       },
       {
@@ -2970,7 +2957,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Louis J.",
         surname: "Ignarro",
         motivation:
-          '"for their discoveries concerning nitric oxide as a signalling molecule in the cardiovascular system"',
+          "for their discoveries concerning nitric oxide as a signalling molecule in the cardiovascular system",
         share: "3"
       },
       {
@@ -2978,7 +2965,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ferid",
         surname: "Murad",
         motivation:
-          '"for their discoveries concerning nitric oxide as a signalling molecule in the cardiovascular system"',
+          "for their discoveries concerning nitric oxide as a signalling molecule in the cardiovascular system",
         share: "3"
       }
     ]
@@ -2992,7 +2979,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Paul D.",
         surname: "Boyer",
         motivation:
-          '"for their elucidation of the enzymatic mechanism underlying the synthesis of adenosine triphosphate (ATP)"',
+          "for their elucidation of the enzymatic mechanism underlying the synthesis of adenosine triphosphate (ATP)",
         share: "4"
       },
       {
@@ -3000,7 +2987,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John E.",
         surname: "Walker",
         motivation:
-          '"for their elucidation of the enzymatic mechanism underlying the synthesis of adenosine triphosphate (ATP)"',
+          "for their elucidation of the enzymatic mechanism underlying the synthesis of adenosine triphosphate (ATP)",
         share: "4"
       },
       {
@@ -3008,7 +2995,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jens C.",
         surname: "Skou",
         motivation:
-          '"for the first discovery of an ion-transporting enzyme, Na+, K+ -ATPase"',
+          "for the first discovery of an ion-transporting enzyme, Na+, K+ -ATPase",
         share: "2"
       }
     ]
@@ -3021,14 +3008,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "717",
         firstname: "Robert C.",
         surname: "Merton",
-        motivation: '"for a new method to determine the value of derivatives"',
+        motivation: "for a new method to determine the value of derivatives",
         share: "2"
       },
       {
         id: "718",
         firstname: "Myron",
         surname: "Scholes",
-        motivation: '"for a new method to determine the value of derivatives"',
+        motivation: "for a new method to determine the value of derivatives",
         share: "2"
       }
     ]
@@ -3042,7 +3029,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Dario",
         surname: "Fo",
         motivation:
-          '"who emulates the jesters of the Middle Ages in scourging authority and upholding the dignity of the downtrodden"',
+          "who emulates the jesters of the Middle Ages in scourging authority and upholding the dignity of the downtrodden",
         share: "1"
       }
     ]
@@ -3054,7 +3041,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "564",
         motivation:
-          '"for their work for the banning and clearing of anti-personnel mines"',
+          "for their work for the banning and clearing of anti-personnel mines",
         share: "2",
         firstname: "International Campaign to Ban Landmines"
       },
@@ -3063,7 +3050,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jody",
         surname: "Williams",
         motivation:
-          '"for their work for the banning and clearing of anti-personnel mines"',
+          "for their work for the banning and clearing of anti-personnel mines",
         share: "2"
       }
     ]
@@ -3077,7 +3064,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Steven",
         surname: "Chu",
         motivation:
-          '"for development of methods to cool and trap atoms with laser light"',
+          "for development of methods to cool and trap atoms with laser light",
         share: "3"
       },
       {
@@ -3085,7 +3072,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Claude",
         surname: "Cohen-Tannoudji",
         motivation:
-          '"for development of methods to cool and trap atoms with laser light"',
+          "for development of methods to cool and trap atoms with laser light",
         share: "3"
       },
       {
@@ -3093,7 +3080,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William D.",
         surname: "Phillips",
         motivation:
-          '"for development of methods to cool and trap atoms with laser light"',
+          "for development of methods to cool and trap atoms with laser light",
         share: "3"
       }
     ]
@@ -3107,7 +3094,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Stanley B.",
         surname: "Prusiner",
         motivation:
-          '"for his discovery of Prions - a new biological principle of infection"',
+          "for his discovery of Prions - a new biological principle of infection",
         share: "1"
       }
     ]
@@ -3120,21 +3107,21 @@ export const prizes: Immutable<Prize[]> = [
         id: "284",
         firstname: "Robert F.",
         surname: "Curl Jr.",
-        motivation: '"for their discovery of fullerenes"',
+        motivation: "for their discovery of fullerenes",
         share: "3"
       },
       {
         id: "285",
         firstname: "Sir Harold",
         surname: "Kroto",
-        motivation: '"for their discovery of fullerenes"',
+        motivation: "for their discovery of fullerenes",
         share: "3"
       },
       {
         id: "286",
         firstname: "Richard E.",
         surname: "Smalley",
-        motivation: '"for their discovery of fullerenes"',
+        motivation: "for their discovery of fullerenes",
         share: "3"
       }
     ]
@@ -3148,7 +3135,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "James A.",
         surname: "Mirrlees",
         motivation:
-          '"for their fundamental contributions to the economic theory of incentives under asymmetric information"',
+          "for their fundamental contributions to the economic theory of incentives under asymmetric information",
         share: "2"
       },
       {
@@ -3156,7 +3143,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William",
         surname: "Vickrey",
         motivation:
-          '"for their fundamental contributions to the economic theory of incentives under asymmetric information"',
+          "for their fundamental contributions to the economic theory of incentives under asymmetric information",
         share: "2"
       }
     ]
@@ -3170,7 +3157,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Wislawa",
         surname: "Szymborska",
         motivation:
-          '"for poetry that with ironic precision allows the historical and biological context to come to light in fragments of human reality"',
+          "for poetry that with ironic precision allows the historical and biological context to come to light in fragments of human reality",
         share: "1"
       }
     ]
@@ -3184,7 +3171,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Carlos Filipe Ximenes",
         surname: "Belo",
         motivation:
-          '"for their work towards a just and peaceful solution to the conflict in East Timor"',
+          "for their work towards a just and peaceful solution to the conflict in East Timor",
         share: "2"
       },
       {
@@ -3192,7 +3179,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jos\u00e9",
         surname: "Ramos-Horta",
         motivation:
-          '"for their work towards a just and peaceful solution to the conflict in East Timor"',
+          "for their work towards a just and peaceful solution to the conflict in East Timor",
         share: "2"
       }
     ]
@@ -3205,21 +3192,21 @@ export const prizes: Immutable<Prize[]> = [
         id: "149",
         firstname: "David M.",
         surname: "Lee",
-        motivation: '"for their discovery of superfluidity in helium-3"',
+        motivation: "for their discovery of superfluidity in helium-3",
         share: "3"
       },
       {
         id: "150",
         firstname: "Douglas D.",
         surname: "Osheroff",
-        motivation: '"for their discovery of superfluidity in helium-3"',
+        motivation: "for their discovery of superfluidity in helium-3",
         share: "3"
       },
       {
         id: "151",
         firstname: "Robert C.",
         surname: "Richardson",
-        motivation: '"for their discovery of superfluidity in helium-3"',
+        motivation: "for their discovery of superfluidity in helium-3",
         share: "3"
       }
     ]
@@ -3233,7 +3220,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Peter C.",
         surname: "Doherty",
         motivation:
-          '"for their discoveries concerning the specificity of the cell mediated immune defence"',
+          "for their discoveries concerning the specificity of the cell mediated immune defence",
         share: "2"
       },
       {
@@ -3241,7 +3228,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Rolf M.",
         surname: "Zinkernagel",
         motivation:
-          '"for their discoveries concerning the specificity of the cell mediated immune defence"',
+          "for their discoveries concerning the specificity of the cell mediated immune defence",
         share: "2"
       }
     ]
@@ -3255,7 +3242,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Paul J.",
         surname: "Crutzen",
         motivation:
-          '"for their work in atmospheric chemistry, particularly concerning the formation and decomposition of ozone"',
+          "for their work in atmospheric chemistry, particularly concerning the formation and decomposition of ozone",
         share: "3"
       },
       {
@@ -3263,7 +3250,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Mario J.",
         surname: "Molina",
         motivation:
-          '"for their work in atmospheric chemistry, particularly concerning the formation and decomposition of ozone"',
+          "for their work in atmospheric chemistry, particularly concerning the formation and decomposition of ozone",
         share: "3"
       },
       {
@@ -3271,7 +3258,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "F. Sherwood",
         surname: "Rowland",
         motivation:
-          '"for their work in atmospheric chemistry, particularly concerning the formation and decomposition of ozone"',
+          "for their work in atmospheric chemistry, particularly concerning the formation and decomposition of ozone",
         share: "3"
       }
     ]
@@ -3285,7 +3272,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert E.",
         surname: "Lucas Jr.",
         motivation:
-          '"for having developed and applied the hypothesis of rational expectations, and thereby having transformed macroeconomic analysis and deepened our understanding of economic policy"',
+          "for having developed and applied the hypothesis of rational expectations, and thereby having transformed macroeconomic analysis and deepened our understanding of economic policy",
         share: "1"
       }
     ]
@@ -3299,7 +3286,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Seamus",
         surname: "Heaney",
         motivation:
-          '"for works of lyrical beauty and ethical depth, which exalt everyday miracles and the living past"',
+          "for works of lyrical beauty and ethical depth, which exalt everyday miracles and the living past",
         share: "1"
       }
     ]
@@ -3313,13 +3300,13 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Joseph",
         surname: "Rotblat",
         motivation:
-          '"for their efforts to diminish the part played by nuclear arms in international politics and, in the longer run, to eliminate such arms"',
+          "for their efforts to diminish the part played by nuclear arms in international politics and, in the longer run, to eliminate such arms",
         share: "2"
       },
       {
         id: "561",
         motivation:
-          '"for their efforts to diminish the part played by nuclear arms in international politics and, in the longer run, to eliminate such arms"',
+          "for their efforts to diminish the part played by nuclear arms in international politics and, in the longer run, to eliminate such arms",
         share: "2",
         firstname: "Pugwash Conferences on Science and World Affairs"
       }
@@ -3329,20 +3316,20 @@ export const prizes: Immutable<Prize[]> = [
     year: "1995",
     category: "physics",
     overallMotivation:
-      '"for pioneering experimental contributions to lepton physics"',
+      "for pioneering experimental contributions to lepton physics",
     laureates: [
       {
         id: "147",
         firstname: "Martin L.",
         surname: "Perl",
-        motivation: '"for the discovery of the tau lepton"',
+        motivation: "for the discovery of the tau lepton",
         share: "2"
       },
       {
         id: "148",
         firstname: "Frederick",
         surname: "Reines",
-        motivation: '"for the detection of the neutrino"',
+        motivation: "for the detection of the neutrino",
         share: "2"
       }
     ]
@@ -3356,7 +3343,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Edward B.",
         surname: "Lewis",
         motivation:
-          '"for their discoveries concerning the genetic control of early embryonic development"',
+          "for their discoveries concerning the genetic control of early embryonic development",
         share: "3"
       },
       {
@@ -3364,7 +3351,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Christiane",
         surname: "N\u00fcsslein-Volhard",
         motivation:
-          '"for their discoveries concerning the genetic control of early embryonic development"',
+          "for their discoveries concerning the genetic control of early embryonic development",
         share: "3"
       },
       {
@@ -3372,7 +3359,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Eric F.",
         surname: "Wieschaus",
         motivation:
-          '"for their discoveries concerning the genetic control of early embryonic development"',
+          "for their discoveries concerning the genetic control of early embryonic development",
         share: "3"
       }
     ]
@@ -3385,7 +3372,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "280",
         firstname: "George A.",
         surname: "Olah",
-        motivation: '"for his contribution to carbocation chemistry"',
+        motivation: "for his contribution to carbocation chemistry",
         share: "1"
       }
     ]
@@ -3399,7 +3386,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John C.",
         surname: "Harsanyi",
         motivation:
-          '"for their pioneering analysis of equilibria in the theory of non-cooperative games"',
+          "for their pioneering analysis of equilibria in the theory of non-cooperative games",
         share: "3"
       },
       {
@@ -3407,7 +3394,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John F.",
         surname: "Nash Jr.",
         motivation:
-          '"for their pioneering analysis of equilibria in the theory of non-cooperative games"',
+          "for their pioneering analysis of equilibria in the theory of non-cooperative games",
         share: "3"
       },
       {
@@ -3415,7 +3402,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Reinhard",
         surname: "Selten",
         motivation:
-          '"for their pioneering analysis of equilibria in the theory of non-cooperative games"',
+          "for their pioneering analysis of equilibria in the theory of non-cooperative games",
         share: "3"
       }
     ]
@@ -3429,7 +3416,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Kenzaburo",
         surname: "Oe",
         motivation:
-          '"who with poetic force creates an imagined world, where life and myth condense to form a disconcerting picture of the human predicament today"',
+          "who with poetic force creates an imagined world, where life and myth condense to form a disconcerting picture of the human predicament today",
         share: "1"
       }
     ]
@@ -3442,21 +3429,21 @@ export const prizes: Immutable<Prize[]> = [
         id: "557",
         firstname: "Yasser",
         surname: "Arafat",
-        motivation: '"for their efforts to create peace in the Middle East"',
+        motivation: "for their efforts to create peace in the Middle East",
         share: "3"
       },
       {
         id: "558",
         firstname: "Shimon",
         surname: "Peres",
-        motivation: '"for their efforts to create peace in the Middle East"',
+        motivation: "for their efforts to create peace in the Middle East",
         share: "3"
       },
       {
         id: "559",
         firstname: "Yitzhak",
         surname: "Rabin",
-        motivation: '"for their efforts to create peace in the Middle East"',
+        motivation: "for their efforts to create peace in the Middle East",
         share: "3"
       }
     ]
@@ -3465,21 +3452,20 @@ export const prizes: Immutable<Prize[]> = [
     year: "1994",
     category: "physics",
     overallMotivation:
-      '"for pioneering contributions to the development of neutron scattering techniques for studies of condensed matter"',
+      "for pioneering contributions to the development of neutron scattering techniques for studies of condensed matter",
     laureates: [
       {
         id: "145",
         firstname: "Bertram N.",
         surname: "Brockhouse",
-        motivation: '"for the development of neutron spectroscopy"',
+        motivation: "for the development of neutron spectroscopy",
         share: "2"
       },
       {
         id: "146",
         firstname: "Clifford G.",
         surname: "Shull",
-        motivation:
-          '"for the development of the neutron diffraction technique"',
+        motivation: "for the development of the neutron diffraction technique",
         share: "2"
       }
     ]
@@ -3493,7 +3479,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Alfred G.",
         surname: "Gilman",
         motivation:
-          '"for their discovery of G-proteins and the role of these proteins in signal transduction in cells"',
+          "for their discovery of G-proteins and the role of these proteins in signal transduction in cells",
         share: "2"
       },
       {
@@ -3501,7 +3487,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Martin",
         surname: "Rodbell",
         motivation:
-          '"for their discovery of G-proteins and the role of these proteins in signal transduction in cells"',
+          "for their discovery of G-proteins and the role of these proteins in signal transduction in cells",
         share: "2"
       }
     ]
@@ -3510,14 +3496,14 @@ export const prizes: Immutable<Prize[]> = [
     year: "1993",
     category: "chemistry",
     overallMotivation:
-      '"for contributions to the developments of methods within DNA-based chemistry"',
+      "for contributions to the developments of methods within DNA-based chemistry",
     laureates: [
       {
         id: "278",
         firstname: "Kary B.",
         surname: "Mullis",
         motivation:
-          '"for his invention of the polymerase chain reaction (PCR) method"',
+          "for his invention of the polymerase chain reaction (PCR) method",
         share: "2"
       },
       {
@@ -3525,7 +3511,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Michael",
         surname: "Smith",
         motivation:
-          '"for his fundamental contributions to the establishment of oligonucleotide-based, site-directed mutagenesis and its development for protein studies"',
+          "for his fundamental contributions to the establishment of oligonucleotide-based, site-directed mutagenesis and its development for protein studies",
         share: "2"
       }
     ]
@@ -3539,7 +3525,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert W.",
         surname: "Fogel",
         motivation:
-          '"for having renewed research in economic history by applying economic theory and quantitative methods in order to explain economic and institutional change"',
+          "for having renewed research in economic history by applying economic theory and quantitative methods in order to explain economic and institutional change",
         share: "2"
       },
       {
@@ -3547,7 +3533,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Douglass C.",
         surname: "North",
         motivation:
-          '"for having renewed research in economic history by applying economic theory and quantitative methods in order to explain economic and institutional change"',
+          "for having renewed research in economic history by applying economic theory and quantitative methods in order to explain economic and institutional change",
         share: "2"
       }
     ]
@@ -3561,7 +3547,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Toni",
         surname: "Morrison",
         motivation:
-          '"who in novels characterized by visionary force and poetic import, gives life to an essential aspect of American reality"',
+          "who in novels characterized by visionary force and poetic import, gives life to an essential aspect of American reality",
         share: "1"
       }
     ]
@@ -3575,7 +3561,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Nelson",
         surname: "Mandela",
         motivation:
-          '"for their work for the peaceful termination of the apartheid regime, and for laying the foundations for a new  democratic South Africa"',
+          "for their work for the peaceful termination of the apartheid regime, and for laying the foundations for a new  democratic South Africa",
         share: "2"
       },
       {
@@ -3583,7 +3569,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "F.W.",
         surname: "de Klerk",
         motivation:
-          '"for their work for the peaceful termination of the apartheid regime, and for laying the foundations for a new  democratic South Africa"',
+          "for their work for the peaceful termination of the apartheid regime, and for laying the foundations for a new  democratic South Africa",
         share: "2"
       }
     ]
@@ -3597,7 +3583,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Russell A.",
         surname: "Hulse",
         motivation:
-          '"for the discovery of a new type of pulsar, a discovery that has opened up new possibilities for the study of gravitation"',
+          "for the discovery of a new type of pulsar, a discovery that has opened up new possibilities for the study of gravitation",
         share: "2"
       },
       {
@@ -3605,7 +3591,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Joseph H.",
         surname: "Taylor Jr.",
         motivation:
-          '"for the discovery of a new type of pulsar, a discovery that has opened up new possibilities for the study of gravitation"',
+          "for the discovery of a new type of pulsar, a discovery that has opened up new possibilities for the study of gravitation",
         share: "2"
       }
     ]
@@ -3618,14 +3604,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "448",
         firstname: "Richard J.",
         surname: "Roberts",
-        motivation: '"for their discoveries of split genes"',
+        motivation: "for their discoveries of split genes",
         share: "2"
       },
       {
         id: "449",
         firstname: "Phillip A.",
         surname: "Sharp",
-        motivation: '"for their discoveries of split genes"',
+        motivation: "for their discoveries of split genes",
         share: "2"
       }
     ]
@@ -3639,7 +3625,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Rudolph A.",
         surname: "Marcus",
         motivation:
-          '"for his contributions to the theory of electron transfer reactions in chemical systems"',
+          "for his contributions to the theory of electron transfer reactions in chemical systems",
         share: "1"
       }
     ]
@@ -3653,7 +3639,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Gary",
         surname: "Becker",
         motivation:
-          '"for having extended the domain of microeconomic analysis to a wide range of human behaviour and interaction, including nonmarket behaviour"',
+          "for having extended the domain of microeconomic analysis to a wide range of human behaviour and interaction, including nonmarket behaviour",
         share: "1"
       }
     ]
@@ -3667,7 +3653,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Derek",
         surname: "Walcott",
         motivation:
-          '"for a poetic oeuvre of great luminosity, sustained by a historical vision, the outcome of a multicultural commitment"',
+          "for a poetic oeuvre of great luminosity, sustained by a historical vision, the outcome of a multicultural commitment",
         share: "1"
       }
     ]
@@ -3681,7 +3667,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Rigoberta",
         surname: "Mench\u00fa Tum",
         motivation:
-          '"for her struggle for social justice and ethno-cultural reconciliation based on respect for the rights of indigenous peoples"',
+          "for her struggle for social justice and ethno-cultural reconciliation based on respect for the rights of indigenous peoples",
         share: "1"
       }
     ]
@@ -3695,7 +3681,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Georges",
         surname: "Charpak",
         motivation:
-          '"for his invention and development of particle detectors, in particular the multiwire proportional chamber"',
+          "for his invention and development of particle detectors, in particular the multiwire proportional chamber",
         share: "1"
       }
     ]
@@ -3709,7 +3695,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Edmond H.",
         surname: "Fischer",
         motivation:
-          '"for their discoveries concerning reversible protein phosphorylation as a biological regulatory mechanism"',
+          "for their discoveries concerning reversible protein phosphorylation as a biological regulatory mechanism",
         share: "2"
       },
       {
@@ -3717,7 +3703,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Edwin G.",
         surname: "Krebs",
         motivation:
-          '"for their discoveries concerning reversible protein phosphorylation as a biological regulatory mechanism"',
+          "for their discoveries concerning reversible protein phosphorylation as a biological regulatory mechanism",
         share: "2"
       }
     ]
@@ -3731,7 +3717,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Richard R.",
         surname: "Ernst",
         motivation:
-          '"for his contributions to the development of the methodology of high resolution nuclear magnetic resonance (NMR) spectroscopy"',
+          "for his contributions to the development of the methodology of high resolution nuclear magnetic resonance (NMR) spectroscopy",
         share: "1"
       }
     ]
@@ -3745,7 +3731,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ronald H.",
         surname: "Coase",
         motivation:
-          '"for his discovery and clarification of the significance of transaction costs and property rights for the institutional structure and functioning of the economy"',
+          "for his discovery and clarification of the significance of transaction costs and property rights for the institutional structure and functioning of the economy",
         share: "1"
       }
     ]
@@ -3759,7 +3745,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Nadine",
         surname: "Gordimer",
         motivation:
-          '"who through her magnificent epic writing has - in the words of Alfred Nobel - been of very great benefit to humanity"',
+          "who through her magnificent epic writing has - in the words of Alfred Nobel - been of very great benefit to humanity",
         share: "1"
       }
     ]
@@ -3772,7 +3758,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "553",
         firstname: "Aung San Suu Kyi",
         motivation:
-          '"for her non-violent struggle for democracy and human rights"',
+          "for her non-violent struggle for democracy and human rights",
         share: "1"
       }
     ]
@@ -3786,7 +3772,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Pierre-Gilles",
         surname: "de Gennes",
         motivation:
-          '"for discovering that methods developed for studying order phenomena in simple systems can be generalized to more complex forms of matter, in particular to liquid crystals and polymers"',
+          "for discovering that methods developed for studying order phenomena in simple systems can be generalized to more complex forms of matter, in particular to liquid crystals and polymers",
         share: "1"
       }
     ]
@@ -3800,7 +3786,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Erwin",
         surname: "Neher",
         motivation:
-          '"for their discoveries concerning the function of single ion channels in cells"',
+          "for their discoveries concerning the function of single ion channels in cells",
         share: "2"
       },
       {
@@ -3808,7 +3794,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Bert",
         surname: "Sakmann",
         motivation:
-          '"for their discoveries concerning the function of single ion channels in cells"',
+          "for their discoveries concerning the function of single ion channels in cells",
         share: "2"
       }
     ]
@@ -3822,7 +3808,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Elias James",
         surname: "Corey",
         motivation:
-          '"for his development of the theory and methodology of organic synthesis"',
+          "for his development of the theory and methodology of organic synthesis",
         share: "1"
       }
     ]
@@ -3836,7 +3822,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Harry M.",
         surname: "Markowitz",
         motivation:
-          '"for their pioneering work in the theory of financial economics"',
+          "for their pioneering work in the theory of financial economics",
         share: "3"
       },
       {
@@ -3844,7 +3830,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Merton H.",
         surname: "Miller",
         motivation:
-          '"for their pioneering work in the theory of financial economics"',
+          "for their pioneering work in the theory of financial economics",
         share: "3"
       },
       {
@@ -3852,7 +3838,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William F.",
         surname: "Sharpe",
         motivation:
-          '"for their pioneering work in the theory of financial economics"',
+          "for their pioneering work in the theory of financial economics",
         share: "3"
       }
     ]
@@ -3866,7 +3852,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Octavio",
         surname: "Paz",
         motivation:
-          '"for impassioned writing with wide horizons, characterized by sensuous intelligence and humanistic integrity"',
+          "for impassioned writing with wide horizons, characterized by sensuous intelligence and humanistic integrity",
         share: "1"
       }
     ]
@@ -3880,7 +3866,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Mikhail",
         surname: "Gorbachev",
         motivation:
-          '"for the leading role he played in the radical changes in East-West relations"',
+          "for the leading role he played in the radical changes in East-West relations",
         share: "1"
       }
     ]
@@ -3894,7 +3880,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jerome I.",
         surname: "Friedman",
         motivation:
-          '"for their pioneering investigations concerning deep inelastic scattering of electrons on protons and bound neutrons, which have been of essential importance for the development of the quark model in particle physics"',
+          "for their pioneering investigations concerning deep inelastic scattering of electrons on protons and bound neutrons, which have been of essential importance for the development of the quark model in particle physics",
         share: "3"
       },
       {
@@ -3902,7 +3888,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Henry W.",
         surname: "Kendall",
         motivation:
-          '"for their pioneering investigations concerning deep inelastic scattering of electrons on protons and bound neutrons, which have been of essential importance for the development of the quark model in particle physics"',
+          "for their pioneering investigations concerning deep inelastic scattering of electrons on protons and bound neutrons, which have been of essential importance for the development of the quark model in particle physics",
         share: "3"
       },
       {
@@ -3910,7 +3896,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Richard E.",
         surname: "Taylor",
         motivation:
-          '"for their pioneering investigations concerning deep inelastic scattering of electrons on protons and bound neutrons, which have been of essential importance for the development of the quark model in particle physics"',
+          "for their pioneering investigations concerning deep inelastic scattering of electrons on protons and bound neutrons, which have been of essential importance for the development of the quark model in particle physics",
         share: "3"
       }
     ]
@@ -3924,7 +3910,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Joseph E.",
         surname: "Murray",
         motivation:
-          '"for their discoveries concerning organ and cell transplantation in the treatment of human disease"',
+          "for their discoveries concerning organ and cell transplantation in the treatment of human disease",
         share: "2"
       },
       {
@@ -3932,7 +3918,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "E. Donnall",
         surname: "Thomas",
         motivation:
-          '"for their discoveries concerning organ and cell transplantation in the treatment of human disease"',
+          "for their discoveries concerning organ and cell transplantation in the treatment of human disease",
         share: "2"
       }
     ]
@@ -3945,14 +3931,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "273",
         firstname: "Sidney",
         surname: "Altman",
-        motivation: '"for their discovery of catalytic properties of RNA"',
+        motivation: "for their discovery of catalytic properties of RNA",
         share: "2"
       },
       {
         id: "274",
         firstname: "Thomas R.",
         surname: "Cech",
-        motivation: '"for their discovery of catalytic properties of RNA"',
+        motivation: "for their discovery of catalytic properties of RNA",
         share: "2"
       }
     ]
@@ -3966,7 +3952,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Trygve",
         surname: "Haavelmo",
         motivation:
-          '"for his clarification of the probability theory foundations of econometrics and his analyses of simultaneous economic structures"',
+          "for his clarification of the probability theory foundations of econometrics and his analyses of simultaneous economic structures",
         share: "1"
       }
     ]
@@ -3980,7 +3966,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Camilo Jos\u00e9",
         surname: "Cela",
         motivation:
-          '"for a rich and intensive prose, which with restrained compassion forms a challenging vision of man\'s vulnerability"',
+          "for a rich and intensive prose, which with restrained compassion forms a challenging vision of man's vulnerability",
         share: "1"
       }
     ]
@@ -3994,7 +3980,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Lhamo",
         surname: "Thondup",
         motivation:
-          '"for advocating peaceful solutions based upon tolerance and mutual respect in order to preserve the historical and cultural heritage of his people"',
+          "for advocating peaceful solutions based upon tolerance and mutual respect in order to preserve the historical and cultural heritage of his people",
         share: "1"
       }
     ]
@@ -4008,21 +3994,21 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Norman F.",
         surname: "Ramsey",
         motivation:
-          '"for the invention of the separated oscillatory fields method and its use in the hydrogen maser and other atomic clocks"',
+          "for the invention of the separated oscillatory fields method and its use in the hydrogen maser and other atomic clocks",
         share: "2"
       },
       {
         id: "136",
         firstname: "Hans G.",
         surname: "Dehmelt",
-        motivation: '"for the development of the ion trap technique"',
+        motivation: "for the development of the ion trap technique",
         share: "4"
       },
       {
         id: "137",
         firstname: "Wolfgang",
         surname: "Paul",
-        motivation: '"for the development of the ion trap technique"',
+        motivation: "for the development of the ion trap technique",
         share: "4"
       }
     ]
@@ -4036,7 +4022,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "J. Michael",
         surname: "Bishop",
         motivation:
-          '"for their discovery of the cellular origin of retroviral oncogenes"',
+          "for their discovery of the cellular origin of retroviral oncogenes",
         share: "2"
       },
       {
@@ -4044,7 +4030,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Harold E.",
         surname: "Varmus",
         motivation:
-          '"for their discovery of the cellular origin of retroviral oncogenes"',
+          "for their discovery of the cellular origin of retroviral oncogenes",
         share: "2"
       }
     ]
@@ -4058,7 +4044,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Johann",
         surname: "Deisenhofer",
         motivation:
-          '"for the determination of the three-dimensional structure of a photosynthetic reaction centre"',
+          "for the determination of the three-dimensional structure of a photosynthetic reaction centre",
         share: "3"
       },
       {
@@ -4066,7 +4052,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert",
         surname: "Huber",
         motivation:
-          '"for the determination of the three-dimensional structure of a photosynthetic reaction centre"',
+          "for the determination of the three-dimensional structure of a photosynthetic reaction centre",
         share: "3"
       },
       {
@@ -4074,7 +4060,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Hartmut",
         surname: "Michel",
         motivation:
-          '"for the determination of the three-dimensional structure of a photosynthetic reaction centre"',
+          "for the determination of the three-dimensional structure of a photosynthetic reaction centre",
         share: "3"
       }
     ]
@@ -4088,7 +4074,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Maurice",
         surname: "Allais",
         motivation:
-          '"for his pioneering contributions to the theory of markets and efficient utilization of resources"',
+          "for his pioneering contributions to the theory of markets and efficient utilization of resources",
         share: "1"
       }
     ]
@@ -4102,7 +4088,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Naguib",
         surname: "Mahfouz",
         motivation:
-          '"who, through works rich in nuance - now clear-sightedly realistic, now evocatively ambiguous - has formed an Arabian narrative art that applies to all mankind"',
+          "who, through works rich in nuance - now clear-sightedly realistic, now evocatively ambiguous - has formed an Arabian narrative art that applies to all mankind",
         share: "1"
       }
     ]
@@ -4114,7 +4100,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "550",
         motivation:
-          '"for preventing armed clashes and creating conditions for negotiations"',
+          "for preventing armed clashes and creating conditions for negotiations",
         share: "1",
         firstname: "United Nations Peacekeeping Forces"
       }
@@ -4129,7 +4115,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Leon M.",
         surname: "Lederman",
         motivation:
-          '"for the neutrino beam method and the demonstration of the doublet structure of the leptons through the discovery of the muon neutrino"',
+          "for the neutrino beam method and the demonstration of the doublet structure of the leptons through the discovery of the muon neutrino",
         share: "3"
       },
       {
@@ -4137,7 +4123,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Melvin",
         surname: "Schwartz",
         motivation:
-          '"for the neutrino beam method and the demonstration of the doublet structure of the leptons through the discovery of the muon neutrino"',
+          "for the neutrino beam method and the demonstration of the doublet structure of the leptons through the discovery of the muon neutrino",
         share: "3"
       },
       {
@@ -4145,7 +4131,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jack",
         surname: "Steinberger",
         motivation:
-          '"for the neutrino beam method and the demonstration of the doublet structure of the leptons through the discovery of the muon neutrino"',
+          "for the neutrino beam method and the demonstration of the doublet structure of the leptons through the discovery of the muon neutrino",
         share: "3"
       }
     ]
@@ -4159,7 +4145,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sir James W.",
         surname: "Black",
         motivation:
-          '"for their discoveries of important principles for drug treatment"',
+          "for their discoveries of important principles for drug treatment",
         share: "3"
       },
       {
@@ -4167,7 +4153,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Gertrude B.",
         surname: "Elion",
         motivation:
-          '"for their discoveries of important principles for drug treatment"',
+          "for their discoveries of important principles for drug treatment",
         share: "3"
       },
       {
@@ -4175,7 +4161,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "George H.",
         surname: "Hitchings",
         motivation:
-          '"for their discoveries of important principles for drug treatment"',
+          "for their discoveries of important principles for drug treatment",
         share: "3"
       }
     ]
@@ -4189,7 +4175,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Donald J.",
         surname: "Cram",
         motivation:
-          '"for their development and use of molecules with structure-specific interactions of high selectivity"',
+          "for their development and use of molecules with structure-specific interactions of high selectivity",
         share: "3"
       },
       {
@@ -4197,7 +4183,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jean-Marie",
         surname: "Lehn",
         motivation:
-          '"for their development and use of molecules with structure-specific interactions of high selectivity"',
+          "for their development and use of molecules with structure-specific interactions of high selectivity",
         share: "3"
       },
       {
@@ -4205,7 +4191,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Charles J.",
         surname: "Pedersen",
         motivation:
-          '"for their development and use of molecules with structure-specific interactions of high selectivity"',
+          "for their development and use of molecules with structure-specific interactions of high selectivity",
         share: "3"
       }
     ]
@@ -4218,7 +4204,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "701",
         firstname: "Robert M.",
         surname: "Solow",
-        motivation: '"for his contributions to the theory of economic growth"',
+        motivation: "for his contributions to the theory of economic growth",
         share: "1"
       }
     ]
@@ -4232,7 +4218,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Joseph",
         surname: "Brodsky",
         motivation:
-          '"for an all-embracing authorship, imbued with clarity of thought and poetic intensity"',
+          "for an all-embracing authorship, imbued with clarity of thought and poetic intensity",
         share: "1"
       }
     ]
@@ -4245,7 +4231,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "549",
         firstname: "Oscar",
         surname: "Arias S\u00e1nchez",
-        motivation: '"for his work for lasting peace in Central America"',
+        motivation: "for his work for lasting peace in Central America",
         share: "1"
       }
     ]
@@ -4259,7 +4245,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "J. Georg",
         surname: "Bednorz",
         motivation:
-          '"for their important break-through in the discovery of superconductivity in ceramic materials"',
+          "for their important break-through in the discovery of superconductivity in ceramic materials",
         share: "2"
       },
       {
@@ -4267,7 +4253,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "K. Alex",
         surname: "M\u00fcller",
         motivation:
-          '"for their important break-through in the discovery of superconductivity in ceramic materials"',
+          "for their important break-through in the discovery of superconductivity in ceramic materials",
         share: "2"
       }
     ]
@@ -4281,7 +4267,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Susumu",
         surname: "Tonegawa",
         motivation:
-          '"for his discovery of the genetic principle for generation of antibody diversity"',
+          "for his discovery of the genetic principle for generation of antibody diversity",
         share: "1"
       }
     ]
@@ -4295,7 +4281,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Dudley R.",
         surname: "Herschbach",
         motivation:
-          '"for their contributions concerning the dynamics of chemical elementary processes"',
+          "for their contributions concerning the dynamics of chemical elementary processes",
         share: "3"
       },
       {
@@ -4303,7 +4289,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Yuan T.",
         surname: "Lee",
         motivation:
-          '"for their contributions concerning the dynamics of chemical elementary processes"',
+          "for their contributions concerning the dynamics of chemical elementary processes",
         share: "3"
       },
       {
@@ -4311,7 +4297,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John C.",
         surname: "Polanyi",
         motivation:
-          '"for their contributions concerning the dynamics of chemical elementary processes"',
+          "for their contributions concerning the dynamics of chemical elementary processes",
         share: "3"
       }
     ]
@@ -4325,7 +4311,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "James M.",
         surname: "Buchanan Jr.",
         motivation:
-          '"for his development of the contractual and constitutional bases for the theory of economic and political decision-making"',
+          "for his development of the contractual and constitutional bases for the theory of economic and political decision-making",
         share: "1"
       }
     ]
@@ -4339,7 +4325,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Wole",
         surname: "Soyinka",
         motivation:
-          '"who in a wide cultural perspective and with poetic overtones fashions the drama of existence"',
+          "who in a wide cultural perspective and with poetic overtones fashions the drama of existence",
         share: "1"
       }
     ]
@@ -4353,7 +4339,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Elie",
         surname: "Wiesel",
         motivation:
-          '"for being a messenger to mankind: his message is one of peace, atonement and dignity"',
+          "for being a messenger to mankind: his message is one of peace, atonement and dignity",
         share: "1"
       }
     ]
@@ -4367,21 +4353,21 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ernst",
         surname: "Ruska",
         motivation:
-          '"for his fundamental work in electron optics, and for the design of the first electron microscope"',
+          "for his fundamental work in electron optics, and for the design of the first electron microscope",
         share: "2"
       },
       {
         id: "128",
         firstname: "Gerd",
         surname: "Binnig",
-        motivation: '"for their design of the scanning tunneling microscope"',
+        motivation: "for their design of the scanning tunneling microscope",
         share: "4"
       },
       {
         id: "129",
         firstname: "Heinrich",
         surname: "Rohrer",
-        motivation: '"for their design of the scanning tunneling microscope"',
+        motivation: "for their design of the scanning tunneling microscope",
         share: "4"
       }
     ]
@@ -4394,14 +4380,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "434",
         firstname: "Stanley",
         surname: "Cohen",
-        motivation: '"for their discoveries of growth factors"',
+        motivation: "for their discoveries of growth factors",
         share: "2"
       },
       {
         id: "435",
         firstname: "Rita",
         surname: "Levi-Montalcini",
-        motivation: '"for their discoveries of growth factors"',
+        motivation: "for their discoveries of growth factors",
         share: "2"
       }
     ]
@@ -4415,7 +4401,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Herbert A.",
         surname: "Hauptman",
         motivation:
-          '"for their outstanding achievements in the development of direct methods for the determination of crystal structures"',
+          "for their outstanding achievements in the development of direct methods for the determination of crystal structures",
         share: "2"
       },
       {
@@ -4423,7 +4409,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jerome",
         surname: "Karle",
         motivation:
-          '"for their outstanding achievements in the development of direct methods for the determination of crystal structures"',
+          "for their outstanding achievements in the development of direct methods for the determination of crystal structures",
         share: "2"
       }
     ]
@@ -4437,7 +4423,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Franco",
         surname: "Modigliani",
         motivation:
-          '"for his pioneering analyses of saving and of financial markets"',
+          "for his pioneering analyses of saving and of financial markets",
         share: "1"
       }
     ]
@@ -4463,7 +4449,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "547",
         motivation:
-          '"for spreading authoritative information and by creating awareness of the catastrophic consequences of  nuclear  war"',
+          "for spreading authoritative information and by creating awareness of the catastrophic consequences of  nuclear  war",
         share: "1",
         firstname: "International Physicians for the Prevention of Nuclear War"
       }
@@ -4477,7 +4463,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "126",
         firstname: "Klaus",
         surname: "von Klitzing",
-        motivation: '"for the discovery of the quantized Hall effect"',
+        motivation: "for the discovery of the quantized Hall effect",
         share: "1"
       }
     ]
@@ -4491,7 +4477,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Michael S.",
         surname: "Brown",
         motivation:
-          '"for their discoveries concerning the regulation of cholesterol metabolism"',
+          "for their discoveries concerning the regulation of cholesterol metabolism",
         share: "2"
       },
       {
@@ -4499,7 +4485,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Joseph L.",
         surname: "Goldstein",
         motivation:
-          '"for their discoveries concerning the regulation of cholesterol metabolism"',
+          "for their discoveries concerning the regulation of cholesterol metabolism",
         share: "2"
       }
     ]
@@ -4513,7 +4499,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Bruce",
         surname: "Merrifield",
         motivation:
-          '"for his development of methodology for chemical synthesis on a solid matrix"',
+          "for his development of methodology for chemical synthesis on a solid matrix",
         share: "1"
       }
     ]
@@ -4527,7 +4513,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Richard",
         surname: "Stone",
         motivation:
-          '"for having made fundamental contributions to the development of systems of national accounts and hence greatly improved the basis for empirical economic analysis"',
+          "for having made fundamental contributions to the development of systems of national accounts and hence greatly improved the basis for empirical economic analysis",
         share: "1"
       }
     ]
@@ -4541,7 +4527,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jaroslav",
         surname: "Seifert",
         motivation:
-          '"for his poetry which endowed with freshness, sensuality and rich inventiveness provides a liberating image of the indomitable spirit and versatility of man"',
+          "for his poetry which endowed with freshness, sensuality and rich inventiveness provides a liberating image of the indomitable spirit and versatility of man",
         share: "1"
       }
     ]
@@ -4555,7 +4541,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Desmond",
         surname: "Tutu",
         motivation:
-          '"for his role as a unifying leader figure in the non-violent campaign to resolve the problem of apartheid in  South Africa"',
+          "for his role as a unifying leader figure in the non-violent campaign to resolve the problem of apartheid in  South Africa",
         share: "1"
       }
     ]
@@ -4569,7 +4555,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Carlo",
         surname: "Rubbia",
         motivation:
-          '"for their decisive contributions to the large project, which led to the discovery of the field particles W and Z, communicators of weak interaction"',
+          "for their decisive contributions to the large project, which led to the discovery of the field particles W and Z, communicators of weak interaction",
         share: "2"
       },
       {
@@ -4577,7 +4563,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Simon",
         surname: "van der Meer",
         motivation:
-          '"for their decisive contributions to the large project, which led to the discovery of the field particles W and Z, communicators of weak interaction"',
+          "for their decisive contributions to the large project, which led to the discovery of the field particles W and Z, communicators of weak interaction",
         share: "2"
       }
     ]
@@ -4591,7 +4577,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Niels K.",
         surname: "Jerne",
         motivation:
-          '"for theories concerning the specificity in development and control of the immune system and the discovery of the principle for production of monoclonal antibodies"',
+          "for theories concerning the specificity in development and control of the immune system and the discovery of the principle for production of monoclonal antibodies",
         share: "3"
       },
       {
@@ -4599,7 +4585,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Georges J.F.",
         surname: "K\u00f6hler",
         motivation:
-          '"for theories concerning the specificity in development and control of the immune system and the discovery of the principle for production of monoclonal antibodies"',
+          "for theories concerning the specificity in development and control of the immune system and the discovery of the principle for production of monoclonal antibodies",
         share: "3"
       },
       {
@@ -4607,7 +4593,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "C\u00e9sar",
         surname: "Milstein",
         motivation:
-          '"for theories concerning the specificity in development and control of the immune system and the discovery of the principle for production of monoclonal antibodies"',
+          "for theories concerning the specificity in development and control of the immune system and the discovery of the principle for production of monoclonal antibodies",
         share: "3"
       }
     ]
@@ -4621,7 +4607,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Henry",
         surname: "Taube",
         motivation:
-          '"for his work on the mechanisms of electron transfer reactions, especially in metal complexes"',
+          "for his work on the mechanisms of electron transfer reactions, especially in metal complexes",
         share: "1"
       }
     ]
@@ -4635,7 +4621,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Gerard",
         surname: "Debreu",
         motivation:
-          '"for having incorporated new analytical methods into economic theory and for his rigorous reformulation of the theory of general equilibrium"',
+          "for having incorporated new analytical methods into economic theory and for his rigorous reformulation of the theory of general equilibrium",
         share: "1"
       }
     ]
@@ -4649,7 +4635,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William",
         surname: "Golding",
         motivation:
-          '"for his novels which, with the perspicuity of realistic narrative art and the diversity and universality of myth, illuminate the human condition in the world of today"',
+          "for his novels which, with the perspicuity of realistic narrative art and the diversity and universality of myth, illuminate the human condition in the world of today",
         share: "1"
       }
     ]
@@ -4663,7 +4649,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Lech",
         surname: "Walesa",
         motivation:
-          '"for non-violent struggle for free trade unions and human rights in Poland"',
+          "for non-violent struggle for free trade unions and human rights in Poland",
         share: "1"
       }
     ]
@@ -4677,7 +4663,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Subramanyan",
         surname: "Chandrasekhar",
         motivation:
-          '"for his theoretical studies of the physical processes of importance to the structure and evolution of the stars"',
+          "for his theoretical studies of the physical processes of importance to the structure and evolution of the stars",
         share: "2"
       },
       {
@@ -4685,7 +4671,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William A.",
         surname: "Fowler",
         motivation:
-          '"for his theoretical and experimental studies of the nuclear reactions of importance in the formation of the chemical elements in the universe"',
+          "for his theoretical and experimental studies of the nuclear reactions of importance in the formation of the chemical elements in the universe",
         share: "2"
       }
     ]
@@ -4698,7 +4684,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "428",
         firstname: "Barbara",
         surname: "McClintock",
-        motivation: '"for her discovery of mobile genetic elements"',
+        motivation: "for her discovery of mobile genetic elements",
         share: "1"
       }
     ]
@@ -4712,7 +4698,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Aaron",
         surname: "Klug",
         motivation:
-          '"for his development of crystallographic electron microscopy and his structural elucidation of biologically important nucleic acid-protein complexes"',
+          "for his development of crystallographic electron microscopy and his structural elucidation of biologically important nucleic acid-protein complexes",
         share: "1"
       }
     ]
@@ -4726,7 +4712,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "George J.",
         surname: "Stigler",
         motivation:
-          '"for his seminal studies of industrial structures, functioning of markets and causes and effects of public regulation"',
+          "for his seminal studies of industrial structures, functioning of markets and causes and effects of public regulation",
         share: "1"
       }
     ]
@@ -4740,7 +4726,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Gabriel",
         surname: "Garc\u00eda M\u00e1rquez",
         motivation:
-          '"for his novels and short stories, in which the fantastic and the realistic are combined in a richly composed world of imagination, reflecting a continent\'s life and conflicts"',
+          "for his novels and short stories, in which the fantastic and the realistic are combined in a richly composed world of imagination, reflecting a continent's life and conflicts",
         share: "1"
       }
     ]
@@ -4754,7 +4740,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Alva",
         surname: "Myrdal",
         motivation:
-          '"for their work for disarmament and nuclear and weapon-free zones"',
+          "for their work for disarmament and nuclear and weapon-free zones",
         share: "2"
       },
       {
@@ -4762,7 +4748,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Alfonso",
         surname: "Garc\u00eda Robles",
         motivation:
-          '"for their work for disarmament and nuclear and weapon-free zones"',
+          "for their work for disarmament and nuclear and weapon-free zones",
         share: "2"
       }
     ]
@@ -4776,7 +4762,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Kenneth G.",
         surname: "Wilson",
         motivation:
-          '"for his theory for critical phenomena in connection with phase transitions"',
+          "for his theory for critical phenomena in connection with phase transitions",
         share: "1"
       }
     ]
@@ -4790,7 +4776,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sune K.",
         surname: "Bergstr\u00f6m",
         motivation:
-          '"for their discoveries concerning prostaglandins and related biologically active substances"',
+          "for their discoveries concerning prostaglandins and related biologically active substances",
         share: "3"
       },
       {
@@ -4798,7 +4784,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Bengt I.",
         surname: "Samuelsson",
         motivation:
-          '"for their discoveries concerning prostaglandins and related biologically active substances"',
+          "for their discoveries concerning prostaglandins and related biologically active substances",
         share: "3"
       },
       {
@@ -4806,7 +4792,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John R.",
         surname: "Vane",
         motivation:
-          '"for their discoveries concerning prostaglandins and related biologically active substances"',
+          "for their discoveries concerning prostaglandins and related biologically active substances",
         share: "3"
       }
     ]
@@ -4820,7 +4806,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Kenichi",
         surname: "Fukui",
         motivation:
-          '"for their theories, developed independently, concerning the course of chemical reactions"',
+          "for their theories, developed independently, concerning the course of chemical reactions",
         share: "2"
       },
       {
@@ -4828,7 +4814,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Roald",
         surname: "Hoffmann",
         motivation:
-          '"for their theories, developed independently, concerning the course of chemical reactions"',
+          "for their theories, developed independently, concerning the course of chemical reactions",
         share: "2"
       }
     ]
@@ -4842,7 +4828,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "James",
         surname: "Tobin",
         motivation:
-          '"for his analysis of financial markets and their relations to expenditure decisions, employment, production and prices"',
+          "for his analysis of financial markets and their relations to expenditure decisions, employment, production and prices",
         share: "1"
       }
     ]
@@ -4856,7 +4842,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Elias",
         surname: "Canetti",
         motivation:
-          '"for writings marked by a broad outlook, a wealth of ideas and artistic power"',
+          "for writings marked by a broad outlook, a wealth of ideas and artistic power",
         share: "1"
       }
     ]
@@ -4867,7 +4853,7 @@ export const prizes: Immutable<Prize[]> = [
     laureates: [
       {
         id: "515",
-        motivation: '"for promoting the fundamental rights of refugees"',
+        motivation: "for promoting the fundamental rights of refugees",
         share: "1",
         firstname: "Office of the United Nations High Commissioner for Refugees"
       }
@@ -4882,7 +4868,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Nicolaas",
         surname: "Bloembergen",
         motivation:
-          '"for their contribution to the development of laser spectroscopy"',
+          "for their contribution to the development of laser spectroscopy",
         share: "4"
       },
       {
@@ -4890,7 +4876,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Arthur L.",
         surname: "Schawlow",
         motivation:
-          '"for their contribution to the development of laser spectroscopy"',
+          "for their contribution to the development of laser spectroscopy",
         share: "4"
       },
       {
@@ -4898,7 +4884,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Kai M.",
         surname: "Siegbahn",
         motivation:
-          '"for his contribution to the development of high-resolution electron spectroscopy"',
+          "for his contribution to the development of high-resolution electron spectroscopy",
         share: "2"
       }
     ]
@@ -4912,7 +4898,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Roger W.",
         surname: "Sperry",
         motivation:
-          '"for his discoveries concerning the functional specialization of the cerebral hemispheres"',
+          "for his discoveries concerning the functional specialization of the cerebral hemispheres",
         share: "2"
       },
       {
@@ -4920,7 +4906,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "David H.",
         surname: "Hubel",
         motivation:
-          '"for their discoveries concerning information processing in the visual system"',
+          "for their discoveries concerning information processing in the visual system",
         share: "4"
       },
       {
@@ -4928,7 +4914,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Torsten N.",
         surname: "Wiesel",
         motivation:
-          '"for their discoveries concerning information processing in the visual system"',
+          "for their discoveries concerning information processing in the visual system",
         share: "4"
       }
     ]
@@ -4942,7 +4928,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Paul",
         surname: "Berg",
         motivation:
-          '"for his fundamental studies of the biochemistry of nucleic acids, with particular regard to recombinant-DNA"',
+          "for his fundamental studies of the biochemistry of nucleic acids, with particular regard to recombinant-DNA",
         share: "2"
       },
       {
@@ -4950,7 +4936,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Walter",
         surname: "Gilbert",
         motivation:
-          '"for their contributions concerning the determination of base sequences in nucleic acids"',
+          "for their contributions concerning the determination of base sequences in nucleic acids",
         share: "4"
       },
       {
@@ -4958,7 +4944,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Frederick",
         surname: "Sanger",
         motivation:
-          '"for their contributions concerning the determination of base sequences in nucleic acids"',
+          "for their contributions concerning the determination of base sequences in nucleic acids",
         share: "4"
       }
     ]
@@ -4972,7 +4958,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Lawrence R.",
         surname: "Klein",
         motivation:
-          '"for the creation of econometric models and the application to the analysis of economic fluctuations and economic policies"',
+          "for the creation of econometric models and the application to the analysis of economic fluctuations and economic policies",
         share: "1"
       }
     ]
@@ -4986,7 +4972,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Czeslaw",
         surname: "Milosz",
         motivation:
-          '"who with uncompromising clear-sightedness voices man\'s exposed condition in a world of severe conflicts"',
+          "who with uncompromising clear-sightedness voices man's exposed condition in a world of severe conflicts",
         share: "1"
       }
     ]
@@ -5000,7 +4986,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Adolfo",
         surname: "P\u00e9rez Esquivel",
         motivation:
-          '"for being a source of inspiration to repressed people, especially in Latin America"',
+          "for being a source of inspiration to repressed people, especially in Latin America",
         share: "1"
       }
     ]
@@ -5014,7 +5000,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "James",
         surname: "Cronin",
         motivation:
-          '"for the discovery of violations of fundamental symmetry principles in the decay of neutral K-mesons"',
+          "for the discovery of violations of fundamental symmetry principles in the decay of neutral K-mesons",
         share: "2"
       },
       {
@@ -5022,7 +5008,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Val",
         surname: "Fitch",
         motivation:
-          '"for the discovery of violations of fundamental symmetry principles in the decay of neutral K-mesons"',
+          "for the discovery of violations of fundamental symmetry principles in the decay of neutral K-mesons",
         share: "2"
       }
     ]
@@ -5036,7 +5022,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Baruj",
         surname: "Benacerraf",
         motivation:
-          '"for their discoveries concerning genetically determined structures on the cell surface that regulate immunological reactions"',
+          "for their discoveries concerning genetically determined structures on the cell surface that regulate immunological reactions",
         share: "3"
       },
       {
@@ -5044,7 +5030,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jean",
         surname: "Dausset",
         motivation:
-          '"for their discoveries concerning genetically determined structures on the cell surface that regulate immunological reactions"',
+          "for their discoveries concerning genetically determined structures on the cell surface that regulate immunological reactions",
         share: "3"
       },
       {
@@ -5052,7 +5038,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "George D.",
         surname: "Snell",
         motivation:
-          '"for their discoveries concerning genetically determined structures on the cell surface that regulate immunological reactions"',
+          "for their discoveries concerning genetically determined structures on the cell surface that regulate immunological reactions",
         share: "3"
       }
     ]
@@ -5066,7 +5052,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Herbert C.",
         surname: "Brown",
         motivation:
-          '"for their development of the use of boron- and phosphorus-containing compounds, respectively, into important reagents in organic synthesis"',
+          "for their development of the use of boron- and phosphorus-containing compounds, respectively, into important reagents in organic synthesis",
         share: "2"
       },
       {
@@ -5074,7 +5060,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Georg",
         surname: "Wittig",
         motivation:
-          '"for their development of the use of boron- and phosphorus-containing compounds, respectively, into important reagents in organic synthesis"',
+          "for their development of the use of boron- and phosphorus-containing compounds, respectively, into important reagents in organic synthesis",
         share: "2"
       }
     ]
@@ -5088,7 +5074,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Theodore W.",
         surname: "Schultz",
         motivation:
-          '"for their pioneering research into economic development research with particular consideration of the problems of developing countries"',
+          "for their pioneering research into economic development research with particular consideration of the problems of developing countries",
         share: "2"
       },
       {
@@ -5096,7 +5082,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sir Arthur",
         surname: "Lewis",
         motivation:
-          '"for their pioneering research into economic development research with particular consideration of the problems of developing countries"',
+          "for their pioneering research into economic development research with particular consideration of the problems of developing countries",
         share: "2"
       }
     ]
@@ -5110,7 +5096,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Odysseus",
         surname: "Elytis",
         motivation:
-          '"for his poetry, which, against the background of Greek tradition, depicts with sensuous strength and intellectual clear-sightedness modern man\'s struggle for freedom and creativeness"',
+          "for his poetry, which, against the background of Greek tradition, depicts with sensuous strength and intellectual clear-sightedness modern man's struggle for freedom and creativeness",
         share: "1"
       }
     ]
@@ -5123,7 +5109,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "540",
         firstname: "Anjez\u00eb Gonxhe",
         surname: "Bojaxhiu",
-        motivation: '"for her work for bringing help to suffering humanity"',
+        motivation: "for her work for bringing help to suffering humanity",
         share: "1"
       }
     ]
@@ -5137,7 +5123,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sheldon",
         surname: "Glashow",
         motivation:
-          '"for their contributions to the theory of the unified weak and electromagnetic interaction between elementary particles, including, inter alia, the prediction of the weak neutral current"',
+          "for their contributions to the theory of the unified weak and electromagnetic interaction between elementary particles, including, inter alia, the prediction of the weak neutral current",
         share: "3"
       },
       {
@@ -5145,7 +5131,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Abdus",
         surname: "Salam",
         motivation:
-          '"for their contributions to the theory of the unified weak and electromagnetic interaction between elementary particles, including, inter alia, the prediction of the weak neutral current"',
+          "for their contributions to the theory of the unified weak and electromagnetic interaction between elementary particles, including, inter alia, the prediction of the weak neutral current",
         share: "3"
       },
       {
@@ -5153,7 +5139,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Steven",
         surname: "Weinberg",
         motivation:
-          '"for their contributions to the theory of the unified weak and electromagnetic interaction between elementary particles, including, inter alia, the prediction of the weak neutral current"',
+          "for their contributions to the theory of the unified weak and electromagnetic interaction between elementary particles, including, inter alia, the prediction of the weak neutral current",
         share: "3"
       }
     ]
@@ -5166,14 +5152,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "417",
         firstname: "Allan M.",
         surname: "Cormack",
-        motivation: '"for the development of computer assisted tomography"',
+        motivation: "for the development of computer assisted tomography",
         share: "2"
       },
       {
         id: "418",
         firstname: "Godfrey N.",
         surname: "Hounsfield",
-        motivation: '"for the development of computer assisted tomography"',
+        motivation: "for the development of computer assisted tomography",
         share: "2"
       }
     ]
@@ -5187,7 +5173,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Peter",
         surname: "Mitchell",
         motivation:
-          '"for his contribution to the understanding of biological energy transfer through the formulation of the chemiosmotic theory"',
+          "for his contribution to the understanding of biological energy transfer through the formulation of the chemiosmotic theory",
         share: "1"
       }
     ]
@@ -5201,7 +5187,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Herbert",
         surname: "Simon",
         motivation:
-          '"for his pioneering research into the decision-making process within economic organizations"',
+          "for his pioneering research into the decision-making process within economic organizations",
         share: "1"
       }
     ]
@@ -5215,7 +5201,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Isaac Bashevis",
         surname: "Singer",
         motivation:
-          '"for his impassioned narrative art which, with roots in a Polish-Jewish cultural tradition, brings universal human conditions to life"',
+          "for his impassioned narrative art which, with roots in a Polish-Jewish cultural tradition, brings universal human conditions to life",
         share: "1"
       }
     ]
@@ -5229,7 +5215,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Anwar",
         surname: "al-Sadat",
         motivation:
-          '"for jointly having negotiated peace between Egypt and Israel in 1978"',
+          "for jointly having negotiated peace between Egypt and Israel in 1978",
         share: "2"
       },
       {
@@ -5237,7 +5223,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Menachem",
         surname: "Begin",
         motivation:
-          '"for jointly having negotiated peace between Egypt and Israel in 1978"',
+          "for jointly having negotiated peace between Egypt and Israel in 1978",
         share: "2"
       }
     ]
@@ -5251,7 +5237,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Pyotr",
         surname: "Kapitsa",
         motivation:
-          '"for his basic inventions and discoveries in the area of low-temperature physics"',
+          "for his basic inventions and discoveries in the area of low-temperature physics",
         share: "2"
       },
       {
@@ -5259,7 +5245,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Arno",
         surname: "Penzias",
         motivation:
-          '"for their discovery of cosmic microwave background radiation"',
+          "for their discovery of cosmic microwave background radiation",
         share: "4"
       },
       {
@@ -5267,7 +5253,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert Woodrow",
         surname: "Wilson",
         motivation:
-          '"for their discovery of cosmic microwave background radiation"',
+          "for their discovery of cosmic microwave background radiation",
         share: "4"
       }
     ]
@@ -5281,7 +5267,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Werner",
         surname: "Arber",
         motivation:
-          '"for the discovery of restriction enzymes and their application to problems of molecular genetics"',
+          "for the discovery of restriction enzymes and their application to problems of molecular genetics",
         share: "3"
       },
       {
@@ -5289,7 +5275,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Daniel",
         surname: "Nathans",
         motivation:
-          '"for the discovery of restriction enzymes and their application to problems of molecular genetics"',
+          "for the discovery of restriction enzymes and their application to problems of molecular genetics",
         share: "3"
       },
       {
@@ -5297,7 +5283,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Hamilton O.",
         surname: "Smith",
         motivation:
-          '"for the discovery of restriction enzymes and their application to problems of molecular genetics"',
+          "for the discovery of restriction enzymes and their application to problems of molecular genetics",
         share: "3"
       }
     ]
@@ -5311,7 +5297,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ilya",
         surname: "Prigogine",
         motivation:
-          '"for his contributions to non-equilibrium thermodynamics, particularly the theory of dissipative structures"',
+          "for his contributions to non-equilibrium thermodynamics, particularly the theory of dissipative structures",
         share: "1"
       }
     ]
@@ -5325,7 +5311,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Bertil",
         surname: "Ohlin",
         motivation:
-          '"for their pathbreaking contribution to the theory of international trade and international capital movements"',
+          "for their pathbreaking contribution to the theory of international trade and international capital movements",
         share: "2"
       },
       {
@@ -5333,7 +5319,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "James E.",
         surname: "Meade",
         motivation:
-          '"for their pathbreaking contribution to the theory of international trade and international capital movements"',
+          "for their pathbreaking contribution to the theory of international trade and international capital movements",
         share: "2"
       }
     ]
@@ -5347,7 +5333,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Vicente",
         surname: "Aleixandre",
         motivation:
-          '"for a creative poetic writing which illuminates man\'s condition in the cosmos and in present-day society, at the same time representing the great renewal of the traditions of Spanish poetry between the wars"',
+          "for a creative poetic writing which illuminates man's condition in the cosmos and in present-day society, at the same time representing the great renewal of the traditions of Spanish poetry between the wars",
         share: "1"
       }
     ]
@@ -5358,7 +5344,7 @@ export const prizes: Immutable<Prize[]> = [
     laureates: [
       {
         id: "537",
-        motivation: '"for worldwide respect for human rights"',
+        motivation: "for worldwide respect for human rights",
         share: "1",
         firstname: "Amnesty International"
       }
@@ -5373,7 +5359,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Philip W.",
         surname: "Anderson",
         motivation:
-          '"for their fundamental theoretical investigations of the electronic structure of magnetic and disordered systems"',
+          "for their fundamental theoretical investigations of the electronic structure of magnetic and disordered systems",
         share: "3"
       },
       {
@@ -5381,7 +5367,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sir Nevill F.",
         surname: "Mott",
         motivation:
-          '"for their fundamental theoretical investigations of the electronic structure of magnetic and disordered systems"',
+          "for their fundamental theoretical investigations of the electronic structure of magnetic and disordered systems",
         share: "3"
       },
       {
@@ -5389,7 +5375,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John H.",
         surname: "Van Vleck",
         motivation:
-          '"for their fundamental theoretical investigations of the electronic structure of magnetic and disordered systems"',
+          "for their fundamental theoretical investigations of the electronic structure of magnetic and disordered systems",
         share: "3"
       }
     ]
@@ -5403,7 +5389,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Roger",
         surname: "Guillemin",
         motivation:
-          '"for their discoveries concerning the peptide hormone production of the brain"',
+          "for their discoveries concerning the peptide hormone production of the brain",
         share: "4"
       },
       {
@@ -5411,7 +5397,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Andrew V.",
         surname: "Schally",
         motivation:
-          '"for their discoveries concerning the peptide hormone production of the brain"',
+          "for their discoveries concerning the peptide hormone production of the brain",
         share: "4"
       },
       {
@@ -5419,7 +5405,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Rosalyn",
         surname: "Yalow",
         motivation:
-          '"for the development of radioimmunoassays of peptide hormones"',
+          "for the development of radioimmunoassays of peptide hormones",
         share: "2"
       }
     ]
@@ -5433,7 +5419,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William",
         surname: "Lipscomb",
         motivation:
-          '"for his studies on the structure of boranes illuminating problems of chemical bonding"',
+          "for his studies on the structure of boranes illuminating problems of chemical bonding",
         share: "1"
       }
     ]
@@ -5447,7 +5433,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Milton",
         surname: "Friedman",
         motivation:
-          '"for his achievements in the fields of consumption analysis, monetary history and theory and for his demonstration of the complexity of stabilization policy"',
+          "for his achievements in the fields of consumption analysis, monetary history and theory and for his demonstration of the complexity of stabilization policy",
         share: "1"
       }
     ]
@@ -5461,7 +5447,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Saul",
         surname: "Bellow",
         motivation:
-          '"for the human understanding and subtle analysis of contemporary culture that are combined in his work"',
+          "for the human understanding and subtle analysis of contemporary culture that are combined in his work",
         share: "1"
       }
     ]
@@ -5475,7 +5461,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Betty",
         surname: "Williams",
         motivation:
-          '"for the courageous efforts in founding a movement to put an end to the violent conflict in Northern Ireland"',
+          "for the courageous efforts in founding a movement to put an end to the violent conflict in Northern Ireland",
         share: "2"
       },
       {
@@ -5483,7 +5469,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Mairead",
         surname: "Corrigan",
         motivation:
-          '"for the courageous efforts in founding a movement to put an end to the violent conflict in Northern Ireland"',
+          "for the courageous efforts in founding a movement to put an end to the violent conflict in Northern Ireland",
         share: "2"
       }
     ]
@@ -5497,7 +5483,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Burton",
         surname: "Richter",
         motivation:
-          '"for their pioneering work in the discovery of a heavy elementary particle of a new kind"',
+          "for their pioneering work in the discovery of a heavy elementary particle of a new kind",
         share: "2"
       },
       {
@@ -5505,7 +5491,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Samuel C.C.",
         surname: "Ting",
         motivation:
-          '"for their pioneering work in the discovery of a heavy elementary particle of a new kind"',
+          "for their pioneering work in the discovery of a heavy elementary particle of a new kind",
         share: "2"
       }
     ]
@@ -5519,7 +5505,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Baruch S.",
         surname: "Blumberg",
         motivation:
-          '"for their discoveries concerning new mechanisms for the origin and dissemination of infectious diseases"',
+          "for their discoveries concerning new mechanisms for the origin and dissemination of infectious diseases",
         share: "2"
       },
       {
@@ -5527,7 +5513,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "D. Carleton",
         surname: "Gajdusek",
         motivation:
-          '"for their discoveries concerning new mechanisms for the origin and dissemination of infectious diseases"',
+          "for their discoveries concerning new mechanisms for the origin and dissemination of infectious diseases",
         share: "2"
       }
     ]
@@ -5541,7 +5527,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John",
         surname: "Cornforth",
         motivation:
-          '"for his work on the stereochemistry of enzyme-catalyzed reactions"',
+          "for his work on the stereochemistry of enzyme-catalyzed reactions",
         share: "2"
       },
       {
@@ -5549,7 +5535,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Vladimir",
         surname: "Prelog",
         motivation:
-          '"for his research into the stereochemistry of organic molecules and reactions"',
+          "for his research into the stereochemistry of organic molecules and reactions",
         share: "2"
       }
     ]
@@ -5563,7 +5549,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Leonid Vitaliyevich",
         surname: "Kantorovich",
         motivation:
-          '"for their contributions to the theory of optimum allocation of resources"',
+          "for their contributions to the theory of optimum allocation of resources",
         share: "2"
       },
       {
@@ -5571,7 +5557,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Tjalling C.",
         surname: "Koopmans",
         motivation:
-          '"for their contributions to the theory of optimum allocation of resources"',
+          "for their contributions to the theory of optimum allocation of resources",
         share: "2"
       }
     ]
@@ -5585,7 +5571,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Eugenio",
         surname: "Montale",
         motivation:
-          '"for his distinctive poetry which, with great artistic sensitivity, has interpreted human values under the sign of an outlook on life with no illusions"',
+          "for his distinctive poetry which, with great artistic sensitivity, has interpreted human values under the sign of an outlook on life with no illusions",
         share: "1"
       }
     ]
@@ -5599,7 +5585,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Andrei",
         surname: "Sakharov",
         motivation:
-          '"for his struggle for human rights in the Soviet Union, for disarmament and cooperation between all nations"',
+          "for his struggle for human rights in the Soviet Union, for disarmament and cooperation between all nations",
         share: "1"
       }
     ]
@@ -5613,7 +5599,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Aage N.",
         surname: "Bohr",
         motivation:
-          '"for the discovery of the connection between collective motion and particle motion in atomic nuclei and the development of the theory of the structure of the atomic nucleus based on this connection"',
+          "for the discovery of the connection between collective motion and particle motion in atomic nuclei and the development of the theory of the structure of the atomic nucleus based on this connection",
         share: "3"
       },
       {
@@ -5621,7 +5607,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ben R.",
         surname: "Mottelson",
         motivation:
-          '"for the discovery of the connection between collective motion and particle motion in atomic nuclei and the development of the theory of the structure of the atomic nucleus based on this connection"',
+          "for the discovery of the connection between collective motion and particle motion in atomic nuclei and the development of the theory of the structure of the atomic nucleus based on this connection",
         share: "3"
       },
       {
@@ -5629,7 +5615,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "James",
         surname: "Rainwater",
         motivation:
-          '"for the discovery of the connection between collective motion and particle motion in atomic nuclei and the development of the theory of the structure of the atomic nucleus based on this connection"',
+          "for the discovery of the connection between collective motion and particle motion in atomic nuclei and the development of the theory of the structure of the atomic nucleus based on this connection",
         share: "3"
       }
     ]
@@ -5643,7 +5629,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "David",
         surname: "Baltimore",
         motivation:
-          '"for their discoveries concerning the interaction between tumour viruses and the genetic material of the cell"',
+          "for their discoveries concerning the interaction between tumour viruses and the genetic material of the cell",
         share: "3"
       },
       {
@@ -5651,7 +5637,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Renato",
         surname: "Dulbecco",
         motivation:
-          '"for their discoveries concerning the interaction between tumour viruses and the genetic material of the cell"',
+          "for their discoveries concerning the interaction between tumour viruses and the genetic material of the cell",
         share: "3"
       },
       {
@@ -5659,7 +5645,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Howard M.",
         surname: "Temin",
         motivation:
-          '"for their discoveries concerning the interaction between tumour viruses and the genetic material of the cell"',
+          "for their discoveries concerning the interaction between tumour viruses and the genetic material of the cell",
         share: "3"
       }
     ]
@@ -5673,7 +5659,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Paul J.",
         surname: "Flory",
         motivation:
-          '"for his fundamental achievements, both theoretical and experimental, in the physical chemistry of the macromolecules"',
+          "for his fundamental achievements, both theoretical and experimental, in the physical chemistry of the macromolecules",
         share: "1"
       }
     ]
@@ -5687,7 +5673,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Gunnar",
         surname: "Myrdal",
         motivation:
-          '"for their pioneering work in the theory of money and economic fluctuations and for their penetrating analysis of the interdependence of economic, social and institutional phenomena"',
+          "for their pioneering work in the theory of money and economic fluctuations and for their penetrating analysis of the interdependence of economic, social and institutional phenomena",
         share: "2"
       },
       {
@@ -5695,7 +5681,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Friedrich",
         surname: "von Hayek",
         motivation:
-          '"for their pioneering work in the theory of money and economic fluctuations and for their penetrating analysis of the interdependence of economic, social and institutional phenomena"',
+          "for their pioneering work in the theory of money and economic fluctuations and for their penetrating analysis of the interdependence of economic, social and institutional phenomena",
         share: "2"
       }
     ]
@@ -5709,7 +5695,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Eyvind",
         surname: "Johnson",
         motivation:
-          '"for a narrative art, far-seeing in lands and ages, in the service of freedom"',
+          "for a narrative art, far-seeing in lands and ages, in the service of freedom",
         share: "2"
       },
       {
@@ -5717,7 +5703,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Harry",
         surname: "Martinson",
         motivation:
-          '"for writings that catch the dewdrop and reflect the cosmos"',
+          "for writings that catch the dewdrop and reflect the cosmos",
         share: "2"
       }
     ]
@@ -5731,7 +5717,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Se\u00e1n",
         surname: "MacBride",
         motivation:
-          '"for his efforts to secure and develop human rights throughout the world"',
+          "for his efforts to secure and develop human rights throughout the world",
         share: "2"
       },
       {
@@ -5739,7 +5725,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Eisaku",
         surname: "Sato",
         motivation:
-          '"for his contribution to stabilize conditions in the Pacific rim area and for signing the Nuclear Non-Proliferation Treaty"',
+          "for his contribution to stabilize conditions in the Pacific rim area and for signing the Nuclear Non-Proliferation Treaty",
         share: "2"
       }
     ]
@@ -5753,7 +5739,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Martin",
         surname: "Ryle",
         motivation:
-          '"for their pioneering research in radio astrophysics: Ryle for his observations and inventions, in particular of the aperture synthesis technique, and Hewish for his decisive role in the discovery of pulsars"',
+          "for their pioneering research in radio astrophysics: Ryle for his observations and inventions, in particular of the aperture synthesis technique, and Hewish for his decisive role in the discovery of pulsars",
         share: "2"
       },
       {
@@ -5761,7 +5747,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Antony",
         surname: "Hewish",
         motivation:
-          '"for their pioneering research in radio astrophysics: Ryle for his observations and inventions, in particular of the aperture synthesis technique, and Hewish for his decisive role in the discovery of pulsars"',
+          "for their pioneering research in radio astrophysics: Ryle for his observations and inventions, in particular of the aperture synthesis technique, and Hewish for his decisive role in the discovery of pulsars",
         share: "2"
       }
     ]
@@ -5775,7 +5761,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Albert",
         surname: "Claude",
         motivation:
-          '"for their discoveries concerning the structural and functional organization of the cell"',
+          "for their discoveries concerning the structural and functional organization of the cell",
         share: "3"
       },
       {
@@ -5783,7 +5769,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Christian",
         surname: "de Duve",
         motivation:
-          '"for their discoveries concerning the structural and functional organization of the cell"',
+          "for their discoveries concerning the structural and functional organization of the cell",
         share: "3"
       },
       {
@@ -5791,7 +5777,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "George E.",
         surname: "Palade",
         motivation:
-          '"for their discoveries concerning the structural and functional organization of the cell"',
+          "for their discoveries concerning the structural and functional organization of the cell",
         share: "3"
       }
     ]
@@ -5805,7 +5791,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ernst Otto",
         surname: "Fischer",
         motivation:
-          '"for their pioneering work, performed independently, on the chemistry of the organometallic, so called sandwich compounds"',
+          "for their pioneering work, performed independently, on the chemistry of the organometallic, so called sandwich compounds",
         share: "2"
       },
       {
@@ -5813,7 +5799,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Geoffrey",
         surname: "Wilkinson",
         motivation:
-          '"for their pioneering work, performed independently, on the chemistry of the organometallic, so called sandwich compounds"',
+          "for their pioneering work, performed independently, on the chemistry of the organometallic, so called sandwich compounds",
         share: "2"
       }
     ]
@@ -5827,7 +5813,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Wassily",
         surname: "Leontief",
         motivation:
-          '"for the development of the input-output method and for its application to important economic problems"',
+          "for the development of the input-output method and for its application to important economic problems",
         share: "1"
       }
     ]
@@ -5841,7 +5827,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Patrick",
         surname: "White",
         motivation:
-          '"for an epic and psychological narrative art which has introduced a new continent into literature"',
+          "for an epic and psychological narrative art which has introduced a new continent into literature",
         share: "1"
       }
     ]
@@ -5855,14 +5841,14 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Henry",
         surname: "Kissinger",
         motivation:
-          '"for jointly having negotiated a cease fire in Vietnam in 1973"',
+          "for jointly having negotiated a cease fire in Vietnam in 1973",
         share: "2"
       },
       {
         id: "531",
         firstname: "Le Duc Tho",
         motivation:
-          '"for jointly having negotiated a cease fire in Vietnam in 1973"',
+          "for jointly having negotiated a cease fire in Vietnam in 1973",
         share: "2"
       }
     ]
@@ -5876,7 +5862,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Leo",
         surname: "Esaki",
         motivation:
-          '"for their experimental discoveries regarding tunneling phenomena in semiconductors and superconductors, respectively"',
+          "for their experimental discoveries regarding tunneling phenomena in semiconductors and superconductors, respectively",
         share: "4"
       },
       {
@@ -5884,7 +5870,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ivar",
         surname: "Giaever",
         motivation:
-          '"for their experimental discoveries regarding tunneling phenomena in semiconductors and superconductors, respectively"',
+          "for their experimental discoveries regarding tunneling phenomena in semiconductors and superconductors, respectively",
         share: "4"
       },
       {
@@ -5892,7 +5878,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Brian D.",
         surname: "Josephson",
         motivation:
-          '"for his theoretical predictions of the properties of a supercurrent through a tunnel barrier, in particular those phenomena which are generally known as the Josephson effects"',
+          "for his theoretical predictions of the properties of a supercurrent through a tunnel barrier, in particular those phenomena which are generally known as the Josephson effects",
         share: "2"
       }
     ]
@@ -5906,7 +5892,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Karl",
         surname: "von Frisch",
         motivation:
-          '"for their discoveries concerning organization and elicitation of individual and social behaviour patterns"',
+          "for their discoveries concerning organization and elicitation of individual and social behaviour patterns",
         share: "3"
       },
       {
@@ -5914,7 +5900,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Konrad",
         surname: "Lorenz",
         motivation:
-          '"for their discoveries concerning organization and elicitation of individual and social behaviour patterns"',
+          "for their discoveries concerning organization and elicitation of individual and social behaviour patterns",
         share: "3"
       },
       {
@@ -5922,7 +5908,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Nikolaas",
         surname: "Tinbergen",
         motivation:
-          '"for their discoveries concerning organization and elicitation of individual and social behaviour patterns"',
+          "for their discoveries concerning organization and elicitation of individual and social behaviour patterns",
         share: "3"
       }
     ]
@@ -5936,7 +5922,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Christian",
         surname: "Anfinsen",
         motivation:
-          '"for his work on ribonuclease, especially concerning the connection between the amino acid sequence and the biologically active conformation"',
+          "for his work on ribonuclease, especially concerning the connection between the amino acid sequence and the biologically active conformation",
         share: "2"
       },
       {
@@ -5944,7 +5930,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Stanford",
         surname: "Moore",
         motivation:
-          '"for their contribution to the understanding of the connection between chemical structure and catalytic activity of the active centre of the ribonuclease molecule"',
+          "for their contribution to the understanding of the connection between chemical structure and catalytic activity of the active centre of the ribonuclease molecule",
         share: "4"
       },
       {
@@ -5952,7 +5938,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William H.",
         surname: "Stein",
         motivation:
-          '"for their contribution to the understanding of the connection between chemical structure and catalytic activity of the active centre of the ribonuclease molecule"',
+          "for their contribution to the understanding of the connection between chemical structure and catalytic activity of the active centre of the ribonuclease molecule",
         share: "4"
       }
     ]
@@ -5966,7 +5952,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John R.",
         surname: "Hicks",
         motivation:
-          '"for their pioneering contributions to general economic equilibrium theory and welfare theory"',
+          "for their pioneering contributions to general economic equilibrium theory and welfare theory",
         share: "2"
       },
       {
@@ -5974,7 +5960,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Kenneth J.",
         surname: "Arrow",
         motivation:
-          '"for their pioneering contributions to general economic equilibrium theory and welfare theory"',
+          "for their pioneering contributions to general economic equilibrium theory and welfare theory",
         share: "2"
       }
     ]
@@ -5988,7 +5974,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Heinrich",
         surname: "B\u00f6ll",
         motivation:
-          '"for his writing which through its combination of a broad perspective on his time and a sensitive skill in characterization has contributed to a renewal of German literature"',
+          "for his writing which through its combination of a broad perspective on his time and a sensitive skill in characterization has contributed to a renewal of German literature",
         share: "1"
       }
     ]
@@ -5997,7 +5983,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1972",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money for 1972 was allocated to the Main Fund."'
+      "No Nobel Prize was awarded this year. The prize money for 1972 was allocated to the Main Fund."
   },
   {
     year: "1972",
@@ -6008,7 +5994,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John",
         surname: "Bardeen",
         motivation:
-          '"for their jointly developed theory of superconductivity, usually called the BCS-theory"',
+          "for their jointly developed theory of superconductivity, usually called the BCS-theory",
         share: "3"
       },
       {
@@ -6016,7 +6002,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Leon N.",
         surname: "Cooper",
         motivation:
-          '"for their jointly developed theory of superconductivity, usually called the BCS-theory"',
+          "for their jointly developed theory of superconductivity, usually called the BCS-theory",
         share: "3"
       },
       {
@@ -6024,7 +6010,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert",
         surname: "Schrieffer",
         motivation:
-          '"for their jointly developed theory of superconductivity, usually called the BCS-theory"',
+          "for their jointly developed theory of superconductivity, usually called the BCS-theory",
         share: "3"
       }
     ]
@@ -6038,7 +6024,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Gerald M.",
         surname: "Edelman",
         motivation:
-          '"for their discoveries concerning the chemical structure of antibodies"',
+          "for their discoveries concerning the chemical structure of antibodies",
         share: "2"
       },
       {
@@ -6046,7 +6032,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Rodney R.",
         surname: "Porter",
         motivation:
-          '"for their discoveries concerning the chemical structure of antibodies"',
+          "for their discoveries concerning the chemical structure of antibodies",
         share: "2"
       }
     ]
@@ -6060,7 +6046,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Gerhard",
         surname: "Herzberg",
         motivation:
-          '"for his contributions to the knowledge of electronic structure and geometry of molecules, particularly free radicals"',
+          "for his contributions to the knowledge of electronic structure and geometry of molecules, particularly free radicals",
         share: "1"
       }
     ]
@@ -6074,7 +6060,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Simon",
         surname: "Kuznets",
         motivation:
-          '"for his empirically founded interpretation of economic growth which has led to new and deepened insight into the economic and social structure and process of development"',
+          "for his empirically founded interpretation of economic growth which has led to new and deepened insight into the economic and social structure and process of development",
         share: "1"
       }
     ]
@@ -6088,7 +6074,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Pablo",
         surname: "Neruda",
         motivation:
-          '"for a poetry that with the action of an elemental force brings alive a continent\'s destiny and dreams"',
+          "for a poetry that with the action of an elemental force brings alive a continent's destiny and dreams",
         share: "1"
       }
     ]
@@ -6102,7 +6088,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Willy",
         surname: "Brandt",
         motivation:
-          '"for paving the way for a meaningful dialogue between East and West"',
+          "for paving the way for a meaningful dialogue between East and West",
         share: "1"
       }
     ]
@@ -6116,7 +6102,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Dennis",
         surname: "Gabor",
         motivation:
-          '"for his invention and development of the holographic method"',
+          "for his invention and development of the holographic method",
         share: "1"
       }
     ]
@@ -6130,7 +6116,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Earl W.",
         surname: "Sutherland, Jr.",
         motivation:
-          '"for his discoveries concerning the mechanisms of the action of hormones"',
+          "for his discoveries concerning the mechanisms of the action of hormones",
         share: "1"
       }
     ]
@@ -6144,7 +6130,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Luis",
         surname: "Leloir",
         motivation:
-          '"for his discovery of sugar nucleotides and their role in the biosynthesis of carbohydrates"',
+          "for his discovery of sugar nucleotides and their role in the biosynthesis of carbohydrates",
         share: "1"
       }
     ]
@@ -6158,7 +6144,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Paul A.",
         surname: "Samuelson",
         motivation:
-          '"for the scientific work through which he has developed static and dynamic economic theory and actively contributed to raising the level of analysis in economic science"',
+          "for the scientific work through which he has developed static and dynamic economic theory and actively contributed to raising the level of analysis in economic science",
         share: "1"
       }
     ]
@@ -6172,7 +6158,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Alexandr",
         surname: "Solzhenitsyn",
         motivation:
-          '"for the ethical force with which he has pursued the indispensable traditions of Russian literature"',
+          "for the ethical force with which he has pursued the indispensable traditions of Russian literature",
         share: "1"
       }
     ]
@@ -6186,7 +6172,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Norman",
         surname: "Borlaug",
         motivation:
-          '"for having given a well-founded hope - the green revolution"',
+          "for having given a well-founded hope - the green revolution",
         share: "1"
       }
     ]
@@ -6200,7 +6186,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Hannes",
         surname: "Alfv\u00e9n",
         motivation:
-          '"for fundamental work and discoveries in magnetohydro-dynamics with fruitful applications in different parts of plasma physics"',
+          "for fundamental work and discoveries in magnetohydro-dynamics with fruitful applications in different parts of plasma physics",
         share: "2"
       },
       {
@@ -6208,7 +6194,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Louis",
         surname: "N\u00e9el",
         motivation:
-          '"for fundamental work and discoveries concerning antiferromagnetism and ferrimagnetism which have led to important applications in solid state physics"',
+          "for fundamental work and discoveries concerning antiferromagnetism and ferrimagnetism which have led to important applications in solid state physics",
         share: "2"
       }
     ]
@@ -6222,7 +6208,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sir Bernard",
         surname: "Katz",
         motivation:
-          '"for their discoveries concerning the humoral transmitters in the nerve terminals and the mechanism for their storage, release and inactivation"',
+          "for their discoveries concerning the humoral transmitters in the nerve terminals and the mechanism for their storage, release and inactivation",
         share: "3"
       },
       {
@@ -6230,7 +6216,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ulf",
         surname: "von Euler",
         motivation:
-          '"for their discoveries concerning the humoral transmitters in the nerve terminals and the mechanism for their storage, release and inactivation"',
+          "for their discoveries concerning the humoral transmitters in the nerve terminals and the mechanism for their storage, release and inactivation",
         share: "3"
       },
       {
@@ -6238,7 +6224,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Julius",
         surname: "Axelrod",
         motivation:
-          '"for their discoveries concerning the humoral transmitters in the nerve terminals and the mechanism for their storage, release and inactivation"',
+          "for their discoveries concerning the humoral transmitters in the nerve terminals and the mechanism for their storage, release and inactivation",
         share: "3"
       }
     ]
@@ -6252,7 +6238,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Derek",
         surname: "Barton",
         motivation:
-          '"for their contributions to the development of the concept of conformation and its application in chemistry"',
+          "for their contributions to the development of the concept of conformation and its application in chemistry",
         share: "2"
       },
       {
@@ -6260,7 +6246,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Odd",
         surname: "Hassel",
         motivation:
-          '"for their contributions to the development of the concept of conformation and its application in chemistry"',
+          "for their contributions to the development of the concept of conformation and its application in chemistry",
         share: "2"
       }
     ]
@@ -6274,7 +6260,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ragnar",
         surname: "Frisch",
         motivation:
-          '"for having developed and applied dynamic models for the analysis of economic processes"',
+          "for having developed and applied dynamic models for the analysis of economic processes",
         share: "2"
       },
       {
@@ -6282,7 +6268,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jan",
         surname: "Tinbergen",
         motivation:
-          '"for having developed and applied dynamic models for the analysis of economic processes"',
+          "for having developed and applied dynamic models for the analysis of economic processes",
         share: "2"
       }
     ]
@@ -6296,7 +6282,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Samuel",
         surname: "Beckett",
         motivation:
-          '"for his writing, which - in new forms for the novel and drama - in the destitution of modern man acquires its elevation"',
+          "for his writing, which - in new forms for the novel and drama - in the destitution of modern man acquires its elevation",
         share: "1"
       }
     ]
@@ -6308,7 +6294,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "527",
         motivation:
-          '"for creating international legislation insuring certain norms for working conditions in every country"',
+          "for creating international legislation insuring certain norms for working conditions in every country",
         share: "1",
         firstname: "International Labour Organization"
       }
@@ -6323,7 +6309,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Murray",
         surname: "Gell-Mann",
         motivation:
-          '"for his contributions and discoveries concerning the classification of elementary particles and their interactions"',
+          "for his contributions and discoveries concerning the classification of elementary particles and their interactions",
         share: "1"
       }
     ]
@@ -6337,7 +6323,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Max",
         surname: "Delbr\u00fcck",
         motivation:
-          '"for their discoveries concerning the replication mechanism and the genetic structure of viruses"',
+          "for their discoveries concerning the replication mechanism and the genetic structure of viruses",
         share: "3"
       },
       {
@@ -6345,7 +6331,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Alfred D.",
         surname: "Hershey",
         motivation:
-          '"for their discoveries concerning the replication mechanism and the genetic structure of viruses"',
+          "for their discoveries concerning the replication mechanism and the genetic structure of viruses",
         share: "3"
       },
       {
@@ -6353,7 +6339,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Salvador E.",
         surname: "Luria",
         motivation:
-          '"for their discoveries concerning the replication mechanism and the genetic structure of viruses"',
+          "for their discoveries concerning the replication mechanism and the genetic structure of viruses",
         share: "3"
       }
     ]
@@ -6367,7 +6353,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Lars",
         surname: "Onsager",
         motivation:
-          '"for the discovery of the reciprocal relations bearing his name, which are fundamental for the thermodynamics of irreversible processes"',
+          "for the discovery of the reciprocal relations bearing his name, which are fundamental for the thermodynamics of irreversible processes",
         share: "1"
       }
     ]
@@ -6381,7 +6367,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Yasunari",
         surname: "Kawabata",
         motivation:
-          '"for his narrative mastery, which with great sensibility expresses the essence of the Japanese mind"',
+          "for his narrative mastery, which with great sensibility expresses the essence of the Japanese mind",
         share: "1"
       }
     ]
@@ -6395,7 +6381,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ren\u00e9",
         surname: "Cassin",
         motivation:
-          '"for his struggle to ensure the rights of man as stipulated in the UN Declaration"',
+          "for his struggle to ensure the rights of man as stipulated in the UN Declaration",
         share: "1"
       }
     ]
@@ -6409,7 +6395,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Luis",
         surname: "Alvarez",
         motivation:
-          '"for his decisive contributions to elementary particle physics, in particular the discovery of a large number of resonance states, made possible through his development of the technique of using hydrogen bubble chamber and data analysis"',
+          "for his decisive contributions to elementary particle physics, in particular the discovery of a large number of resonance states, made possible through his development of the technique of using hydrogen bubble chamber and data analysis",
         share: "1"
       }
     ]
@@ -6423,7 +6409,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert W.",
         surname: "Holley",
         motivation:
-          '"for their interpretation of the genetic code and its function in protein synthesis"',
+          "for their interpretation of the genetic code and its function in protein synthesis",
         share: "3"
       },
       {
@@ -6431,7 +6417,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "H. Gobind",
         surname: "Khorana",
         motivation:
-          '"for their interpretation of the genetic code and its function in protein synthesis"',
+          "for their interpretation of the genetic code and its function in protein synthesis",
         share: "3"
       },
       {
@@ -6439,7 +6425,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Marshall W.",
         surname: "Nirenberg",
         motivation:
-          '"for their interpretation of the genetic code and its function in protein synthesis"',
+          "for their interpretation of the genetic code and its function in protein synthesis",
         share: "3"
       }
     ]
@@ -6453,7 +6439,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Manfred",
         surname: "Eigen",
         motivation:
-          '"for their studies of extremely fast chemical reactions, effected by disturbing the equilibrium by means of very short pulses of energy"',
+          "for their studies of extremely fast chemical reactions, effected by disturbing the equilibrium by means of very short pulses of energy",
         share: "2"
       },
       {
@@ -6461,7 +6447,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ronald G.W.",
         surname: "Norrish",
         motivation:
-          '"for their studies of extremely fast chemical reactions, effected by disturbing the equilibrium by means of very short pulses of energy"',
+          "for their studies of extremely fast chemical reactions, effected by disturbing the equilibrium by means of very short pulses of energy",
         share: "4"
       },
       {
@@ -6469,7 +6455,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "George",
         surname: "Porter",
         motivation:
-          '"for their studies of extremely fast chemical reactions, effected by disturbing the equilibrium by means of very short pulses of energy"',
+          "for their studies of extremely fast chemical reactions, effected by disturbing the equilibrium by means of very short pulses of energy",
         share: "4"
       }
     ]
@@ -6483,7 +6469,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Miguel Angel",
         surname: "Asturias",
         motivation:
-          '"for his vivid literary achievement, deep-rooted in the national traits and traditions of Indian peoples of Latin America"',
+          "for his vivid literary achievement, deep-rooted in the national traits and traditions of Indian peoples of Latin America",
         share: "1"
       }
     ]
@@ -6492,7 +6478,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1967",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1967",
@@ -6503,7 +6489,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Hans",
         surname: "Bethe",
         motivation:
-          '"for his contributions to the theory of nuclear reactions, especially his discoveries concerning the energy production in stars"',
+          "for his contributions to the theory of nuclear reactions, especially his discoveries concerning the energy production in stars",
         share: "1"
       }
     ]
@@ -6517,7 +6503,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ragnar",
         surname: "Granit",
         motivation:
-          '"for their discoveries concerning the primary physiological and chemical visual processes in the eye"',
+          "for their discoveries concerning the primary physiological and chemical visual processes in the eye",
         share: "3"
       },
       {
@@ -6525,7 +6511,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Keffer",
         surname: "Hartline",
         motivation:
-          '"for their discoveries concerning the primary physiological and chemical visual processes in the eye"',
+          "for their discoveries concerning the primary physiological and chemical visual processes in the eye",
         share: "3"
       },
       {
@@ -6533,7 +6519,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "George",
         surname: "Wald",
         motivation:
-          '"for their discoveries concerning the primary physiological and chemical visual processes in the eye"',
+          "for their discoveries concerning the primary physiological and chemical visual processes in the eye",
         share: "3"
       }
     ]
@@ -6547,7 +6533,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert S.",
         surname: "Mulliken",
         motivation:
-          '"for his fundamental work concerning chemical bonds and the electronic structure of molecules by the molecular orbital method"',
+          "for his fundamental work concerning chemical bonds and the electronic structure of molecules by the molecular orbital method",
         share: "1"
       }
     ]
@@ -6561,7 +6547,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Shmuel",
         surname: "Agnon",
         motivation:
-          '"for his profoundly characteristic narrative art with motifs from the life of the Jewish people"',
+          "for his profoundly characteristic narrative art with motifs from the life of the Jewish people",
         share: "2"
       },
       {
@@ -6569,7 +6555,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Nelly",
         surname: "Sachs",
         motivation:
-          '"for her outstanding lyrical and dramatic writing, which interprets Israel\'s destiny with touching strength "',
+          "for her outstanding lyrical and dramatic writing, which interprets Israel's destiny with touching strength ",
         share: "2"
       }
     ]
@@ -6578,7 +6564,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1966",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1966",
@@ -6589,7 +6575,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Alfred",
         surname: "Kastler",
         motivation:
-          '"for the discovery and development of optical methods for studying Hertzian resonances in atoms"',
+          "for the discovery and development of optical methods for studying Hertzian resonances in atoms",
         share: "1"
       }
     ]
@@ -6602,7 +6588,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "383",
         firstname: "Peyton",
         surname: "Rous",
-        motivation: '"for his discovery of tumour-inducing viruses"',
+        motivation: "for his discovery of tumour-inducing viruses",
         share: "2"
       },
       {
@@ -6610,7 +6596,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Charles B.",
         surname: "Huggins",
         motivation:
-          '"for his discoveries concerning hormonal treatment of prostatic cancer"',
+          "for his discoveries concerning hormonal treatment of prostatic cancer",
         share: "2"
       }
     ]
@@ -6624,7 +6610,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert B.",
         surname: "Woodward",
         motivation:
-          '"for his outstanding achievements in the art of organic synthesis"',
+          "for his outstanding achievements in the art of organic synthesis",
         share: "1"
       }
     ]
@@ -6638,7 +6624,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Mikhail",
         surname: "Sholokhov",
         motivation:
-          '"for the artistic power and integrity with which, in his epic of the Don, he has given expression to a historic phase in the life of the Russian people"',
+          "for the artistic power and integrity with which, in his epic of the Don, he has given expression to a historic phase in the life of the Russian people",
         share: "1"
       }
     ]
@@ -6650,7 +6636,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "525",
         motivation:
-          '"for its effort to enhance solidarity between nations and reduce the difference between rich and poor states"',
+          "for its effort to enhance solidarity between nations and reduce the difference between rich and poor states",
         share: "1",
         firstname: "United Nations Children's Fund"
       }
@@ -6665,7 +6651,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sin-Itiro",
         surname: "Tomonaga",
         motivation:
-          '"for their fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles"',
+          "for their fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles",
         share: "3"
       },
       {
@@ -6673,7 +6659,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Julian",
         surname: "Schwinger",
         motivation:
-          '"for their fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles"',
+          "for their fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles",
         share: "3"
       },
       {
@@ -6681,7 +6667,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Richard P.",
         surname: "Feynman",
         motivation:
-          '"for their fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles"',
+          "for their fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles",
         share: "3"
       }
     ]
@@ -6695,7 +6681,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Fran\u00e7ois",
         surname: "Jacob",
         motivation:
-          '"for their discoveries concerning genetic control of enzyme and virus synthesis"',
+          "for their discoveries concerning genetic control of enzyme and virus synthesis",
         share: "3"
       },
       {
@@ -6703,7 +6689,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Andr\u00e9",
         surname: "Lwoff",
         motivation:
-          '"for their discoveries concerning genetic control of enzyme and virus synthesis"',
+          "for their discoveries concerning genetic control of enzyme and virus synthesis",
         share: "3"
       },
       {
@@ -6711,7 +6697,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jacques",
         surname: "Monod",
         motivation:
-          '"for their discoveries concerning genetic control of enzyme and virus synthesis"',
+          "for their discoveries concerning genetic control of enzyme and virus synthesis",
         share: "3"
       }
     ]
@@ -6725,7 +6711,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Dorothy Crowfoot",
         surname: "Hodgkin",
         motivation:
-          '"for her determinations by X-ray techniques of the structures of important biochemical substances"',
+          "for her determinations by X-ray techniques of the structures of important biochemical substances",
         share: "1"
       }
     ]
@@ -6739,7 +6725,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jean-Paul",
         surname: "Sartre",
         motivation:
-          '"for his work which, rich in ideas and filled with the spirit of freedom and the quest for truth, has exerted a far-reaching influence on our age"',
+          "for his work which, rich in ideas and filled with the spirit of freedom and the quest for truth, has exerted a far-reaching influence on our age",
         share: "1"
       }
     ]
@@ -6753,7 +6739,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Martin Luther",
         surname: "King Jr.",
         motivation:
-          '"for his non-violent struggle for civil rights for the Afro-American population"',
+          "for his non-violent struggle for civil rights for the Afro-American population",
         share: "1"
       }
     ]
@@ -6767,7 +6753,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Charles H.",
         surname: "Townes",
         motivation:
-          '"for fundamental work in the field of quantum electronics, which has led to the construction of oscillators and amplifiers based on the maser-laser principle"',
+          "for fundamental work in the field of quantum electronics, which has led to the construction of oscillators and amplifiers based on the maser-laser principle",
         share: "2"
       },
       {
@@ -6775,7 +6761,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Nicolay G.",
         surname: "Basov",
         motivation:
-          '"for fundamental work in the field of quantum electronics, which has led to the construction of oscillators and amplifiers based on the maser-laser principle"',
+          "for fundamental work in the field of quantum electronics, which has led to the construction of oscillators and amplifiers based on the maser-laser principle",
         share: "4"
       },
       {
@@ -6783,7 +6769,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Aleksandr M.",
         surname: "Prokhorov",
         motivation:
-          '"for fundamental work in the field of quantum electronics, which has led to the construction of oscillators and amplifiers based on the maser-laser principle"',
+          "for fundamental work in the field of quantum electronics, which has led to the construction of oscillators and amplifiers based on the maser-laser principle",
         share: "4"
       }
     ]
@@ -6797,7 +6783,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Konrad",
         surname: "Bloch",
         motivation:
-          '"for their discoveries concerning the mechanism and regulation of the cholesterol and fatty acid metabolism"',
+          "for their discoveries concerning the mechanism and regulation of the cholesterol and fatty acid metabolism",
         share: "2"
       },
       {
@@ -6805,7 +6791,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Feodor",
         surname: "Lynen",
         motivation:
-          '"for their discoveries concerning the mechanism and regulation of the cholesterol and fatty acid metabolism"',
+          "for their discoveries concerning the mechanism and regulation of the cholesterol and fatty acid metabolism",
         share: "2"
       }
     ]
@@ -6819,7 +6805,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Karl",
         surname: "Ziegler",
         motivation:
-          '"for their discoveries in the field of the chemistry and technology of high polymers"',
+          "for their discoveries in the field of the chemistry and technology of high polymers",
         share: "2"
       },
       {
@@ -6827,7 +6813,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Giulio",
         surname: "Natta",
         motivation:
-          '"for their discoveries in the field of the chemistry and technology of high polymers"',
+          "for their discoveries in the field of the chemistry and technology of high polymers",
         share: "2"
       }
     ]
@@ -6841,7 +6827,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Giorgos",
         surname: "Seferis",
         motivation:
-          '"for his eminent lyrical writing, inspired by a deep feeling for the Hellenic world of culture"',
+          "for his eminent lyrical writing, inspired by a deep feeling for the Hellenic world of culture",
         share: "1"
       }
     ]
@@ -6853,14 +6839,14 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "482",
         motivation:
-          '"for promoting the principles of the Geneva Convention and cooperation with the UN"',
+          "for promoting the principles of the Geneva Convention and cooperation with the UN",
         share: "2",
         firstname: "International Committee of the Red Cross"
       },
       {
         id: "523",
         motivation:
-          '"for promoting the principles of the Geneva Convention and cooperation with the UN"',
+          "for promoting the principles of the Geneva Convention and cooperation with the UN",
         share: "2",
         firstname: "League of Red Cross Societies"
       }
@@ -6875,23 +6861,21 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Eugene",
         surname: "Wigner",
         motivation:
-          '"for his contributions to the theory of the atomic nucleus and the elementary particles, particularly through the discovery and application of fundamental symmetry principles"',
+          "for his contributions to the theory of the atomic nucleus and the elementary particles, particularly through the discovery and application of fundamental symmetry principles",
         share: "2"
       },
       {
         id: "79",
         firstname: "Maria",
         surname: "Goeppert Mayer",
-        motivation:
-          '"for their discoveries concerning nuclear shell structure"',
+        motivation: "for their discoveries concerning nuclear shell structure",
         share: "4"
       },
       {
         id: "80",
         firstname: "J. Hans D.",
         surname: "Jensen",
-        motivation:
-          '"for their discoveries concerning nuclear shell structure"',
+        motivation: "for their discoveries concerning nuclear shell structure",
         share: "4"
       }
     ]
@@ -6905,7 +6889,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sir John",
         surname: "Eccles",
         motivation:
-          '"for their discoveries concerning the ionic mechanisms involved in excitation and inhibition in the peripheral and central portions of the nerve cell membrane"',
+          "for their discoveries concerning the ionic mechanisms involved in excitation and inhibition in the peripheral and central portions of the nerve cell membrane",
         share: "3"
       },
       {
@@ -6913,7 +6897,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Alan",
         surname: "Hodgkin",
         motivation:
-          '"for their discoveries concerning the ionic mechanisms involved in excitation and inhibition in the peripheral and central portions of the nerve cell membrane"',
+          "for their discoveries concerning the ionic mechanisms involved in excitation and inhibition in the peripheral and central portions of the nerve cell membrane",
         share: "3"
       },
       {
@@ -6921,7 +6905,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Andrew",
         surname: "Huxley",
         motivation:
-          '"for their discoveries concerning the ionic mechanisms involved in excitation and inhibition in the peripheral and central portions of the nerve cell membrane"',
+          "for their discoveries concerning the ionic mechanisms involved in excitation and inhibition in the peripheral and central portions of the nerve cell membrane",
         share: "3"
       }
     ]
@@ -6934,16 +6918,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "226",
         firstname: "Max F.",
         surname: "Perutz",
-        motivation:
-          '"for their studies of the structures of globular proteins"',
+        motivation: "for their studies of the structures of globular proteins",
         share: "2"
       },
       {
         id: "227",
         firstname: "John C.",
         surname: "Kendrew",
-        motivation:
-          '"for their studies of the structures of globular proteins"',
+        motivation: "for their studies of the structures of globular proteins",
         share: "2"
       }
     ]
@@ -6957,7 +6939,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John",
         surname: "Steinbeck",
         motivation:
-          '"for his realistic and imaginative writings, combining as they do sympathetic humour and keen social perception"',
+          "for his realistic and imaginative writings, combining as they do sympathetic humour and keen social perception",
         share: "1"
       }
     ]
@@ -6971,7 +6953,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Linus",
         surname: "Pauling",
         motivation:
-          '"for his fight against the nuclear arms race between East and West"',
+          "for his fight against the nuclear arms race between East and West",
         share: "1"
       }
     ]
@@ -6985,7 +6967,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Lev",
         surname: "Landau",
         motivation:
-          '"for his pioneering theories for condensed matter, especially liquid helium"',
+          "for his pioneering theories for condensed matter, especially liquid helium",
         share: "1"
       }
     ]
@@ -6999,7 +6981,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Francis",
         surname: "Crick",
         motivation:
-          '"for their discoveries concerning the molecular structure of nucleic acids and its significance for information transfer in living material"',
+          "for their discoveries concerning the molecular structure of nucleic acids and its significance for information transfer in living material",
         share: "3"
       },
       {
@@ -7007,7 +6989,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "James",
         surname: "Watson",
         motivation:
-          '"for their discoveries concerning the molecular structure of nucleic acids and its significance for information transfer in living material"',
+          "for their discoveries concerning the molecular structure of nucleic acids and its significance for information transfer in living material",
         share: "3"
       },
       {
@@ -7015,7 +6997,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Maurice",
         surname: "Wilkins",
         motivation:
-          '"for their discoveries concerning the molecular structure of nucleic acids and its significance for information transfer in living material"',
+          "for their discoveries concerning the molecular structure of nucleic acids and its significance for information transfer in living material",
         share: "3"
       }
     ]
@@ -7029,7 +7011,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Melvin",
         surname: "Calvin",
         motivation:
-          '"for his research on the carbon dioxide assimilation in plants"',
+          "for his research on the carbon dioxide assimilation in plants",
         share: "1"
       }
     ]
@@ -7043,7 +7025,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ivo",
         surname: "Andric",
         motivation:
-          '"for the epic force with which he has traced themes and depicted human destinies drawn from the history of his country"',
+          "for the epic force with which he has traced themes and depicted human destinies drawn from the history of his country",
         share: "1"
       }
     ]
@@ -7057,7 +7039,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Dag",
         surname: "Hammarskj\u00f6ld",
         motivation:
-          '"for developing the UN into an effective and constructive international organization, capable of giving life to the principles and aims expressed in the UN Charter"',
+          "for developing the UN into an effective and constructive international organization, capable of giving life to the principles and aims expressed in the UN Charter",
         share: "1"
       }
     ]
@@ -7071,7 +7053,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert",
         surname: "Hofstadter",
         motivation:
-          '"for his pioneering studies of electron scattering in atomic nuclei and for his thereby achieved discoveries concerning the structure of the nucleons"',
+          "for his pioneering studies of electron scattering in atomic nuclei and for his thereby achieved discoveries concerning the structure of the nucleons",
         share: "2"
       },
       {
@@ -7079,7 +7061,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Rudolf",
         surname: "M\u00f6ssbauer",
         motivation:
-          '"for his researches concerning the resonance absorption of gamma radiation and his discovery in this connection of the effect which bears his name"',
+          "for his researches concerning the resonance absorption of gamma radiation and his discovery in this connection of the effect which bears his name",
         share: "2"
       }
     ]
@@ -7093,7 +7075,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Georg",
         surname: "von B\u00e9k\u00e9sy",
         motivation:
-          '"for his discoveries of the physical mechanism of stimulation within the cochlea"',
+          "for his discoveries of the physical mechanism of stimulation within the cochlea",
         share: "1"
       }
     ]
@@ -7107,7 +7089,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Willard F.",
         surname: "Libby",
         motivation:
-          '"for his method to use carbon-14 for age determination in archaeology, geology, geophysics, and other branches of science"',
+          "for his method to use carbon-14 for age determination in archaeology, geology, geophysics, and other branches of science",
         share: "1"
       }
     ]
@@ -7121,7 +7103,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Saint-John",
         surname: "Perse",
         motivation:
-          '"for the soaring flight and the evocative imagery of his poetry which in a visionary fashion reflects the conditions of our time"',
+          "for the soaring flight and the evocative imagery of his poetry which in a visionary fashion reflects the conditions of our time",
         share: "1"
       }
     ]
@@ -7134,7 +7116,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "519",
         firstname: "Albert",
         surname: "Luthuli",
-        motivation: '"for his non-violent struggle against apartheid"',
+        motivation: "for his non-violent struggle against apartheid",
         share: "1"
       }
     ]
@@ -7147,7 +7129,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "74",
         firstname: "Donald A.",
         surname: "Glaser",
-        motivation: '"for the invention of the bubble chamber"',
+        motivation: "for the invention of the bubble chamber",
         share: "1"
       }
     ]
@@ -7160,14 +7142,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "369",
         firstname: "Sir Frank Macfarlane",
         surname: "Burnet",
-        motivation: '"for discovery of acquired immunological tolerance"',
+        motivation: "for discovery of acquired immunological tolerance",
         share: "2"
       },
       {
         id: "370",
         firstname: "Peter",
         surname: "Medawar",
-        motivation: '"for discovery of acquired immunological tolerance"',
+        motivation: "for discovery of acquired immunological tolerance",
         share: "2"
       }
     ]
@@ -7181,7 +7163,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jaroslav",
         surname: "Heyrovsky",
         motivation:
-          '"for his discovery and development of the polarographic methods of analysis"',
+          "for his discovery and development of the polarographic methods of analysis",
         share: "1"
       }
     ]
@@ -7195,7 +7177,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Salvatore",
         surname: "Quasimodo",
         motivation:
-          '"for his lyrical poetry, which with classical fire expresses the tragic experience of life in our own times"',
+          "for his lyrical poetry, which with classical fire expresses the tragic experience of life in our own times",
         share: "1"
       }
     ]
@@ -7209,7 +7191,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Philip",
         surname: "Noel-Baker",
         motivation:
-          '"for his longstanding contribution to the cause of disarmament and peace"',
+          "for his longstanding contribution to the cause of disarmament and peace",
         share: "1"
       }
     ]
@@ -7222,14 +7204,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "72",
         firstname: "Emilio",
         surname: "Segr\u00e8",
-        motivation: '"for their discovery of the antiproton"',
+        motivation: "for their discovery of the antiproton",
         share: "2"
       },
       {
         id: "73",
         firstname: "Owen",
         surname: "Chamberlain",
-        motivation: '"for their discovery of the antiproton"',
+        motivation: "for their discovery of the antiproton",
         share: "2"
       }
     ]
@@ -7243,7 +7225,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Severo",
         surname: "Ochoa",
         motivation:
-          '"for their discovery of the mechanisms in the biological synthesis of ribonucleic acid and deoxyribonucleic acid"',
+          "for their discovery of the mechanisms in the biological synthesis of ribonucleic acid and deoxyribonucleic acid",
         share: "2"
       },
       {
@@ -7251,7 +7233,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Arthur",
         surname: "Kornberg",
         motivation:
-          '"for their discovery of the mechanisms in the biological synthesis of ribonucleic acid and deoxyribonucleic acid"',
+          "for their discovery of the mechanisms in the biological synthesis of ribonucleic acid and deoxyribonucleic acid",
         share: "2"
       }
     ]
@@ -7265,7 +7247,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Frederick",
         surname: "Sanger",
         motivation:
-          '"for his work on the structure of proteins, especially that of insulin"',
+          "for his work on the structure of proteins, especially that of insulin",
         share: "1"
       }
     ]
@@ -7279,7 +7261,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Boris",
         surname: "Pasternak",
         motivation:
-          '"for his important achievement both in contemporary lyrical poetry and in the field of the great Russian epic tradition"',
+          "for his important achievement both in contemporary lyrical poetry and in the field of the great Russian epic tradition",
         share: "1"
       }
     ]
@@ -7293,7 +7275,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Georges",
         surname: "Pire",
         motivation:
-          '"for his efforts to help refugees to leave their camps and return to a life of freedom and dignity"',
+          "for his efforts to help refugees to leave their camps and return to a life of freedom and dignity",
         share: "1"
       }
     ]
@@ -7307,7 +7289,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Pavel A.",
         surname: "Cherenkov",
         motivation:
-          '"for the discovery and the interpretation of the Cherenkov effect"',
+          "for the discovery and the interpretation of the Cherenkov effect",
         share: "3"
       },
       {
@@ -7315,7 +7297,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Igor Y.",
         surname: "Tamm",
         motivation:
-          '"for the discovery and the interpretation of the Cherenkov effect"',
+          "for the discovery and the interpretation of the Cherenkov effect",
         share: "3"
       },
       {
@@ -7323,7 +7305,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Il\u00b4ja M.",
         surname: "Frank",
         motivation:
-          '"for the discovery and the interpretation of the Cherenkov effect"',
+          "for the discovery and the interpretation of the Cherenkov effect",
         share: "3"
       }
     ]
@@ -7337,7 +7319,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "George",
         surname: "Beadle",
         motivation:
-          '"for their discovery that genes act by regulating definite chemical events"',
+          "for their discovery that genes act by regulating definite chemical events",
         share: "4"
       },
       {
@@ -7345,7 +7327,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Edward",
         surname: "Tatum",
         motivation:
-          '"for their discovery that genes act by regulating definite chemical events"',
+          "for their discovery that genes act by regulating definite chemical events",
         share: "4"
       },
       {
@@ -7353,7 +7335,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Joshua",
         surname: "Lederberg",
         motivation:
-          '"for his discoveries concerning genetic recombination and the organization of the genetic material of bacteria"',
+          "for his discoveries concerning genetic recombination and the organization of the genetic material of bacteria",
         share: "2"
       }
     ]
@@ -7366,7 +7348,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "221",
         firstname: "Lord",
         surname: "Todd",
-        motivation: '"for his work on nucleotides and nucleotide co-enzymes"',
+        motivation: "for his work on nucleotides and nucleotide co-enzymes",
         share: "1"
       }
     ]
@@ -7380,7 +7362,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Albert",
         surname: "Camus",
         motivation:
-          '"for his important literary production, which with clear-sighted earnestness illuminates the problems of the human conscience in our times"',
+          "for his important literary production, which with clear-sighted earnestness illuminates the problems of the human conscience in our times",
         share: "1"
       }
     ]
@@ -7394,7 +7376,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Lester Bowles",
         surname: "Pearson",
         motivation:
-          '"for his crucial contribution to the deployment of a United Nations Emergency Force in the wake of the Suez Crisis"',
+          "for his crucial contribution to the deployment of a United Nations Emergency Force in the wake of the Suez Crisis",
         share: "1"
       }
     ]
@@ -7408,7 +7390,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Chen Ning",
         surname: "Yang",
         motivation:
-          '"for their penetrating investigation of the so-called parity laws which has led to important discoveries regarding the elementary particles"',
+          "for their penetrating investigation of the so-called parity laws which has led to important discoveries regarding the elementary particles",
         share: "2"
       },
       {
@@ -7416,7 +7398,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Tsung-Dao",
         surname: "Lee",
         motivation:
-          '"for their penetrating investigation of the so-called parity laws which has led to important discoveries regarding the elementary particles"',
+          "for their penetrating investigation of the so-called parity laws which has led to important discoveries regarding the elementary particles",
         share: "2"
       }
     ]
@@ -7430,7 +7412,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Daniel",
         surname: "Bovet",
         motivation:
-          '"for his discoveries relating to synthetic compounds that inhibit the action of certain body substances, and especially their action on the vascular system and the skeletal muscles"',
+          "for his discoveries relating to synthetic compounds that inhibit the action of certain body substances, and especially their action on the vascular system and the skeletal muscles",
         share: "1"
       }
     ]
@@ -7444,7 +7426,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sir Cyril",
         surname: "Hinshelwood",
         motivation:
-          '"for their researches into the mechanism of chemical reactions"',
+          "for their researches into the mechanism of chemical reactions",
         share: "2"
       },
       {
@@ -7452,7 +7434,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Nikolay",
         surname: "Semenov",
         motivation:
-          '"for their researches into the mechanism of chemical reactions"',
+          "for their researches into the mechanism of chemical reactions",
         share: "2"
       }
     ]
@@ -7466,7 +7448,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Juan Ram\u00f3n",
         surname: "Jim\u00e9nez",
         motivation:
-          '"for his lyrical poetry, which in Spanish language constitutes an example of high spirit and artistical purity"',
+          "for his lyrical poetry, which in Spanish language constitutes an example of high spirit and artistical purity",
         share: "1"
       }
     ]
@@ -7475,7 +7457,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1956",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1956",
@@ -7486,7 +7468,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William B.",
         surname: "Shockley",
         motivation:
-          '"for their researches on semiconductors and their discovery of the transistor effect"',
+          "for their researches on semiconductors and their discovery of the transistor effect",
         share: "3"
       },
       {
@@ -7494,7 +7476,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John",
         surname: "Bardeen",
         motivation:
-          '"for their researches on semiconductors and their discovery of the transistor effect"',
+          "for their researches on semiconductors and their discovery of the transistor effect",
         share: "3"
       },
       {
@@ -7502,7 +7484,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Walter H.",
         surname: "Brattain",
         motivation:
-          '"for their researches on semiconductors and their discovery of the transistor effect"',
+          "for their researches on semiconductors and their discovery of the transistor effect",
         share: "3"
       }
     ]
@@ -7516,7 +7498,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Andr\u00e9 F.",
         surname: "Cournand",
         motivation:
-          '"for their discoveries concerning heart catheterization and pathological changes in the circulatory system"',
+          "for their discoveries concerning heart catheterization and pathological changes in the circulatory system",
         share: "3"
       },
       {
@@ -7524,7 +7506,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Werner",
         surname: "Forssmann",
         motivation:
-          '"for their discoveries concerning heart catheterization and pathological changes in the circulatory system"',
+          "for their discoveries concerning heart catheterization and pathological changes in the circulatory system",
         share: "3"
       },
       {
@@ -7532,7 +7514,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Dickinson W.",
         surname: "Richards",
         motivation:
-          '"for their discoveries concerning heart catheterization and pathological changes in the circulatory system"',
+          "for their discoveries concerning heart catheterization and pathological changes in the circulatory system",
         share: "3"
       }
     ]
@@ -7546,7 +7528,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Vincent",
         surname: "du Vigneaud",
         motivation:
-          '"for his work on biochemically important sulphur compounds, especially for the first synthesis of a polypeptide hormone"',
+          "for his work on biochemically important sulphur compounds, especially for the first synthesis of a polypeptide hormone",
         share: "1"
       }
     ]
@@ -7560,7 +7542,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Halld\u00f3r",
         surname: "Laxness",
         motivation:
-          '"for his vivid epic power which has renewed the great narrative art of Iceland"',
+          "for his vivid epic power which has renewed the great narrative art of Iceland",
         share: "1"
       }
     ]
@@ -7569,7 +7551,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1955",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1955",
@@ -7580,7 +7562,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Willis E.",
         surname: "Lamb",
         motivation:
-          '"for his discoveries concerning the fine structure of the hydrogen spectrum"',
+          "for his discoveries concerning the fine structure of the hydrogen spectrum",
         share: "2"
       },
       {
@@ -7588,7 +7570,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Polykarp",
         surname: "Kusch",
         motivation:
-          '"for his precision determination of the magnetic moment of the electron"',
+          "for his precision determination of the magnetic moment of the electron",
         share: "2"
       }
     ]
@@ -7602,7 +7584,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Hugo",
         surname: "Theorell",
         motivation:
-          '"for his discoveries concerning the nature and mode of action of oxidation enzymes"',
+          "for his discoveries concerning the nature and mode of action of oxidation enzymes",
         share: "1"
       }
     ]
@@ -7616,7 +7598,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Linus",
         surname: "Pauling",
         motivation:
-          '"for his research into the nature of the chemical bond and its application to the elucidation of the structure of complex substances"',
+          "for his research into the nature of the chemical bond and its application to the elucidation of the structure of complex substances",
         share: "1"
       }
     ]
@@ -7630,7 +7612,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ernest",
         surname: "Hemingway",
         motivation:
-          '"for his mastery of the art of narrative, most recently demonstrated in <I>The Old Man and the Sea,</I> and for the influence that he has exerted on contemporary style"',
+          "for his mastery of the art of narrative, most recently demonstrated in <I>The Old Man and the Sea,</I> and for the influence that he has exerted on contemporary style",
         share: "1"
       }
     ]
@@ -7642,7 +7624,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "515",
         motivation:
-          '"for its efforts to heal the wounds of war by providing help and protection to refugees all over the world"',
+          "for its efforts to heal the wounds of war by providing help and protection to refugees all over the world",
         share: "1",
         firstname: "Office of the United Nations High Commissioner for Refugees"
       }
@@ -7657,7 +7639,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Max",
         surname: "Born",
         motivation:
-          '"for his fundamental research in quantum mechanics, especially for his statistical interpretation of the wavefunction"',
+          "for his fundamental research in quantum mechanics, especially for his statistical interpretation of the wavefunction",
         share: "2"
       },
       {
@@ -7665,7 +7647,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Walther",
         surname: "Bothe",
         motivation:
-          '"for the coincidence method and his discoveries made therewith"',
+          "for the coincidence method and his discoveries made therewith",
         share: "2"
       }
     ]
@@ -7679,7 +7661,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John F.",
         surname: "Enders",
         motivation:
-          '"for their discovery of the ability of poliomyelitis viruses to grow in cultures of various types of tissue"',
+          "for their discovery of the ability of poliomyelitis viruses to grow in cultures of various types of tissue",
         share: "3"
       },
       {
@@ -7687,7 +7669,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Thomas H.",
         surname: "Weller",
         motivation:
-          '"for their discovery of the ability of poliomyelitis viruses to grow in cultures of various types of tissue"',
+          "for their discovery of the ability of poliomyelitis viruses to grow in cultures of various types of tissue",
         share: "3"
       },
       {
@@ -7695,7 +7677,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Frederick C.",
         surname: "Robbins",
         motivation:
-          '"for their discovery of the ability of poliomyelitis viruses to grow in cultures of various types of tissue"',
+          "for their discovery of the ability of poliomyelitis viruses to grow in cultures of various types of tissue",
         share: "3"
       }
     ]
@@ -7709,7 +7691,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Hermann",
         surname: "Staudinger",
         motivation:
-          '"for his discoveries in the field of macromolecular chemistry"',
+          "for his discoveries in the field of macromolecular chemistry",
         share: "1"
       }
     ]
@@ -7723,7 +7705,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Winston",
         surname: "Churchill",
         motivation:
-          '"for his mastery of historical and biographical description as well as for brilliant oratory in defending exalted human values"',
+          "for his mastery of historical and biographical description as well as for brilliant oratory in defending exalted human values",
         share: "1"
       }
     ]
@@ -7737,7 +7719,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "George C.",
         surname: "Marshall",
         motivation:
-          '"for proposing and supervising the plan for the economic recovery of Europe"',
+          "for proposing and supervising the plan for the economic recovery of Europe",
         share: "1"
       }
     ]
@@ -7751,7 +7733,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Frits",
         surname: "Zernike",
         motivation:
-          '"for his demonstration of the phase contrast method, especially for his invention of the phase contrast microscope"',
+          "for his demonstration of the phase contrast method, especially for his invention of the phase contrast microscope",
         share: "1"
       }
     ]
@@ -7764,7 +7746,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "354",
         firstname: "Hans",
         surname: "Krebs",
-        motivation: '"for his discovery of the citric acid cycle"',
+        motivation: "for his discovery of the citric acid cycle",
         share: "2"
       },
       {
@@ -7772,7 +7754,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Fritz",
         surname: "Lipmann",
         motivation:
-          '"for his discovery of co-enzyme A and its importance for intermediary metabolism"',
+          "for his discovery of co-enzyme A and its importance for intermediary metabolism",
         share: "2"
       }
     ]
@@ -7785,14 +7767,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "214",
         firstname: "Archer J.P.",
         surname: "Martin",
-        motivation: '"for their invention of partition chromatography"',
+        motivation: "for their invention of partition chromatography",
         share: "2"
       },
       {
         id: "215",
         firstname: "Richard L.M.",
         surname: "Synge",
-        motivation: '"for their invention of partition chromatography"',
+        motivation: "for their invention of partition chromatography",
         share: "2"
       }
     ]
@@ -7806,7 +7788,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Fran\u00e7ois",
         surname: "Mauriac",
         motivation:
-          '"for the deep spiritual insight and the artistic intensity with which he has in his novels penetrated the drama of human life"',
+          "for the deep spiritual insight and the artistic intensity with which he has in his novels penetrated the drama of human life",
         share: "1"
       }
     ]
@@ -7820,7 +7802,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Albert",
         surname: "Schweitzer",
         motivation:
-          '"for his altruism, reverence for life, and tireless humanitarian work  which has helped making the idea of brotherhood between men and nations a living one"',
+          "for his altruism, reverence for life, and tireless humanitarian work which has helped making the idea of brotherhood between men and nations a living one",
         share: "1"
       }
     ]
@@ -7834,7 +7816,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Felix",
         surname: "Bloch",
         motivation:
-          '"for their development of new methods for nuclear magnetic precision measurements and discoveries in connection therewith"',
+          "for their development of new methods for nuclear magnetic precision measurements and discoveries in connection therewith",
         share: "2"
       },
       {
@@ -7842,7 +7824,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "E. M.",
         surname: "Purcell",
         motivation:
-          '"for their development of new methods for nuclear magnetic precision measurements and discoveries in connection therewith"',
+          "for their development of new methods for nuclear magnetic precision measurements and discoveries in connection therewith",
         share: "2"
       }
     ]
@@ -7856,7 +7838,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Selman A.",
         surname: "Waksman",
         motivation:
-          '"for his discovery of streptomycin, the first antibiotic effective against tuberculosis"',
+          "for his discovery of streptomycin, the first antibiotic effective against tuberculosis",
         share: "1"
       }
     ]
@@ -7870,7 +7852,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Edwin M.",
         surname: "McMillan",
         motivation:
-          '"for their discoveries in the chemistry of the transuranium elements"',
+          "for their discoveries in the chemistry of the transuranium elements",
         share: "2"
       },
       {
@@ -7878,7 +7860,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Glenn T.",
         surname: "Seaborg",
         motivation:
-          '"for their discoveries in the chemistry of the transuranium elements"',
+          "for their discoveries in the chemistry of the transuranium elements",
         share: "2"
       }
     ]
@@ -7892,7 +7874,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "P\u00e4r",
         surname: "Lagerkvist",
         motivation:
-          '"for the artistic vigour and true independence of mind with which he endeavours in his poetry to find answers to the eternal questions confronting mankind"',
+          "for the artistic vigour and true independence of mind with which he endeavours in his poetry to find answers to the eternal questions confronting mankind",
         share: "1"
       }
     ]
@@ -7906,7 +7888,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "L\u00e9on",
         surname: "Jouhaux",
         motivation:
-          '"for having devoted his life to the fight against war through the promotion of social justice and brotherhood among men and nations"',
+          "for having devoted his life to the fight against war through the promotion of social justice and brotherhood among men and nations",
         share: "1"
       }
     ]
@@ -7920,7 +7902,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John",
         surname: "Cockcroft",
         motivation:
-          '"for their pioneer work on the transmutation of atomic nuclei by artificially accelerated atomic particles"',
+          "for their pioneer work on the transmutation of atomic nuclei by artificially accelerated atomic particles",
         share: "2"
       },
       {
@@ -7928,7 +7910,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ernest T.S.",
         surname: "Walton",
         motivation:
-          '"for their pioneer work on the transmutation of atomic nuclei by artificially accelerated atomic particles"',
+          "for their pioneer work on the transmutation of atomic nuclei by artificially accelerated atomic particles",
         share: "2"
       }
     ]
@@ -7942,7 +7924,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Max",
         surname: "Theiler",
         motivation:
-          '"for his discoveries concerning yellow fever and how to combat it"',
+          "for his discoveries concerning yellow fever and how to combat it",
         share: "1"
       }
     ]
@@ -7956,7 +7938,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Otto",
         surname: "Diels",
         motivation:
-          '"for their discovery and development of the diene synthesis"',
+          "for their discovery and development of the diene synthesis",
         share: "2"
       },
       {
@@ -7964,7 +7946,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Kurt",
         surname: "Alder",
         motivation:
-          '"for their discovery and development of the diene synthesis"',
+          "for their discovery and development of the diene synthesis",
         share: "2"
       }
     ]
@@ -7978,7 +7960,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Bertrand",
         surname: "Russell",
         motivation:
-          '"in recognition of his varied and significant writings in which he champions humanitarian ideals and freedom of thought"',
+          "in recognition of his varied and significant writings in which he champions humanitarian ideals and freedom of thought",
         share: "1"
       }
     ]
@@ -7991,7 +7973,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "511",
         firstname: "Ralph",
         surname: "Bunche",
-        motivation: '"for his work as mediator in Palestine in 1948-1949"',
+        motivation: "for his work as mediator in Palestine in 1948-1949",
         share: "1"
       }
     ]
@@ -8005,7 +7987,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Cecil",
         surname: "Powell",
         motivation:
-          '"for his development of the photographic method of studying nuclear processes and his discoveries regarding mesons made with this method"',
+          "for his development of the photographic method of studying nuclear processes and his discoveries regarding mesons made with this method",
         share: "1"
       }
     ]
@@ -8019,7 +8001,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Edward C.",
         surname: "Kendall",
         motivation:
-          '"for their discoveries relating to the hormones of the adrenal cortex, their structure and biological effects"',
+          "for their discoveries relating to the hormones of the adrenal cortex, their structure and biological effects",
         share: "3"
       },
       {
@@ -8027,7 +8009,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Tadeus",
         surname: "Reichstein",
         motivation:
-          '"for their discoveries relating to the hormones of the adrenal cortex, their structure and biological effects"',
+          "for their discoveries relating to the hormones of the adrenal cortex, their structure and biological effects",
         share: "3"
       },
       {
@@ -8035,7 +8017,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Philip S.",
         surname: "Hench",
         motivation:
-          '"for their discoveries relating to the hormones of the adrenal cortex, their structure and biological effects"',
+          "for their discoveries relating to the hormones of the adrenal cortex, their structure and biological effects",
         share: "3"
       }
     ]
@@ -8049,7 +8031,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William F.",
         surname: "Giauque",
         motivation:
-          '"for his contributions in the field of chemical thermodynamics, particularly concerning the behaviour of substances at extremely low temperatures"',
+          "for his contributions in the field of chemical thermodynamics, particularly concerning the behaviour of substances at extremely low temperatures",
         share: "1"
       }
     ]
@@ -8063,7 +8045,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William",
         surname: "Faulkner",
         motivation:
-          '"for his powerful and artistically unique contribution to the modern American novel"',
+          "for his powerful and artistically unique contribution to the modern American novel",
         share: "1"
       }
     ]
@@ -8077,7 +8059,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John",
         surname: "Boyd Orr",
         motivation:
-          '"for his lifelong effort to conquer hunger and want, thereby helping to remove a major cause of military conflict and war"',
+          "for his lifelong effort to conquer hunger and want, thereby helping to remove a major cause of military conflict and war",
         share: "1"
       }
     ]
@@ -8091,7 +8073,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Hideki",
         surname: "Yukawa",
         motivation:
-          '"for his prediction of the existence of mesons on the basis of theoretical work on nuclear forces"',
+          "for his prediction of the existence of mesons on the basis of theoretical work on nuclear forces",
         share: "1"
       }
     ]
@@ -8105,7 +8087,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Walter",
         surname: "Hess",
         motivation:
-          '"for his discovery of the functional organization of the interbrain as a coordinator of the activities of the internal organs"',
+          "for his discovery of the functional organization of the interbrain as a coordinator of the activities of the internal organs",
         share: "2"
       },
       {
@@ -8113,7 +8095,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Egas",
         surname: "Moniz",
         motivation:
-          '"for his discovery of the therapeutic value of leucotomy in certain psychoses"',
+          "for his discovery of the therapeutic value of leucotomy in certain psychoses",
         share: "2"
       }
     ]
@@ -8127,7 +8109,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Arne",
         surname: "Tiselius",
         motivation:
-          '"for his research on electrophoresis and adsorption analysis, especially for his discoveries concerning the complex nature of the serum proteins"',
+          "for his research on electrophoresis and adsorption analysis, especially for his discoveries concerning the complex nature of the serum proteins",
         share: "1"
       }
     ]
@@ -8141,7 +8123,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "T.S.",
         surname: "Eliot",
         motivation:
-          '"for his outstanding, pioneer contribution to present-day poetry"',
+          "for his outstanding, pioneer contribution to present-day poetry",
         share: "1"
       }
     ]
@@ -8150,7 +8132,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1948",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1948",
@@ -8161,7 +8143,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Patrick M.S.",
         surname: "Blackett",
         motivation:
-          '"for his development of the Wilson cloud chamber method, and his discoveries therewith in the fields of nuclear physics and cosmic radiation"',
+          "for his development of the Wilson cloud chamber method, and his discoveries therewith in the fields of nuclear physics and cosmic radiation",
         share: "1"
       }
     ]
@@ -8175,7 +8157,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Paul",
         surname: "M\u00fcller",
         motivation:
-          '"for his discovery of the high efficiency of DDT as a contact poison against several arthropods"',
+          "for his discovery of the high efficiency of DDT as a contact poison against several arthropods",
         share: "1"
       }
     ]
@@ -8189,7 +8171,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sir Robert",
         surname: "Robinson",
         motivation:
-          '"for his investigations on plant products of biological importance, especially the alkaloids"',
+          "for his investigations on plant products of biological importance, especially the alkaloids",
         share: "1"
       }
     ]
@@ -8203,7 +8185,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Andr\u00e9",
         surname: "Gide",
         motivation:
-          '"for his comprehensive and artistically significant writings, in which human problems and conditions have been presented with a fearless love of truth and keen psychological insight"',
+          "for his comprehensive and artistically significant writings, in which human problems and conditions have been presented with a fearless love of truth and keen psychological insight",
         share: "1"
       }
     ]
@@ -8215,14 +8197,14 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "508",
         motivation:
-          '"for their pioneering work in the international peace movement and compassionate effort to relieve human suffering, thereby promoting the fraternity between nations"',
+          "for their pioneering work in the international peace movement and compassionate effort to relieve human suffering, thereby promoting the fraternity between nations",
         share: "2",
         firstname: "Friends Service Council"
       },
       {
         id: "509",
         motivation:
-          '"for their pioneering work in the international peace movement and compassionate effort to relieve human suffering, thereby promoting the fraternity between nations"',
+          "for their pioneering work in the international peace movement and compassionate effort to relieve human suffering, thereby promoting the fraternity between nations",
         share: "2",
         firstname: "American Friends Service Committee"
       }
@@ -8237,7 +8219,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Edward V.",
         surname: "Appleton",
         motivation:
-          '"for his investigations of the physics of the upper atmosphere especially for the discovery of the so-called Appleton layer"',
+          "for his investigations of the physics of the upper atmosphere especially for the discovery of the so-called Appleton layer",
         share: "1"
       }
     ]
@@ -8251,7 +8233,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Carl",
         surname: "Cori",
         motivation:
-          '"for their discovery of the course of the catalytic conversion of glycogen"',
+          "for their discovery of the course of the catalytic conversion of glycogen",
         share: "4"
       },
       {
@@ -8259,7 +8241,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Gerty",
         surname: "Cori",
         motivation:
-          '"for their discovery of the course of the catalytic conversion of glycogen"',
+          "for their discovery of the course of the catalytic conversion of glycogen",
         share: "4"
       },
       {
@@ -8267,7 +8249,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Bernardo",
         surname: "Houssay",
         motivation:
-          '"for his discovery of the part played by the hormone of the anterior pituitary lobe in the metabolism of sugar"',
+          "for his discovery of the part played by the hormone of the anterior pituitary lobe in the metabolism of sugar",
         share: "2"
       }
     ]
@@ -8280,7 +8262,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "204",
         firstname: "James B.",
         surname: "Sumner",
-        motivation: '"for his discovery that enzymes can be crystallized"',
+        motivation: "for his discovery that enzymes can be crystallized",
         share: "2"
       },
       {
@@ -8288,7 +8270,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John H.",
         surname: "Northrop",
         motivation:
-          '"for their preparation of enzymes and virus proteins in a pure form"',
+          "for their preparation of enzymes and virus proteins in a pure form",
         share: "4"
       },
       {
@@ -8296,7 +8278,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Wendell M.",
         surname: "Stanley",
         motivation:
-          '"for their preparation of enzymes and virus proteins in a pure form"',
+          "for their preparation of enzymes and virus proteins in a pure form",
         share: "4"
       }
     ]
@@ -8310,7 +8292,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Hermann",
         surname: "Hesse",
         motivation:
-          '"for his inspired writings which, while growing in boldness and penetration, exemplify the classical humanitarian ideals and high qualities of style"',
+          "for his inspired writings which, while growing in boldness and penetration, exemplify the classical humanitarian ideals and high qualities of style",
         share: "1"
       }
     ]
@@ -8323,7 +8305,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "506",
         firstname: "Emily Greene",
         surname: "Balch",
-        motivation: '"for her lifelong work for the cause of peace"',
+        motivation: "for her lifelong work for the cause of peace",
         share: "2"
       },
       {
@@ -8331,7 +8313,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John R.",
         surname: "Mott",
         motivation:
-          '"for his contribution to the creation of a peace-promoting religious brotherhood across national boundaries"',
+          "for his contribution to the creation of a peace-promoting religious brotherhood across national boundaries",
         share: "2"
       }
     ]
@@ -8345,7 +8327,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Percy W.",
         surname: "Bridgman",
         motivation:
-          '"for the invention of an apparatus to produce extremely high pressures, and for the discoveries he made therewith in the field of high pressure physics"',
+          "for the invention of an apparatus to produce extremely high pressures, and for the discoveries he made therewith in the field of high pressure physics",
         share: "1"
       }
     ]
@@ -8359,7 +8341,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Hermann J.",
         surname: "Muller",
         motivation:
-          '"for the discovery of the production of mutations by means of X-ray irradiation"',
+          "for the discovery of the production of mutations by means of X-ray irradiation",
         share: "1"
       }
     ]
@@ -8373,7 +8355,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Artturi",
         surname: "Virtanen",
         motivation:
-          '"for his research and inventions in agricultural and nutrition chemistry, especially for his fodder preservation method"',
+          "for his research and inventions in agricultural and nutrition chemistry, especially for his fodder preservation method",
         share: "1"
       }
     ]
@@ -8387,7 +8369,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Gabriela",
         surname: "Mistral",
         motivation:
-          '"for her lyric poetry which, inspired by powerful emotions, has made her name a symbol of the idealistic aspirations of the entire Latin American world"',
+          "for her lyric poetry which, inspired by powerful emotions, has made her name a symbol of the idealistic aspirations of the entire Latin American world",
         share: "1"
       }
     ]
@@ -8401,7 +8383,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Cordell",
         surname: "Hull",
         motivation:
-          '"for his indefatigable work for international understanding and his pivotal role in establishing the United Nations"',
+          "for his indefatigable work for international understanding and his pivotal role in establishing the United Nations",
         share: "1"
       }
     ]
@@ -8415,7 +8397,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Wolfgang",
         surname: "Pauli",
         motivation:
-          '"for the discovery of the Exclusion Principle, also called the Pauli Principle"',
+          "for the discovery of the Exclusion Principle, also called the Pauli Principle",
         share: "1"
       }
     ]
@@ -8429,7 +8411,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sir Alexander",
         surname: "Fleming",
         motivation:
-          '"for the discovery of penicillin and its curative effect in various infectious diseases"',
+          "for the discovery of penicillin and its curative effect in various infectious diseases",
         share: "3"
       },
       {
@@ -8437,7 +8419,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ernst B.",
         surname: "Chain",
         motivation:
-          '"for the discovery of penicillin and its curative effect in various infectious diseases"',
+          "for the discovery of penicillin and its curative effect in various infectious diseases",
         share: "3"
       },
       {
@@ -8445,7 +8427,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sir Howard",
         surname: "Florey",
         motivation:
-          '"for the discovery of penicillin and its curative effect in various infectious diseases"',
+          "for the discovery of penicillin and its curative effect in various infectious diseases",
         share: "3"
       }
     ]
@@ -8458,7 +8440,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "202",
         firstname: "Otto",
         surname: "Hahn",
-        motivation: '"for his discovery of the fission of heavy nuclei"',
+        motivation: "for his discovery of the fission of heavy nuclei",
         share: "1"
       }
     ]
@@ -8472,7 +8454,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Johannes V.",
         surname: "Jensen",
         motivation:
-          '"for the rare strength and fertility of his poetic imagination with which is combined an intellectual curiosity of wide scope and a bold, freshly creative style"',
+          "for the rare strength and fertility of his poetic imagination with which is combined an intellectual curiosity of wide scope and a bold, freshly creative style",
         share: "1"
       }
     ]
@@ -8484,7 +8466,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "482",
         motivation:
-          '"for the great work it has performed during the war on behalf of humanity"',
+          "for the great work it has performed during the war on behalf of humanity",
         share: "1",
         firstname: "International Committee of the Red Cross"
       }
@@ -8499,7 +8481,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Isidor Isaac",
         surname: "Rabi",
         motivation:
-          '"for his resonance method for recording the magnetic properties of atomic nuclei"',
+          "for his resonance method for recording the magnetic properties of atomic nuclei",
         share: "1"
       }
     ]
@@ -8513,7 +8495,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Joseph",
         surname: "Erlanger",
         motivation:
-          '"for their discoveries relating to the highly differentiated functions of single nerve fibres"',
+          "for their discoveries relating to the highly differentiated functions of single nerve fibres",
         share: "2"
       },
       {
@@ -8521,7 +8503,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Herbert S.",
         surname: "Gasser",
         motivation:
-          '"for their discoveries relating to the highly differentiated functions of single nerve fibres"',
+          "for their discoveries relating to the highly differentiated functions of single nerve fibres",
         share: "2"
       }
     ]
@@ -8535,7 +8517,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "George",
         surname: "de Hevesy",
         motivation:
-          '"for his work on the use of isotopes as tracers in the study of chemical processes"',
+          "for his work on the use of isotopes as tracers in the study of chemical processes",
         share: "1"
       }
     ]
@@ -8544,13 +8526,13 @@ export const prizes: Immutable<Prize[]> = [
     year: "1943",
     category: "literature",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1943",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1943",
@@ -8561,7 +8543,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Otto",
         surname: "Stern",
         motivation:
-          '"for his contribution to the development of the molecular ray method and his discovery of the magnetic moment of the proton"',
+          "for his contribution to the development of the molecular ray method and his discovery of the magnetic moment of the proton",
         share: "1"
       }
     ]
@@ -8574,14 +8556,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "335",
         firstname: "Henrik",
         surname: "Dam",
-        motivation: '"for his discovery of vitamin K"',
+        motivation: "for his discovery of vitamin K",
         share: "2"
       },
       {
         id: "336",
         firstname: "Edward A.",
         surname: "Doisy",
-        motivation: '"for his discovery of the chemical nature of vitamin K"',
+        motivation: "for his discovery of the chemical nature of vitamin K",
         share: "2"
       }
     ]
@@ -8590,91 +8572,91 @@ export const prizes: Immutable<Prize[]> = [
     year: "1942",
     category: "chemistry",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1942",
     category: "literature",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1942",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1942",
     category: "physics",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1942",
     category: "medicine",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1941",
     category: "chemistry",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1941",
     category: "literature",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1941",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1941",
     category: "physics",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1941",
     category: "medicine",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1940",
     category: "chemistry",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1940",
     category: "literature",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1940",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1940",
     category: "physics",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1940",
     category: "medicine",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1939",
@@ -8684,14 +8666,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "199",
         firstname: "Adolf",
         surname: "Butenandt",
-        motivation: '"for his work on sex hormones"',
+        motivation: "for his work on sex hormones",
         share: "2"
       },
       {
         id: "200",
         firstname: "Leopold",
         surname: "Ruzicka",
-        motivation: '"for his work on polymethylenes and higher terpenes"',
+        motivation: "for his work on polymethylenes and higher terpenes",
         share: "2"
       }
     ]
@@ -8705,7 +8687,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Frans Eemil",
         surname: "Sillanp\u00e4\u00e4",
         motivation:
-          '"for his deep understanding of his country\'s peasantry and the exquisite art with which he has portrayed their way of life and their relationship with Nature"',
+          "for his deep understanding of his country's peasantry and the exquisite art with which he has portrayed their way of life and their relationship with Nature",
         share: "1"
       }
     ]
@@ -8714,7 +8696,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1939",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1939",
@@ -8725,7 +8707,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ernest",
         surname: "Lawrence",
         motivation:
-          '"for the invention and development of the cyclotron and for results obtained with it, especially with regard to artificial radioactive elements"',
+          "for the invention and development of the cyclotron and for results obtained with it, especially with regard to artificial radioactive elements",
         share: "1"
       }
     ]
@@ -8739,7 +8721,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Gerhard",
         surname: "Domagk",
         motivation:
-          '"for the discovery of the antibacterial effects of prontosil"',
+          "for the discovery of the antibacterial effects of prontosil",
         share: "1"
       }
     ]
@@ -8752,7 +8734,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "198",
         firstname: "Richard",
         surname: "Kuhn",
-        motivation: '"for his work on carotenoids and vitamins"',
+        motivation: "for his work on carotenoids and vitamins",
         share: "1"
       }
     ]
@@ -8766,7 +8748,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Pearl",
         surname: "Buck",
         motivation:
-          '"for her rich and truly epic descriptions of peasant life in China and for her biographical masterpieces"',
+          "for her rich and truly epic descriptions of peasant life in China and for her biographical masterpieces",
         share: "1"
       }
     ]
@@ -8778,7 +8760,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "503",
         motivation:
-          '"for having carried on the work of Fridtjof Nansen to the benefit of refugees across Europe"',
+          "for having carried on the work of Fridtjof Nansen to the benefit of refugees across Europe",
         share: "1",
         firstname: "Nansen International Office for Refugees"
       }
@@ -8793,7 +8775,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Enrico",
         surname: "Fermi",
         motivation:
-          '"for his demonstrations of the existence of new radioactive elements produced by neutron irradiation, and for his related discovery of nuclear reactions brought about by slow neutrons"',
+          "for his demonstrations of the existence of new radioactive elements produced by neutron irradiation, and for his related discovery of nuclear reactions brought about by slow neutrons",
         share: "1"
       }
     ]
@@ -8807,7 +8789,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Corneille",
         surname: "Heymans",
         motivation:
-          '"for the discovery of the role played by the sinus and aortic mechanisms in the regulation of respiration"',
+          "for the discovery of the role played by the sinus and aortic mechanisms in the regulation of respiration",
         share: "1"
       }
     ]
@@ -8820,7 +8802,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "196",
         firstname: "Norman",
         surname: "Haworth",
-        motivation: '"for his investigations on carbohydrates and vitamin C"',
+        motivation: "for his investigations on carbohydrates and vitamin C",
         share: "2"
       },
       {
@@ -8828,7 +8810,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Paul",
         surname: "Karrer",
         motivation:
-          '"for his investigations on carotenoids, flavins and vitamins A and B2"',
+          "for his investigations on carotenoids, flavins and vitamins A and B2",
         share: "2"
       }
     ]
@@ -8842,7 +8824,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Roger",
         surname: "Martin du Gard",
         motivation:
-          '"for the artistic power and truth with which he has depicted human conflict as well as some fundamental aspects of contemporary life in his novel-cycle <I>Les Thibault</I>"',
+          "for the artistic power and truth with which he has depicted human conflict as well as some fundamental aspects of contemporary life in his novel-cycle <I>Les Thibault</I>",
         share: "1"
       }
     ]
@@ -8856,7 +8838,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert",
         surname: "Cecil",
         motivation:
-          '"for his tireless effort in support of the League of Nations, disarmament and peace"',
+          "for his tireless effort in support of the League of Nations, disarmament and peace",
         share: "1"
       }
     ]
@@ -8870,7 +8852,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Clinton",
         surname: "Davisson",
         motivation:
-          '"for their experimental discovery of the diffraction of electrons by crystals"',
+          "for their experimental discovery of the diffraction of electrons by crystals",
         share: "2"
       },
       {
@@ -8878,7 +8860,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "George Paget",
         surname: "Thomson",
         motivation:
-          '"for their experimental discovery of the diffraction of electrons by crystals"',
+          "for their experimental discovery of the diffraction of electrons by crystals",
         share: "2"
       }
     ]
@@ -8892,7 +8874,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Albert",
         surname: "Szent-Gy\u00f6rgyi",
         motivation:
-          '"for his discoveries in connection with the biological combustion processes, with special reference to vitamin C and the catalysis of fumaric acid"',
+          "for his discoveries in connection with the biological combustion processes, with special reference to vitamin C and the catalysis of fumaric acid",
         share: "1"
       }
     ]
@@ -8906,7 +8888,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Peter",
         surname: "Debye",
         motivation:
-          '"for his contributions to our knowledge of molecular structure through his investigations on dipole moments and on the diffraction of X-rays and electrons in gases"',
+          "for his contributions to our knowledge of molecular structure through his investigations on dipole moments and on the diffraction of X-rays and electrons in gases",
         share: "1"
       }
     ]
@@ -8920,7 +8902,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Eugene",
         surname: "O'Neill",
         motivation:
-          '"for the power, honesty and deep-felt emotions of his dramatic works, which embody an original concept of tragedy"',
+          "for the power, honesty and deep-felt emotions of his dramatic works, which embody an original concept of tragedy",
         share: "1"
       }
     ]
@@ -8934,7 +8916,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Carlos",
         surname: "Saavedra Lamas",
         motivation:
-          '"for his role as father of the Argentine Antiwar Pact of 1933, which he also used as a means to mediate peace between Paraguay and Bolivia in 1935"',
+          "for his role as father of the Argentine Antiwar Pact of 1933, which he also used as a means to mediate peace between Paraguay and Bolivia in 1935",
         share: "1"
       }
     ]
@@ -8947,14 +8929,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "42",
         firstname: "Victor F.",
         surname: "Hess",
-        motivation: '"for his discovery of cosmic radiation"',
+        motivation: "for his discovery of cosmic radiation",
         share: "2"
       },
       {
         id: "43",
         firstname: "Carl D.",
         surname: "Anderson",
-        motivation: '"for his discovery of the positron"',
+        motivation: "for his discovery of the positron",
         share: "2"
       }
     ]
@@ -8968,7 +8950,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sir Henry",
         surname: "Dale",
         motivation:
-          '"for their discoveries relating to chemical transmission of nerve impulses"',
+          "for their discoveries relating to chemical transmission of nerve impulses",
         share: "2"
       },
       {
@@ -8976,7 +8958,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Otto",
         surname: "Loewi",
         motivation:
-          '"for their discoveries relating to chemical transmission of nerve impulses"',
+          "for their discoveries relating to chemical transmission of nerve impulses",
         share: "2"
       }
     ]
@@ -8990,7 +8972,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Fr\u00e9d\u00e9ric",
         surname: "Joliot",
         motivation:
-          '"in recognition of their synthesis of new radioactive elements"',
+          "in recognition of their synthesis of new radioactive elements",
         share: "2"
       },
       {
@@ -8998,7 +8980,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ir\u00e8ne",
         surname: "Joliot-Curie",
         motivation:
-          '"in recognition of their synthesis of new radioactive elements"',
+          "in recognition of their synthesis of new radioactive elements",
         share: "2"
       }
     ]
@@ -9007,7 +8989,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1935",
     category: "literature",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1935",
@@ -9018,7 +9000,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Carl",
         surname: "von Ossietzky",
         motivation:
-          '"for his burning love for freedom of thought and expression and his valuable contribution to the cause of peace"',
+          "for his burning love for freedom of thought and expression and his valuable contribution to the cause of peace",
         share: "1"
       }
     ]
@@ -9031,7 +9013,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "41",
         firstname: "James",
         surname: "Chadwick",
-        motivation: '"for the discovery of the neutron"',
+        motivation: "for the discovery of the neutron",
         share: "1"
       }
     ]
@@ -9045,7 +9027,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Hans",
         surname: "Spemann",
         motivation:
-          '"for his discovery of the organizer effect in embryonic development"',
+          "for his discovery of the organizer effect in embryonic development",
         share: "1"
       }
     ]
@@ -9058,7 +9040,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "192",
         firstname: "Harold C.",
         surname: "Urey",
-        motivation: '"for his discovery of heavy hydrogen"',
+        motivation: "for his discovery of heavy hydrogen",
         share: "1"
       }
     ]
@@ -9072,7 +9054,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Luigi",
         surname: "Pirandello",
         motivation:
-          '"for his bold and ingenious revival of dramatic and scenic art"',
+          "for his bold and ingenious revival of dramatic and scenic art",
         share: "1"
       }
     ]
@@ -9086,7 +9068,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Arthur",
         surname: "Henderson",
         motivation:
-          '"for his untiring struggle and his courageous efforts as Chairman of the League of Nations Disarmament Conference 1931-34"',
+          "for his untiring struggle and his courageous efforts as Chairman of the League of Nations Disarmament Conference 1931-34",
         share: "1"
       }
     ]
@@ -9095,7 +9077,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1934",
     category: "physics",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1934",
@@ -9106,7 +9088,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "George H.",
         surname: "Whipple",
         motivation:
-          '"for their discoveries concerning liver therapy in cases of anaemia"',
+          "for their discoveries concerning liver therapy in cases of anaemia",
         share: "3"
       },
       {
@@ -9114,7 +9096,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "George R.",
         surname: "Minot",
         motivation:
-          '"for their discoveries concerning liver therapy in cases of anaemia"',
+          "for their discoveries concerning liver therapy in cases of anaemia",
         share: "3"
       },
       {
@@ -9122,7 +9104,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William P.",
         surname: "Murphy",
         motivation:
-          '"for their discoveries concerning liver therapy in cases of anaemia"',
+          "for their discoveries concerning liver therapy in cases of anaemia",
         share: "3"
       }
     ]
@@ -9131,7 +9113,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1933",
     category: "chemistry",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section."
   },
   {
     year: "1933",
@@ -9142,7 +9124,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ivan",
         surname: "Bunin",
         motivation:
-          '"for the strict artistry with which he has carried on the classical Russian traditions in prose writing"',
+          "for the strict artistry with which he has carried on the classical Russian traditions in prose writing",
         share: "1"
       }
     ]
@@ -9156,7 +9138,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sir Norman",
         surname: "Angell",
         motivation:
-          '"for having exposed by his pen the illusion of war and presented a convincing plea for international cooperation and peace"',
+          "for having exposed by his pen the illusion of war and presented a convincing plea for international cooperation and peace",
         share: "1"
       }
     ]
@@ -9170,7 +9152,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Erwin",
         surname: "Schr\u00f6dinger",
         motivation:
-          '"for the discovery of new productive forms of atomic theory"',
+          "for the discovery of new productive forms of atomic theory",
         share: "2"
       },
       {
@@ -9178,7 +9160,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Paul A.M.",
         surname: "Dirac",
         motivation:
-          '"for the discovery of new productive forms of atomic theory"',
+          "for the discovery of new productive forms of atomic theory",
         share: "2"
       }
     ]
@@ -9192,7 +9174,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Thomas H.",
         surname: "Morgan",
         motivation:
-          '"for his discoveries concerning the role played by the chromosome in heredity"',
+          "for his discoveries concerning the role played by the chromosome in heredity",
         share: "1"
       }
     ]
@@ -9206,7 +9188,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Irving",
         surname: "Langmuir",
         motivation:
-          '"for his discoveries and investigations in surface chemistry"',
+          "for his discoveries and investigations in surface chemistry",
         share: "1"
       }
     ]
@@ -9220,7 +9202,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "John",
         surname: "Galsworthy",
         motivation:
-          '"for his distinguished art of narration which takes its highest form in <I>The Forsyte Saga</I>"',
+          "for his distinguished art of narration which takes its highest form in <I>The Forsyte Saga</I>",
         share: "1"
       }
     ]
@@ -9229,7 +9211,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1932",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1932",
@@ -9240,7 +9222,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Werner",
         surname: "Heisenberg",
         motivation:
-          '"for the creation of quantum mechanics, the application of which has, inter alia, led to the discovery of the allotropic forms of hydrogen"',
+          "for the creation of quantum mechanics, the application of which has, inter alia, led to the discovery of the allotropic forms of hydrogen",
         share: "1"
       }
     ]
@@ -9253,16 +9235,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "323",
         firstname: "Sir Charles",
         surname: "Sherrington",
-        motivation:
-          '"for their discoveries regarding the functions of neurons"',
+        motivation: "for their discoveries regarding the functions of neurons",
         share: "2"
       },
       {
         id: "324",
         firstname: "Edgar",
         surname: "Adrian",
-        motivation:
-          '"for their discoveries regarding the functions of neurons"',
+        motivation: "for their discoveries regarding the functions of neurons",
         share: "2"
       }
     ]
@@ -9276,7 +9256,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Carl",
         surname: "Bosch",
         motivation:
-          '"in recognition of their contributions to the invention and development of chemical high pressure methods"',
+          "in recognition of their contributions to the invention and development of chemical high pressure methods",
         share: "2"
       },
       {
@@ -9284,7 +9264,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Friedrich",
         surname: "Bergius",
         motivation:
-          '"in recognition of their contributions to the invention and development of chemical high pressure methods"',
+          "in recognition of their contributions to the invention and development of chemical high pressure methods",
         share: "2"
       }
     ]
@@ -9297,7 +9277,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "604",
         firstname: "Erik Axel",
         surname: "Karlfeldt",
-        motivation: '"The poetry of Erik Axel Karlfeldt"',
+        motivation: "The poetry of Erik Axel Karlfeldt",
         share: "1"
       }
     ]
@@ -9311,7 +9291,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jane",
         surname: "Addams",
         motivation:
-          '"for their assiduous effort to revive the ideal of peace and to rekindle the spirit of peace in their own nation and in the whole of mankind"',
+          "for their assiduous effort to revive the ideal of peace and to rekindle the spirit of peace in their own nation and in the whole of mankind",
         share: "2"
       },
       {
@@ -9319,7 +9299,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Nicholas Murray",
         surname: "Butler",
         motivation:
-          '"for their assiduous effort to revive the ideal of peace and to rekindle the spirit of peace in their own nation and in the whole of mankind"',
+          "for their assiduous effort to revive the ideal of peace and to rekindle the spirit of peace in their own nation and in the whole of mankind",
         share: "2"
       }
     ]
@@ -9328,7 +9308,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1931",
     category: "physics",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1931",
@@ -9339,7 +9319,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Otto",
         surname: "Warburg",
         motivation:
-          '"for his discovery of the nature and mode of action of the respiratory enzyme"',
+          "for his discovery of the nature and mode of action of the respiratory enzyme",
         share: "1"
       }
     ]
@@ -9353,7 +9333,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Hans",
         surname: "Fischer",
         motivation:
-          '"for his researches into the constitution of haemin and chlorophyll and especially for his synthesis of haemin"',
+          "for his researches into the constitution of haemin and chlorophyll and especially for his synthesis of haemin",
         share: "1"
       }
     ]
@@ -9367,7 +9347,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sinclair",
         surname: "Lewis",
         motivation:
-          '"for his vigorous and graphic art of description and his ability to create, with wit and humour, new types of characters"',
+          "for his vigorous and graphic art of description and his ability to create, with wit and humour, new types of characters",
         share: "1"
       }
     ]
@@ -9395,7 +9375,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sir Chandrasekhara Venkata",
         surname: "Raman",
         motivation:
-          '"for his work on the scattering of light and for the discovery of the effect named after him"',
+          "for his work on the scattering of light and for the discovery of the effect named after him",
         share: "1"
       }
     ]
@@ -9408,7 +9388,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "321",
         firstname: "Karl",
         surname: "Landsteiner",
-        motivation: '"for his discovery of human blood groups"',
+        motivation: "for his discovery of human blood groups",
         share: "1"
       }
     ]
@@ -9422,7 +9402,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Arthur",
         surname: "Harden",
         motivation:
-          '"for their investigations on the fermentation of sugar and fermentative enzymes"',
+          "for their investigations on the fermentation of sugar and fermentative enzymes",
         share: "2"
       },
       {
@@ -9430,7 +9410,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Hans",
         surname: "von Euler-Chelpin",
         motivation:
-          '"for their investigations on the fermentation of sugar and fermentative enzymes"',
+          "for their investigations on the fermentation of sugar and fermentative enzymes",
         share: "2"
       }
     ]
@@ -9444,7 +9424,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Thomas",
         surname: "Mann",
         motivation:
-          '"principally for his great novel, <I>Buddenbrooks</I>, which has won steadily increased recognition as one of the classic works of contemporary literature"',
+          "principally for his great novel, <I>Buddenbrooks</I>, which has won steadily increased recognition as one of the classic works of contemporary literature",
         share: "1"
       }
     ]
@@ -9458,7 +9438,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Frank B.",
         surname: "Kellogg",
         motivation:
-          '"for his crucial role in bringing about the Briand-Kellogg Pact"',
+          "for his crucial role in bringing about the Briand-Kellogg Pact",
         share: "1"
       }
     ]
@@ -9471,7 +9451,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "36",
         firstname: "Louis",
         surname: "de Broglie",
-        motivation: '"for his discovery of the wave nature of electrons"',
+        motivation: "for his discovery of the wave nature of electrons",
         share: "1"
       }
     ]
@@ -9484,14 +9464,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "319",
         firstname: "Christiaan",
         surname: "Eijkman",
-        motivation: '"for his discovery of the antineuritic vitamin"',
+        motivation: "for his discovery of the antineuritic vitamin",
         share: "2"
       },
       {
         id: "320",
         firstname: "Sir Frederick",
         surname: "Hopkins",
-        motivation: '"for his discovery of the growth-stimulating vitamins"',
+        motivation: "for his discovery of the growth-stimulating vitamins",
         share: "2"
       }
     ]
@@ -9505,7 +9485,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Adolf",
         surname: "Windaus",
         motivation:
-          '"for the services rendered through his research into the constitution of the sterols and their connection with the vitamins"',
+          "for the services rendered through his research into the constitution of the sterols and their connection with the vitamins",
         share: "1"
       }
     ]
@@ -9519,7 +9499,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sigrid",
         surname: "Undset",
         motivation:
-          '"principally for her powerful descriptions of Northern life during the Middle Ages"',
+          "principally for her powerful descriptions of Northern life during the Middle Ages",
         share: "1"
       }
     ]
@@ -9528,7 +9508,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1928",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1928",
@@ -9539,7 +9519,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Owen Willans",
         surname: "Richardson",
         motivation:
-          '"for his work on the thermionic phenomenon and especially for the discovery of the law named after him"',
+          "for his work on the thermionic phenomenon and especially for the discovery of the law named after him",
         share: "1"
       }
     ]
@@ -9552,7 +9532,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "318",
         firstname: "Charles",
         surname: "Nicolle",
-        motivation: '"for his work on typhus"',
+        motivation: "for his work on typhus",
         share: "1"
       }
     ]
@@ -9566,7 +9546,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Heinrich",
         surname: "Wieland",
         motivation:
-          '"for his investigations of the constitution of the bile acids and related substances"',
+          "for his investigations of the constitution of the bile acids and related substances",
         share: "1"
       }
     ]
@@ -9580,7 +9560,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Henri",
         surname: "Bergson",
         motivation:
-          '"in recognition of his rich and vitalizing ideas and the brilliant skill with which they have been presented"',
+          "in recognition of his rich and vitalizing ideas and the brilliant skill with which they have been presented",
         share: "1"
       }
     ]
@@ -9594,7 +9574,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ferdinand",
         surname: "Buisson",
         motivation:
-          '"for their contribution to the emergence in France and Germany of a public opinion which favours peaceful international cooperation"',
+          "for their contribution to the emergence in France and Germany of a public opinion which favours peaceful international cooperation",
         share: "2"
       },
       {
@@ -9602,7 +9582,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ludwig",
         surname: "Quidde",
         motivation:
-          '"for their contribution to the emergence in France and Germany of a public opinion which favours peaceful international cooperation"',
+          "for their contribution to the emergence in France and Germany of a public opinion which favours peaceful international cooperation",
         share: "2"
       }
     ]
@@ -9615,7 +9595,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "33",
         firstname: "Arthur H.",
         surname: "Compton",
-        motivation: '"for his discovery of the effect named after him"',
+        motivation: "for his discovery of the effect named after him",
         share: "2"
       },
       {
@@ -9623,7 +9603,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "C.T.R.",
         surname: "Wilson",
         motivation:
-          '"for his method of making the paths of electrically charged particles visible by condensation of vapour"',
+          "for his method of making the paths of electrically charged particles visible by condensation of vapour",
         share: "2"
       }
     ]
@@ -9637,7 +9617,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Julius",
         surname: "Wagner-Jauregg",
         motivation:
-          '"for his discovery of the therapeutic value of malaria inoculation in the treatment of dementia paralytica"',
+          "for his discovery of the therapeutic value of malaria inoculation in the treatment of dementia paralytica",
         share: "1"
       }
     ]
@@ -9650,7 +9630,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "183",
         firstname: "The",
         surname: "Svedberg",
-        motivation: '"for his work on disperse systems"',
+        motivation: "for his work on disperse systems",
         share: "1"
       }
     ]
@@ -9664,7 +9644,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Grazia",
         surname: "Deledda",
         motivation:
-          '"for her idealistically inspired writings which with plastic clarity picture the life on her native island and with depth and sympathy deal with human problems in general"',
+          "for her idealistically inspired writings which with plastic clarity picture the life on her native island and with depth and sympathy deal with human problems in general",
         share: "1"
       }
     ]
@@ -9678,7 +9658,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Aristide",
         surname: "Briand",
         motivation:
-          '"for their crucial role in bringing about the Locarno Treaty"',
+          "for their crucial role in bringing about the Locarno Treaty",
         share: "2"
       },
       {
@@ -9686,7 +9666,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Gustav",
         surname: "Stresemann",
         motivation:
-          '"for their crucial role in bringing about the Locarno Treaty"',
+          "for their crucial role in bringing about the Locarno Treaty",
         share: "2"
       }
     ]
@@ -9700,7 +9680,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jean Baptiste",
         surname: "Perrin",
         motivation:
-          '"for his work on the discontinuous structure of matter, and especially for his discovery of sedimentation equilibrium"',
+          "for his work on the discontinuous structure of matter, and especially for his discovery of sedimentation equilibrium",
         share: "1"
       }
     ]
@@ -9713,7 +9693,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "316",
         firstname: "Johannes",
         surname: "Fibiger",
-        motivation: '"for his discovery of the Spiroptera carcinoma"',
+        motivation: "for his discovery of the Spiroptera carcinoma",
         share: "1"
       }
     ]
@@ -9727,7 +9707,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Richard",
         surname: "Zsigmondy",
         motivation:
-          '"for his demonstration of the heterogenous nature of colloid solutions and for the methods he used, which have since become fundamental in modern colloid chemistry"',
+          "for his demonstration of the heterogenous nature of colloid solutions and for the methods he used, which have since become fundamental in modern colloid chemistry",
         share: "1"
       }
     ]
@@ -9741,7 +9721,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "George Bernard",
         surname: "Shaw",
         motivation:
-          '"for his work which is marked by both idealism and humanity, its stimulating satire often being infused with a singular poetic beauty"',
+          "for his work which is marked by both idealism and humanity, its stimulating satire often being infused with a singular poetic beauty",
         share: "1"
       }
     ]
@@ -9754,15 +9734,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "488",
         firstname: "Sir Austen",
         surname: "Chamberlain",
-        motivation:
-          '"for his crucial role in bringing about the Locarno Treaty"',
+        motivation: "for his crucial role in bringing about the Locarno Treaty",
         share: "2"
       },
       {
         id: "489",
         firstname: "Charles G.",
         surname: "Dawes",
-        motivation: '"for his crucial role in bringing about the Dawes Plan"',
+        motivation: "for his crucial role in bringing about the Dawes Plan",
         share: "2"
       }
     ]
@@ -9776,7 +9755,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "James",
         surname: "Franck",
         motivation:
-          '"for their discovery of the laws governing the impact of an electron upon an atom"',
+          "for their discovery of the laws governing the impact of an electron upon an atom",
         share: "2"
       },
       {
@@ -9784,7 +9763,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Gustav",
         surname: "Hertz",
         motivation:
-          '"for their discovery of the laws governing the impact of an electron upon an atom"',
+          "for their discovery of the laws governing the impact of an electron upon an atom",
         share: "2"
       }
     ]
@@ -9793,13 +9772,13 @@ export const prizes: Immutable<Prize[]> = [
     year: "1925",
     category: "medicine",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1924",
     category: "chemistry",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1924",
@@ -9809,7 +9788,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "594",
         firstname: "Wladyslaw",
         surname: "Reymont",
-        motivation: '"for his great national epic, <I>The Peasants</I>"',
+        motivation: "for his great national epic, <I>The Peasants</I>",
         share: "1"
       }
     ]
@@ -9818,7 +9797,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1924",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1924",
@@ -9829,7 +9808,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Manne",
         surname: "Siegbahn",
         motivation:
-          '"for his discoveries and research in the field of X-ray spectroscopy"',
+          "for his discoveries and research in the field of X-ray spectroscopy",
         share: "1"
       }
     ]
@@ -9843,7 +9822,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Willem",
         surname: "Einthoven",
         motivation:
-          '"for his discovery of the mechanism of the electrocardiogram"',
+          "for his discovery of the mechanism of the electrocardiogram",
         share: "1"
       }
     ]
@@ -9857,7 +9836,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Fritz",
         surname: "Pregl",
         motivation:
-          '"for his invention of the method of micro-analysis of organic substances"',
+          "for his invention of the method of micro-analysis of organic substances",
         share: "1"
       }
     ]
@@ -9871,7 +9850,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William Butler",
         surname: "Yeats",
         motivation:
-          '"for his always inspired poetry, which in a highly artistic form gives expression to the spirit of a whole nation"',
+          "for his always inspired poetry, which in a highly artistic form gives expression to the spirit of a whole nation",
         share: "1"
       }
     ]
@@ -9880,7 +9859,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1923",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1923",
@@ -9891,7 +9870,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert A.",
         surname: "Millikan",
         motivation:
-          '"for his work on the elementary charge of electricity and on the photoelectric effect"',
+          "for his work on the elementary charge of electricity and on the photoelectric effect",
         share: "1"
       }
     ]
@@ -9904,14 +9883,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "313",
         firstname: "Frederick G.",
         surname: "Banting",
-        motivation: '"for the discovery of insulin"',
+        motivation: "for the discovery of insulin",
         share: "2"
       },
       {
         id: "314",
         firstname: "John",
         surname: "Macleod",
-        motivation: '"for the discovery of insulin"',
+        motivation: "for the discovery of insulin",
         share: "2"
       }
     ]
@@ -9925,7 +9904,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Francis W.",
         surname: "Aston",
         motivation:
-          '"for his discovery, by means of his mass spectrograph, of isotopes, in a large number of non-radioactive elements, and for his enunciation of the whole-number rule"',
+          "for his discovery, by means of his mass spectrograph, of isotopes, in a large number of non-radioactive elements, and for his enunciation of the whole-number rule",
         share: "1"
       }
     ]
@@ -9939,7 +9918,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jacinto",
         surname: "Benavente",
         motivation:
-          '"for the happy manner in which he has continued the illustrious traditions of the Spanish drama"',
+          "for the happy manner in which he has continued the illustrious traditions of the Spanish drama",
         share: "1"
       }
     ]
@@ -9953,7 +9932,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Fridtjof",
         surname: "Nansen",
         motivation:
-          '"for his leading role in the repatriation of prisoners of war, in international relief work and as the League of Nations\' High Commissioner for refugees"',
+          "for his leading role in the repatriation of prisoners of war, in international relief work and as the League of Nations' High Commissioner for refugees",
         share: "1"
       }
     ]
@@ -9967,7 +9946,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Niels",
         surname: "Bohr",
         motivation:
-          '"for his services in the investigation of the structure of atoms and of the radiation emanating from them"',
+          "for his services in the investigation of the structure of atoms and of the radiation emanating from them",
         share: "1"
       }
     ]
@@ -9981,7 +9960,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Archibald V.",
         surname: "Hill",
         motivation:
-          '"for his discovery relating to the production of heat in the muscle"',
+          "for his discovery relating to the production of heat in the muscle",
         share: "2"
       },
       {
@@ -9989,7 +9968,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Otto",
         surname: "Meyerhof",
         motivation:
-          '"for his discovery of the fixed relationship between the consumption of oxygen and the metabolism of lactic acid in the muscle"',
+          "for his discovery of the fixed relationship between the consumption of oxygen and the metabolism of lactic acid in the muscle",
         share: "2"
       }
     ]
@@ -10003,7 +9982,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Frederick",
         surname: "Soddy",
         motivation:
-          '"for his contributions to our knowledge of the chemistry of radioactive substances, and his investigations into the origin and nature of isotopes"',
+          "for his contributions to our knowledge of the chemistry of radioactive substances, and his investigations into the origin and nature of isotopes",
         share: "1"
       }
     ]
@@ -10017,7 +9996,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Anatole",
         surname: "France",
         motivation:
-          '"in recognition of his brilliant literary achievements, characterized as they are by a nobility of style, a profound human sympathy, grace, and a true Gallic temperament"',
+          "in recognition of his brilliant literary achievements, characterized as they are by a nobility of style, a profound human sympathy, grace, and a true Gallic temperament",
         share: "1"
       }
     ]
@@ -10031,7 +10010,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Hjalmar",
         surname: "Branting",
         motivation:
-          '"for their lifelong contributions to the cause of peace and organized internationalism"',
+          "for their lifelong contributions to the cause of peace and organized internationalism",
         share: "2"
       },
       {
@@ -10039,7 +10018,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Christian",
         surname: "Lange",
         motivation:
-          '"for their lifelong contributions to the cause of peace and organized internationalism"',
+          "for their lifelong contributions to the cause of peace and organized internationalism",
         share: "2"
       }
     ]
@@ -10053,7 +10032,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Albert",
         surname: "Einstein",
         motivation:
-          '"for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect"',
+          "for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect",
         share: "1"
       }
     ]
@@ -10062,7 +10041,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1921",
     category: "medicine",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1920",
@@ -10072,7 +10051,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "178",
         firstname: "Walther",
         surname: "Nernst",
-        motivation: '"in recognition of his work in thermochemistry"',
+        motivation: "in recognition of his work in thermochemistry",
         share: "1"
       }
     ]
@@ -10085,7 +10064,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "589",
         firstname: "Knut",
         surname: "Hamsun",
-        motivation: '"for his monumental work, <I>Growth of the Soil</I>"',
+        motivation: "for his monumental work, <I>Growth of the Soil</I>",
         share: "1"
       }
     ]
@@ -10099,7 +10078,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "L\u00e9on",
         surname: "Bourgeois",
         motivation:
-          '"for his longstanding contribution to the cause of peace and justice and his prominent role in the establishment of the League of Nations"',
+          "for his longstanding contribution to the cause of peace and justice and his prominent role in the establishment of the League of Nations",
         share: "1"
       }
     ]
@@ -10113,7 +10092,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Charles Edouard",
         surname: "Guillaume",
         motivation:
-          '"in recognition of the service he has rendered to precision measurements in Physics by his discovery of anomalies in nickel steel alloys"',
+          "in recognition of the service he has rendered to precision measurements in Physics by his discovery of anomalies in nickel steel alloys",
         share: "1"
       }
     ]
@@ -10127,7 +10106,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "August",
         surname: "Krogh",
         motivation:
-          '"for his discovery of the capillary motor regulating mechanism"',
+          "for his discovery of the capillary motor regulating mechanism",
         share: "1"
       }
     ]
@@ -10136,7 +10115,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1919",
     category: "chemistry",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1919",
@@ -10147,7 +10126,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Carl",
         surname: "Spitteler",
         motivation:
-          '"in special appreciation of his epic, <I>Olympian Spring</I>"',
+          "in special appreciation of his epic, <I>Olympian Spring</I>",
         share: "1"
       }
     ]
@@ -10160,7 +10139,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "483",
         firstname: "Woodrow",
         surname: "Wilson",
-        motivation: '"for his role as founder of the League of Nations"',
+        motivation: "for his role as founder of the League of Nations",
         share: "1"
       }
     ]
@@ -10174,7 +10153,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Johannes",
         surname: "Stark",
         motivation:
-          '"for his discovery of the Doppler effect in canal rays and the splitting of spectral lines in electric fields"',
+          "for his discovery of the Doppler effect in canal rays and the splitting of spectral lines in electric fields",
         share: "1"
       }
     ]
@@ -10187,7 +10166,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "309",
         firstname: "Jules",
         surname: "Bordet",
-        motivation: '"for his discoveries relating to immunity"',
+        motivation: "for his discoveries relating to immunity",
         share: "1"
       }
     ]
@@ -10200,7 +10179,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "177",
         firstname: "Fritz",
         surname: "Haber",
-        motivation: '"for the synthesis of ammonia from its elements"',
+        motivation: "for the synthesis of ammonia from its elements",
         share: "1"
       }
     ]
@@ -10209,13 +10188,13 @@ export const prizes: Immutable<Prize[]> = [
     year: "1918",
     category: "literature",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1918",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1918",
@@ -10226,7 +10205,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Max",
         surname: "Planck",
         motivation:
-          '"in recognition of the services he rendered to the advancement of Physics by his discovery of energy quanta"',
+          "in recognition of the services he rendered to the advancement of Physics by his discovery of energy quanta",
         share: "1"
       }
     ]
@@ -10235,13 +10214,13 @@ export const prizes: Immutable<Prize[]> = [
     year: "1918",
     category: "medicine",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1917",
     category: "chemistry",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1917",
@@ -10252,7 +10231,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Karl",
         surname: "Gjellerup",
         motivation:
-          '"for his varied and rich poetry, which is inspired by lofty ideals"',
+          "for his varied and rich poetry, which is inspired by lofty ideals",
         share: "2"
       },
       {
@@ -10260,7 +10239,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Henrik",
         surname: "Pontoppidan",
         motivation:
-          '"for his authentic descriptions of present-day life in Denmark"',
+          "for his authentic descriptions of present-day life in Denmark",
         share: "2"
       }
     ]
@@ -10272,7 +10251,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "482",
         motivation:
-          '"for the efforts to take care of wounded soldiers and prisoners of war and their families"',
+          "for the efforts to take care of wounded soldiers and prisoners of war and their families",
         share: "1",
         firstname: "International Committee of the Red Cross"
       }
@@ -10287,7 +10266,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Charles Glover",
         surname: "Barkla",
         motivation:
-          '"for his discovery of the characteristic R&ouml;ntgen radiation of the elements"',
+          "for his discovery of the characteristic R&ouml;ntgen radiation of the elements",
         share: "1"
       }
     ]
@@ -10296,13 +10275,13 @@ export const prizes: Immutable<Prize[]> = [
     year: "1917",
     category: "medicine",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1916",
     category: "chemistry",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1916",
@@ -10313,7 +10292,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Verner",
         surname: "von Heidenstam",
         motivation:
-          '"in recognition of his significance as the leading representative of a new era in our literature"',
+          "in recognition of his significance as the leading representative of a new era in our literature",
         share: "1"
       }
     ]
@@ -10322,19 +10301,19 @@ export const prizes: Immutable<Prize[]> = [
     year: "1916",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1916",
     category: "physics",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1916",
     category: "medicine",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1915",
@@ -10345,7 +10324,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Richard",
         surname: "Willst\u00e4tter",
         motivation:
-          '"for his researches on plant pigments, especially chlorophyll"',
+          "for his researches on plant pigments, especially chlorophyll",
         share: "1"
       }
     ]
@@ -10359,7 +10338,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Romain",
         surname: "Rolland",
         motivation:
-          '"as a tribute to the lofty idealism of his literary production and to the sympathy and love of truth with which he has described different types of human beings"',
+          "as a tribute to the lofty idealism of his literary production and to the sympathy and love of truth with which he has described different types of human beings",
         share: "1"
       }
     ]
@@ -10368,7 +10347,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1915",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1915",
@@ -10379,7 +10358,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "William",
         surname: "Bragg",
         motivation:
-          '"for their services in the analysis of crystal structure by means of X-rays"',
+          "for their services in the analysis of crystal structure by means of X-rays",
         share: "2"
       },
       {
@@ -10387,7 +10366,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Lawrence",
         surname: "Bragg",
         motivation:
-          '"for their services in the analysis of crystal structure by means of X-rays"',
+          "for their services in the analysis of crystal structure by means of X-rays",
         share: "2"
       }
     ]
@@ -10396,7 +10375,7 @@ export const prizes: Immutable<Prize[]> = [
     year: "1915",
     category: "medicine",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1914",
@@ -10407,7 +10386,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Theodore W.",
         surname: "Richards",
         motivation:
-          '"in recognition of his accurate determinations of the atomic weight of a large number of chemical elements"',
+          "in recognition of his accurate determinations of the atomic weight of a large number of chemical elements",
         share: "1"
       }
     ]
@@ -10416,13 +10395,13 @@ export const prizes: Immutable<Prize[]> = [
     year: "1914",
     category: "literature",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1914",
     category: "peace",
     overallMotivation:
-      '"No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."'
+      "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section."
   },
   {
     year: "1914",
@@ -10433,7 +10412,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Max",
         surname: "von Laue",
         motivation:
-          '"for his discovery of the diffraction of X-rays by crystals"',
+          "for his discovery of the diffraction of X-rays by crystals",
         share: "1"
       }
     ]
@@ -10447,7 +10426,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert",
         surname: "B\u00e1r\u00e1ny",
         motivation:
-          '"for his work on the physiology and pathology of the vestibular apparatus"',
+          "for his work on the physiology and pathology of the vestibular apparatus",
         share: "1"
       }
     ]
@@ -10461,7 +10440,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Alfred",
         surname: "Werner",
         motivation:
-          '"in recognition of his work on the linkage of atoms in molecules by which he has thrown new light on earlier investigations and opened up new fields of research especially in inorganic chemistry"',
+          "in recognition of his work on the linkage of atoms in molecules by which he has thrown new light on earlier investigations and opened up new fields of research especially in inorganic chemistry",
         share: "1"
       }
     ]
@@ -10475,7 +10454,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Rabindranath",
         surname: "Tagore",
         motivation:
-          '"because of his profoundly sensitive, fresh and beautiful verse, by which, with consummate skill, he has made his poetic thought, expressed in his own English words, a part of the literature of the West"',
+          "because of his profoundly sensitive, fresh and beautiful verse, by which, with consummate skill, he has made his poetic thought, expressed in his own English words, a part of the literature of the West",
         share: "1"
       }
     ]
@@ -10489,7 +10468,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Henri",
         surname: "La Fontaine",
         motivation:
-          '"for his unparalleled contribution to the organization of peaceful internationalism"',
+          "for his unparalleled contribution to the organization of peaceful internationalism",
         share: "1"
       }
     ]
@@ -10503,7 +10482,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Heike",
         surname: "Kamerlingh Onnes",
         motivation:
-          '"for his investigations on the properties of matter at low temperatures which led, inter alia, to the production of liquid helium"',
+          "for his investigations on the properties of matter at low temperatures which led, inter alia, to the production of liquid helium",
         share: "1"
       }
     ]
@@ -10516,7 +10495,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "307",
         firstname: "Charles",
         surname: "Richet",
-        motivation: '"in recognition of his work on anaphylaxis"',
+        motivation: "in recognition of his work on anaphylaxis",
         share: "1"
       }
     ]
@@ -10530,7 +10509,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Victor",
         surname: "Grignard",
         motivation:
-          '"for the discovery of the so-called Grignard reagent, which in recent years has greatly advanced the progress of organic chemistry"',
+          "for the discovery of the so-called Grignard reagent, which in recent years has greatly advanced the progress of organic chemistry",
         share: "2"
       },
       {
@@ -10538,7 +10517,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Paul",
         surname: "Sabatier",
         motivation:
-          '"for his method of hydrogenating organic compounds in the presence of finely disintegrated metals whereby the progress of organic chemistry has been greatly advanced in recent years"',
+          "for his method of hydrogenating organic compounds in the presence of finely disintegrated metals whereby the progress of organic chemistry has been greatly advanced in recent years",
         share: "2"
       }
     ]
@@ -10552,7 +10531,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Gerhart",
         surname: "Hauptmann",
         motivation:
-          '"primarily in recognition of his fruitful, varied and outstanding production in the realm of dramatic art"',
+          "primarily in recognition of his fruitful, varied and outstanding production in the realm of dramatic art",
         share: "1"
       }
     ]
@@ -10566,7 +10545,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Elihu",
         surname: "Root",
         motivation:
-          '"for bringing about better understanding between the countries of North and South America and initiating important arbitration agreements between the United States and other countries"',
+          "for bringing about better understanding between the countries of North and South America and initiating important arbitration agreements between the United States and other countries",
         share: "1"
       }
     ]
@@ -10580,7 +10559,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Gustaf",
         surname: "Dal\u00e9n",
         motivation:
-          '"for his invention of automatic regulators for use in conjunction with gas accumulators for illuminating lighthouses and buoys"',
+          "for his invention of automatic regulators for use in conjunction with gas accumulators for illuminating lighthouses and buoys",
         share: "1"
       }
     ]
@@ -10594,7 +10573,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Alexis",
         surname: "Carrel",
         motivation:
-          '"in recognition of his work on vascular suture and the transplantation of blood vessels and organs"',
+          "in recognition of his work on vascular suture and the transplantation of blood vessels and organs",
         share: "1"
       }
     ]
@@ -10608,7 +10587,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Marie",
         surname: "Curie",
         motivation:
-          '"in recognition of her services to the advancement of chemistry by the discovery of the elements radium and polonium, by the isolation of radium and the study of the nature and compounds of this remarkable element"',
+          "in recognition of her services to the advancement of chemistry by the discovery of the elements radium and polonium, by the isolation of radium and the study of the nature and compounds of this remarkable element",
         share: "1"
       }
     ]
@@ -10622,7 +10601,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Maurice",
         surname: "Maeterlinck",
         motivation:
-          '"in appreciation of his many-sided literary activities, and especially of his dramatic works, which are distinguished by a wealth of imagination and by a poetic fancy, which reveals, sometimes in the guise of a fairy tale, a deep inspiration, while in a mysterious way they appeal to the readers\' own feelings and stimulate their imaginations"',
+          "in appreciation of his many-sided literary activities, and especially of his dramatic works, which are distinguished by a wealth of imagination and by a poetic fancy, which reveals, sometimes in the guise of a fairy tale, a deep inspiration, while in a mysterious way they appeal to the readers' own feelings and stimulate their imaginations",
         share: "1"
       }
     ]
@@ -10636,7 +10615,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Tobias",
         surname: "Asser",
         motivation:
-          '"for his role as co-founder of the Institut de droit international, initiator of the Conferences on International Private Law (Conf\u00e9rences de Droit international priv\u00e9) at the Hague, and pioneer in the field of international legal relations"',
+          "for his role as co-founder of the Institut de droit international, initiator of the Conferences on International Private Law (Conf\u00e9rences de Droit international priv\u00e9) at the Hague, and pioneer in the field of international legal relations",
         share: "2"
       },
       {
@@ -10644,7 +10623,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Alfred",
         surname: "Fried",
         motivation:
-          '"for his effort to expose and fight what he considers to be the main cause of war, namely, the anarchy in international relations"',
+          "for his effort to expose and fight what he considers to be the main cause of war, namely, the anarchy in international relations",
         share: "2"
       }
     ]
@@ -10658,7 +10637,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Wilhelm",
         surname: "Wien",
         motivation:
-          '"for his discoveries regarding the laws governing the radiation of heat"',
+          "for his discoveries regarding the laws governing the radiation of heat",
         share: "1"
       }
     ]
@@ -10671,7 +10650,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "305",
         firstname: "Allvar",
         surname: "Gullstrand",
-        motivation: '"for his work on the dioptrics of the eye"',
+        motivation: "for his work on the dioptrics of the eye",
         share: "1"
       }
     ]
@@ -10685,7 +10664,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Otto",
         surname: "Wallach",
         motivation:
-          '"in recognition of his services to organic chemistry and the chemical industry by his pioneer work in the field of alicyclic compounds"',
+          "in recognition of his services to organic chemistry and the chemical industry by his pioneer work in the field of alicyclic compounds",
         share: "1"
       }
     ]
@@ -10699,7 +10678,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Paul",
         surname: "Heyse",
         motivation:
-          '"as a tribute to the consummate artistry, permeated with idealism, which he has demonstrated during his long productive career as a lyric poet, dramatist, novelist and writer of world-renowned short stories"',
+          "as a tribute to the consummate artistry, permeated with idealism, which he has demonstrated during his long productive career as a lyric poet, dramatist, novelist and writer of world-renowned short stories",
         share: "1"
       }
     ]
@@ -10711,7 +10690,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "477",
         motivation:
-          '"for acting as a link between the peace societies of the various countries, and helping them to organize the world rallies of the international peace movement"',
+          "for acting as a link between the peace societies of the various countries, and helping them to organize the world rallies of the international peace movement",
         share: "1",
         firstname: "Permanent International Peace Bureau"
       }
@@ -10726,7 +10705,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Johannes Diderik",
         surname: "van der Waals",
         motivation:
-          '"for his work on the equation of state for gases and liquids"',
+          "for his work on the equation of state for gases and liquids",
         share: "1"
       }
     ]
@@ -10740,7 +10719,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Albrecht",
         surname: "Kossel",
         motivation:
-          '"in recognition of the contributions to our knowledge of cell chemistry made through his work on proteins, including the nucleic substances"',
+          "in recognition of the contributions to our knowledge of cell chemistry made through his work on proteins, including the nucleic substances",
         share: "1"
       }
     ]
@@ -10754,7 +10733,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Wilhelm",
         surname: "Ostwald",
         motivation:
-          '"in recognition of his work on catalysis and for his investigations into the fundamental principles governing chemical equilibria and rates of reaction"',
+          "in recognition of his work on catalysis and for his investigations into the fundamental principles governing chemical equilibria and rates of reaction",
         share: "1"
       }
     ]
@@ -10768,7 +10747,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Selma",
         surname: "Lagerl\u00f6f",
         motivation:
-          '"in appreciation of the lofty idealism, vivid imagination and spiritual perception that characterize her writings"',
+          "in appreciation of the lofty idealism, vivid imagination and spiritual perception that characterize her writings",
         share: "1"
       }
     ]
@@ -10782,7 +10761,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Auguste",
         surname: "Beernaert",
         motivation:
-          '"for their prominent position in the international movement for peace and arbitration"',
+          "for their prominent position in the international movement for peace and arbitration",
         share: "2"
       },
       {
@@ -10790,7 +10769,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Paul Henri",
         surname: "d'Estournelles de Constant",
         motivation:
-          '"for their prominent position in the international movement for peace and arbitration"',
+          "for their prominent position in the international movement for peace and arbitration",
         share: "2"
       }
     ]
@@ -10804,7 +10783,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Guglielmo",
         surname: "Marconi",
         motivation:
-          '"in recognition of their contributions to the development of wireless telegraphy"',
+          "in recognition of their contributions to the development of wireless telegraphy",
         share: "2"
       },
       {
@@ -10812,7 +10791,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ferdinand",
         surname: "Braun",
         motivation:
-          '"in recognition of their contributions to the development of wireless telegraphy"',
+          "in recognition of their contributions to the development of wireless telegraphy",
         share: "2"
       }
     ]
@@ -10826,7 +10805,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Theodor",
         surname: "Kocher",
         motivation:
-          '"for his work on the physiology, pathology and surgery of the thyroid gland"',
+          "for his work on the physiology, pathology and surgery of the thyroid gland",
         share: "1"
       }
     ]
@@ -10840,7 +10819,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ernest",
         surname: "Rutherford",
         motivation:
-          '"for his investigations into the disintegration of the elements, and the chemistry of radioactive substances"',
+          "for his investigations into the disintegration of the elements, and the chemistry of radioactive substances",
         share: "1"
       }
     ]
@@ -10854,7 +10833,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Rudolf",
         surname: "Eucken",
         motivation:
-          '"in recognition of his earnest search for truth, his penetrating power of thought, his wide range of vision, and the warmth and strength in presentation with which in his numerous works he has vindicated and developed an idealistic philosophy of life"',
+          "in recognition of his earnest search for truth, his penetrating power of thought, his wide range of vision, and the warmth and strength in presentation with which in his numerous works he has vindicated and developed an idealistic philosophy of life",
         share: "1"
       }
     ]
@@ -10868,7 +10847,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Klas Pontus",
         surname: "Arnoldson",
         motivation:
-          '"for their long time work for the cause of peace as politicians, peace society leaders, orators and authors"',
+          "for their long time work for the cause of peace as politicians, peace society leaders, orators and authors",
         share: "2"
       },
       {
@@ -10876,7 +10855,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Fredrik",
         surname: "Bajer",
         motivation:
-          '"for their long time work for the cause of peace as politicians, peace society leaders, orators and authors"',
+          "for their long time work for the cause of peace as politicians, peace society leaders, orators and authors",
         share: "2"
       }
     ]
@@ -10890,7 +10869,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Gabriel",
         surname: "Lippmann",
         motivation:
-          '"for his method of reproducing colours photographically based on the phenomenon of interference"',
+          "for his method of reproducing colours photographically based on the phenomenon of interference",
         share: "1"
       }
     ]
@@ -10903,14 +10882,14 @@ export const prizes: Immutable<Prize[]> = [
         id: "301",
         firstname: "Ilya",
         surname: "Mechnikov",
-        motivation: '"in recognition of their work on immunity"',
+        motivation: "in recognition of their work on immunity",
         share: "2"
       },
       {
         id: "302",
         firstname: "Paul",
         surname: "Ehrlich",
-        motivation: '"in recognition of their work on immunity"',
+        motivation: "in recognition of their work on immunity",
         share: "2"
       }
     ]
@@ -10924,7 +10903,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Eduard",
         surname: "Buchner",
         motivation:
-          '"for his biochemical researches and his discovery of cell-free fermentation"',
+          "for his biochemical researches and his discovery of cell-free fermentation",
         share: "1"
       }
     ]
@@ -10938,7 +10917,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Rudyard",
         surname: "Kipling",
         motivation:
-          '"in consideration of the power of observation, originality of imagination, virility of ideas and remarkable talent for narration which characterize the creations of this world-famous author"',
+          "in consideration of the power of observation, originality of imagination, virility of ideas and remarkable talent for narration which characterize the creations of this world-famous author",
         share: "1"
       }
     ]
@@ -10952,7 +10931,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ernesto Teodoro",
         surname: "Moneta",
         motivation:
-          '"for his work in the press and in peace meetings, both public and private, for an understanding between France and Italy"',
+          "for his work in the press and in peace meetings, both public and private, for an understanding between France and Italy",
         share: "2"
       },
       {
@@ -10960,7 +10939,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Louis",
         surname: "Renault",
         motivation:
-          '"for his decisive influence upon the conduct and outcome of the Hague and Geneva Conferences"',
+          "for his decisive influence upon the conduct and outcome of the Hague and Geneva Conferences",
         share: "2"
       }
     ]
@@ -10974,7 +10953,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Albert A.",
         surname: "Michelson",
         motivation:
-          '"for his optical precision instruments and the spectroscopic and metrological investigations carried out with their aid"',
+          "for his optical precision instruments and the spectroscopic and metrological investigations carried out with their aid",
         share: "1"
       }
     ]
@@ -10988,7 +10967,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Alphonse",
         surname: "Laveran",
         motivation:
-          '"in recognition of his work on the role played by protozoa in causing diseases"',
+          "in recognition of his work on the role played by protozoa in causing diseases",
         share: "1"
       }
     ]
@@ -11002,7 +10981,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Henri",
         surname: "Moissan",
         motivation:
-          '"in recognition of the great services rendered by him in his investigation and isolation of the element fluorine, and for the adoption in the service of science of the electric furnace called after him"',
+          "in recognition of the great services rendered by him in his investigation and isolation of the element fluorine, and for the adoption in the service of science of the electric furnace called after him",
         share: "1"
       }
     ]
@@ -11016,7 +10995,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Giosu\u00e8",
         surname: "Carducci",
         motivation:
-          '"not only in consideration of his deep learning and critical research, but above all as a tribute to the creative energy, freshness of style, and lyrical force which characterize his poetic masterpieces"',
+          "not only in consideration of his deep learning and critical research, but above all as a tribute to the creative energy, freshness of style, and lyrical force which characterize his poetic masterpieces",
         share: "1"
       }
     ]
@@ -11030,7 +11009,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Theodore",
         surname: "Roosevelt",
         motivation:
-          '"for his role in bringing to an end the bloody war recently waged between two of the world\'s great powers, Japan and Russia"',
+          "for his role in bringing to an end the bloody war recently waged between two of the world's great powers, Japan and Russia",
         share: "1"
       }
     ]
@@ -11044,7 +11023,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "J.J.",
         surname: "Thomson",
         motivation:
-          '"in recognition of the great merits of his theoretical and experimental investigations on the conduction of electricity by gases"',
+          "in recognition of the great merits of his theoretical and experimental investigations on the conduction of electricity by gases",
         share: "1"
       }
     ]
@@ -11058,7 +11037,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Camillo",
         surname: "Golgi",
         motivation:
-          '"in recognition of their work on the structure of the nervous system"',
+          "in recognition of their work on the structure of the nervous system",
         share: "2"
       },
       {
@@ -11066,7 +11045,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Santiago",
         surname: "Ram\u00f3n y Cajal",
         motivation:
-          '"in recognition of their work on the structure of the nervous system"',
+          "in recognition of their work on the structure of the nervous system",
         share: "2"
       }
     ]
@@ -11080,7 +11059,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Adolf",
         surname: "von Baeyer",
         motivation:
-          '"in recognition of his services in the advancement of organic chemistry and the chemical industry, through his work on organic dyes and hydroaromatic compounds"',
+          "in recognition of his services in the advancement of organic chemistry and the chemical industry, through his work on organic dyes and hydroaromatic compounds",
         share: "1"
       }
     ]
@@ -11093,7 +11072,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "575",
         firstname: "Henryk",
         surname: "Sienkiewicz",
-        motivation: '"because of his outstanding merits as an epic writer"',
+        motivation: "because of his outstanding merits as an epic writer",
         share: "1"
       }
     ]
@@ -11106,7 +11085,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "468",
         firstname: "Bertha",
         surname: "von Suttner",
-        motivation: '"for her audacity to oppose the horrors of war"',
+        motivation: "for her audacity to oppose the horrors of war",
         share: "1"
       }
     ]
@@ -11119,7 +11098,7 @@ export const prizes: Immutable<Prize[]> = [
         id: "9",
         firstname: "Philipp",
         surname: "Lenard",
-        motivation: '"for his work on cathode rays"',
+        motivation: "for his work on cathode rays",
         share: "1"
       }
     ]
@@ -11133,7 +11112,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Robert",
         surname: "Koch",
         motivation:
-          '"for his investigations and discoveries in relation to tuberculosis"',
+          "for his investigations and discoveries in relation to tuberculosis",
         share: "1"
       }
     ]
@@ -11147,7 +11126,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sir William",
         surname: "Ramsay",
         motivation:
-          '"in recognition of his services in the discovery of the inert gaseous elements in air, and his determination of their place in the periodic system"',
+          "in recognition of his services in the discovery of the inert gaseous elements in air, and his determination of their place in the periodic system",
         share: "1"
       }
     ]
@@ -11161,7 +11140,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Fr\u00e9d\u00e9ric",
         surname: "Mistral",
         motivation:
-          '"in recognition of the fresh originality and true inspiration of his poetic production, which faithfully reflects the natural scenery and native spirit of his people, and, in addition, his significant work as a Proven&ccedil;al philologist"',
+          "in recognition of the fresh originality and true inspiration of his poetic production, which faithfully reflects the natural scenery and native spirit of his people, and, in addition, his significant work as a Proven&ccedil;al philologist",
         share: "2"
       },
       {
@@ -11169,7 +11148,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jos\u00e9",
         surname: "Echegaray",
         motivation:
-          '"in recognition of the numerous and brilliant compositions which, in an individual and original manner, have revived the great traditions of the Spanish drama"',
+          "in recognition of the numerous and brilliant compositions which, in an individual and original manner, have revived the great traditions of the Spanish drama",
         share: "2"
       }
     ]
@@ -11181,7 +11160,7 @@ export const prizes: Immutable<Prize[]> = [
       {
         id: "467",
         motivation:
-          '"for its striving in public law to develop peaceful ties between nations and to make the laws of war more humane"',
+          "for its striving in public law to develop peaceful ties between nations and to make the laws of war more humane",
         share: "1",
         firstname: "Institute of International Law"
       }
@@ -11196,7 +11175,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Lord",
         surname: "Rayleigh",
         motivation:
-          '"for his investigations of the densities of the most important gases and for his discovery of argon in connection with these studies"',
+          "for his investigations of the densities of the most important gases and for his discovery of argon in connection with these studies",
         share: "1"
       }
     ]
@@ -11210,7 +11189,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ivan",
         surname: "Pavlov",
         motivation:
-          '"in recognition of his work on the physiology of digestion, through which knowledge on vital aspects of the subject has been transformed and enlarged"',
+          "in recognition of his work on the physiology of digestion, through which knowledge on vital aspects of the subject has been transformed and enlarged",
         share: "1"
       }
     ]
@@ -11224,7 +11203,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Svante",
         surname: "Arrhenius",
         motivation:
-          '"in recognition of the extraordinary services he has rendered to the advancement of chemistry by his electrolytic theory of dissociation"',
+          "in recognition of the extraordinary services he has rendered to the advancement of chemistry by his electrolytic theory of dissociation",
         share: "1"
       }
     ]
@@ -11238,7 +11217,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Bj\u00f8rnstjerne",
         surname: "Bj\u00f8rnson",
         motivation:
-          '"as a tribute to his noble, magnificent and versatile poetry, which has always been distinguished by both the freshness of its inspiration and the rare purity of its spirit"',
+          "as a tribute to his noble, magnificent and versatile poetry, which has always been distinguished by both the freshness of its inspiration and the rare purity of its spirit",
         share: "1"
       }
     ]
@@ -11252,7 +11231,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Randal",
         surname: "Cremer",
         motivation:
-          '"for his longstanding and devoted effort in favour of the ideas of peace and arbitration"',
+          "for his longstanding and devoted effort in favour of the ideas of peace and arbitration",
         share: "1"
       }
     ]
@@ -11266,7 +11245,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Henri",
         surname: "Becquerel",
         motivation:
-          '"in recognition of the extraordinary services he has rendered by his discovery of spontaneous radioactivity"',
+          "in recognition of the extraordinary services he has rendered by his discovery of spontaneous radioactivity",
         share: "2"
       },
       {
@@ -11274,7 +11253,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Pierre",
         surname: "Curie",
         motivation:
-          '"in recognition of the extraordinary services they have rendered by their joint researches on the radiation phenomena discovered by Professor Henri Becquerel"',
+          "in recognition of the extraordinary services they have rendered by their joint researches on the radiation phenomena discovered by Professor Henri Becquerel",
         share: "4"
       },
       {
@@ -11282,7 +11261,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Marie",
         surname: "Curie",
         motivation:
-          '"in recognition of the extraordinary services they have rendered by their joint researches on the radiation phenomena discovered by Professor Henri Becquerel"',
+          "in recognition of the extraordinary services they have rendered by their joint researches on the radiation phenomena discovered by Professor Henri Becquerel",
         share: "4"
       }
     ]
@@ -11296,7 +11275,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Niels Ryberg",
         surname: "Finsen",
         motivation:
-          '"in recognition of his contribution to the treatment of diseases, especially lupus vulgaris, with concentrated light radiation, whereby he has opened a new avenue for medical science"',
+          "in recognition of his contribution to the treatment of diseases, especially lupus vulgaris, with concentrated light radiation, whereby he has opened a new avenue for medical science",
         share: "1"
       }
     ]
@@ -11310,7 +11289,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Emil",
         surname: "Fischer",
         motivation:
-          '"in recognition of the extraordinary services he has rendered by his work on sugar and purine syntheses"',
+          "in recognition of the extraordinary services he has rendered by his work on sugar and purine syntheses",
         share: "1"
       }
     ]
@@ -11324,7 +11303,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Theodor",
         surname: "Mommsen",
         motivation:
-          '"the greatest living master of the art of historical writing, with special reference to his monumental work, <I>A history of Rome</I>"',
+          "the greatest living master of the art of historical writing, with special reference to his monumental work, <I>A history of Rome</I>",
         share: "1"
       }
     ]
@@ -11338,7 +11317,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "\u00c9lie",
         surname: "Ducommun",
         motivation:
-          '"for his untiring and skilful directorship of the Bern Peace Bureau"',
+          "for his untiring and skilful directorship of the Bern Peace Bureau",
         share: "2"
       },
       {
@@ -11346,7 +11325,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Albert",
         surname: "Gobat",
         motivation:
-          '"for his eminently practical administration of the Inter-Parliamentary Union"',
+          "for his eminently practical administration of the Inter-Parliamentary Union",
         share: "2"
       }
     ]
@@ -11360,7 +11339,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Hendrik A.",
         surname: "Lorentz",
         motivation:
-          '"in recognition of the extraordinary service they rendered by their researches into the influence of magnetism upon radiation phenomena"',
+          "in recognition of the extraordinary service they rendered by their researches into the influence of magnetism upon radiation phenomena",
         share: "2"
       },
       {
@@ -11368,7 +11347,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Pieter",
         surname: "Zeeman",
         motivation:
-          '"in recognition of the extraordinary service they rendered by their researches into the influence of magnetism upon radiation phenomena"',
+          "in recognition of the extraordinary service they rendered by their researches into the influence of magnetism upon radiation phenomena",
         share: "2"
       }
     ]
@@ -11382,7 +11361,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Ronald",
         surname: "Ross",
         motivation:
-          '"for his work on malaria, by which he has shown how it enters the organism and thereby has laid the foundation for successful research on this disease and methods of combating it"',
+          "for his work on malaria, by which he has shown how it enters the organism and thereby has laid the foundation for successful research on this disease and methods of combating it",
         share: "1"
       }
     ]
@@ -11396,7 +11375,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Jacobus H.",
         surname: "van 't Hoff",
         motivation:
-          '"in recognition of the extraordinary services he has rendered by the discovery of the laws of chemical dynamics and osmotic pressure in solutions"',
+          "in recognition of the extraordinary services he has rendered by the discovery of the laws of chemical dynamics and osmotic pressure in solutions",
         share: "1"
       }
     ]
@@ -11410,7 +11389,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Sully",
         surname: "Prudhomme",
         motivation:
-          '"in special recognition of his poetic composition, which gives evidence of lofty idealism, artistic perfection and a rare combination of the qualities of both heart and intellect"',
+          "in special recognition of his poetic composition, which gives evidence of lofty idealism, artistic perfection and a rare combination of the qualities of both heart and intellect",
         share: "1"
       }
     ]
@@ -11424,7 +11403,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Henry",
         surname: "Dunant",
         motivation:
-          '"for his humanitarian efforts to help wounded soldiers and create international understanding"',
+          "for his humanitarian efforts to help wounded soldiers and create international understanding",
         share: "2"
       },
       {
@@ -11432,7 +11411,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Fr\u00e9d\u00e9ric",
         surname: "Passy",
         motivation:
-          '"for his lifelong work for international peace conferences, diplomacy and arbitration"',
+          "for his lifelong work for international peace conferences, diplomacy and arbitration",
         share: "2"
       }
     ]
@@ -11446,7 +11425,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Wilhelm Conrad",
         surname: "R\u00f6ntgen",
         motivation:
-          '"in recognition of the extraordinary services he has rendered by the discovery of the remarkable rays subsequently named after him"',
+          "in recognition of the extraordinary services he has rendered by the discovery of the remarkable rays subsequently named after him",
         share: "1"
       }
     ]
@@ -11460,7 +11439,7 @@ export const prizes: Immutable<Prize[]> = [
         firstname: "Emil",
         surname: "von Behring",
         motivation:
-          '"for his work on serum therapy, especially its application against diphtheria, by which he has opened a new road in the domain of medical science and thereby placed in the hands of the physician a victorious weapon against illness and deaths"',
+          "for his work on serum therapy, especially its application against diphtheria, by which he has opened a new road in the domain of medical science and thereby placed in the hands of the physician a victorious weapon against illness and deaths",
         share: "1"
       }
     ]
